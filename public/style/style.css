@@ -7,13 +7,9 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  background-color: #888;
-  align-content: center;
 }
 
-
-
-h2{
+h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin: 0 0 20px 0;
@@ -45,12 +41,12 @@ p.intro {
   margin: 12px 0 0;
   line-height: 24px;
 }
-a,Link,
+a,
 button {
   color: #fd6060;
   font-weight: 400;
 }
-a:hover,Link:hover, Link:focus,
+a:hover,
 a:focus {
   text-decoration: none;
   color: #fd6060;
@@ -76,15 +72,13 @@ hr {
 #menu {
   padding-bottom: 10px;
   transition: all 0.8s;
-  
 }
 #menu.navbar-default {
   background-color: rgb(0, 0, 0);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  
 }
-#menu Link.navbar-brand {
+#menu a.navbar-brand {
   width: 100%;
   margin: auto;
   text-align: center;
@@ -101,7 +95,7 @@ hr {
   height: min-content;
 }
 
-#menu.navbar-default .navbar-nav > li > Link,a,
+#menu.navbar-default .navbar-nav > li > a,
 button {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -112,7 +106,7 @@ button {
   border-radius: 0;
   margin: 9px 20px 0 20px;
 }
-#menu.navbar-default .navbar-nav > li > Link:after {
+#menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
   left: 0;
@@ -126,14 +120,14 @@ button {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
-.navbar-default .navbar-nav > .active > a,Link
-.navbar-default .navbar-nav > .active > a:hover,Link:hover
-.navbar-default .navbar-nav > .active > a:focus, Link:focus{
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
 }
-.navbar-default .navbar-nav > .active > a:after,Link:after
-.navbar-default .navbar-nav > .active > a:hover:after,Link:hover:after
-.navbar-default .navbar-nav > .active > a:focus:after,Link:focus:after{
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active > a:hover:after,
+.navbar-default .navbar-nav > .active > a:focus:after {
   display: block !important;
   position: absolute !important;
   left: 0 !important;
@@ -150,22 +144,10 @@ button {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #b5b5b5;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
-}
-.navbar-right{
-  padding: 10px;
-  float: right;
-}
-.navbar-left{
-  float:left;
-   padding: 10px;
-}
-
-#menu .img{
-  text-align: center;
+  background-color: #b5b5b5;
 }
 .section-title {
   margin-bottom: 70px;
@@ -193,7 +175,7 @@ button {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #940000;
+  background-color: #5ca9fb;
   background-image: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -211,7 +193,7 @@ button {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #001aff;
+  background-color: #6372ff;
 }
 .btn:active,
 .btn.active {
@@ -532,7 +514,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color: #6e1f1f;
+  color: #1f386e;
   background: #fff;
 }
 label {
@@ -610,25 +592,24 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
-  align-content:center;
+  align-content: center;
 }
 /* Footer Section*/
-#footerr {
-  background: #000000!important;
+#footer {
+  background: #000000;
   width: 100%;
   text-align: center;
 }
-#footerr p {
+#footer p {
   color: rgb(255, 255, 255);
   font-size: 15px;
-  
 }
-#footerr a {
+#footer a {
   color: #ffffff;
   padding: 6px;
   margin: 5px;
 }
-#footerr a:hover {
+#footer a:hover {
   border-bottom: 2px solid #ffffff;
 }
 
@@ -883,36 +864,35 @@ label {
 
 /* TED/TEDX/TEDX HELWAN UNIVERSITY/ OUR TEAM */
 
-
-.brief-conatiner{
+.brief-conatiner {
   width: 80%;
   margin: auto;
   text-align: left;
-  display:grid;
+  display: grid;
   height: auto;
   color: #000;
   text-transform: uppercase;
   margin-top: 10%;
-  flex:auto;
+  flex: auto;
   flex-direction: row;
 }
 
-.ted-color{
+.ted-color {
   color: red;
   font-weight: 700;
 }
 
 .underline {
-	height: 3px;
+  height: 3px;
   border-radius: 3px;
-	background-color: red;
-	width: 7%;
-	margin: 12px auto 0 auto;
+  background-color: red;
+  width: 7%;
+  margin: 12px auto 0 auto;
   top: -50;
 }
 
-.brief-conatiner h2{
-  font-weight: 700; 
+.brief-conatiner h2 {
+  font-weight: 700;
   font-size: 36px;
   text-align: center;
   margin-bottom: 25px;
@@ -933,7 +913,7 @@ label {
   -webkit-transform: rotate(-45deg);
 }
 
-.brief-conatiner p{
+.brief-conatiner p {
   text-align: center;
   line-height: 2.5;
   font-weight: 500;
@@ -941,22 +921,22 @@ label {
   text-transform: capitalize;
 }
 
-.brief-conatiner .helwan-head{
+.brief-conatiner .helwan-head {
   text-align: left;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 36px;
   margin-bottom: 35px;
   line-height: 2.5;
 }
 
-.brief-conatiner .team-head{
-  font-weight: 500; 
+.brief-conatiner .team-head {
+  font-weight: 500;
   font-size: 32px;
   text-align: center;
-  margin-bottom: 25px;    
+  margin-bottom: 25px;
 }
 
-.quote-container{
+.quote-container {
   width: 70%;
   margin: auto;
   text-align: left;
@@ -966,15 +946,15 @@ label {
   text-transform: capitalize;
 }
 
-.quote-container .team-head{
-  font-weight: 500; 
+.quote-container .team-head {
+  font-weight: 500;
   font-size: 32px;
   text-align: center;
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
   color: #000 !important;
 }
 
-.quote-container .quote{
+.quote-container .quote {
   text-align: center;
   color: #7c8081;
   font-style: italic;
@@ -983,12 +963,9 @@ label {
 }
 /* HEAD */
 
-
-
-
 /* New Task team Layout Made By: Mohamed Nasr */
 
-.chairwoman-grid{
+.chairwoman-grid {
   width: 100%;
   height: auto;
   display: grid;
@@ -997,22 +974,22 @@ label {
   color: #000 !important;
 }
 
-.chairwoman-grid .grid-card{
+.chairwoman-grid .grid-card {
   text-align: center;
   height: 550px;
   display: block;
 }
 
-.chairwoman-grid img{
-  border-radius:50%;
+.chairwoman-grid img {
+  border-radius: 50%;
   height: 228px;
   width: 228px;
   box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
--webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+  -webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
   -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
 }
 
-.chairwoman-grid .grid-card .fatma-name{
+.chairwoman-grid .grid-card .fatma-name {
   display: block;
   margin-top: 20px;
   text-align: center;
@@ -1021,7 +998,7 @@ label {
   color: #000 !important;
 }
 
-.chairwoman-grid .grid-card .fatma-title{
+.chairwoman-grid .grid-card .fatma-title {
   display: block;
   margin-top: 18px;
   text-align: center;
@@ -1031,7 +1008,7 @@ label {
   color: #000 !important;
 }
 
-.table-parent{
+.table-parent {
   width: 100%;
   height: auto;
   display: grid;
@@ -1040,22 +1017,22 @@ label {
   justify-content: center;
   color: #000 !important;
 }
-.table-parent .grid-card{
+.table-parent .grid-card {
   text-align: center;
   height: 550px;
   display: block;
 }
 
-.table-parent img{
-  border-radius:50%;
+.table-parent img {
+  border-radius: 50%;
   height: 228px;
   width: 228px;
   box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
--webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+  -webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
   -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
 }
 
-.table-parent .grid-card .head-name{
+.table-parent .grid-card .head-name {
   display: block;
   margin-top: 20px;
   text-align: center;
@@ -1063,7 +1040,7 @@ label {
   font-size: 24px;
 }
 
-.table-parent .grid-card .head-title{
+.table-parent .grid-card .head-title {
   display: block;
   margin-top: 18px;
   text-align: center;
@@ -1071,145 +1048,86 @@ label {
   font-size: 18px;
   font-weight: 400;
 }
- /* start ibtissam buttons */
+/* start ibtissam buttons */
 
- .btn-container{
-   color: red;
-   font-weight: 700;
- }
+.btn-container {
+  color: red;
+  font-weight: 700;
+}
 
-  /* end ibtissam buttons */
+/* end ibtissam buttons */
 
+/* Abdeldayem start  */
 
- /* Abdeldayem start  */
-
- 
-.grid-holder{
+.grid-holder {
   background-color: rgb(255, 0, 0);
   height: 500px;
   color: white;
   display: grid;
-  grid-template-columns: repeat(4,15%);
+  grid-template-columns: repeat(4, 15%);
   align-content: center;
   justify-content: space-around;
   height: 400px;
   width: 100%;
   margin-top: 40px;
   font-size: larger;
-
-
 }
-.gridbox{
+.gridbox {
   height: 250px;
   border: 2px solid #fff;
 }
 
- /* Abdeldayem end */
+/* Abdeldayem end */
 
 /* countdown  yahya */
-
 .countdown-container {
   display: block; /*displays divs on a line*/
   width: 80%; /*gives the div element a width of 300px*/
   border-radius: 5px; /*curves the edges of the div element by 5px;*/
   color: #ff0000; /*gives the div element a background color*/
   margin: 0 auto;
-  margin-top: 250px; 
-
+  padding-top: 235px;
 }
 .countdown {
   font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
   color: black; /*gives the div element a background color*/
-  font-size: 1000%; 
-  padding: 15px;
+  font-size: 1000%;
+  padding: 10px;
   text-align: center;
-  }
+}
 
 .countdown span {
   font-weight: bold; /*boldens text in the span element*/
-  margin-left: auto;
-  margin-right: auto;
-      text-align: center;
-  display:table-row;
+  margin: 0 auto;
+  text-align: center;
+  color: #ff0000;
 }
 .desc .title {
   text-align: center;
   color: black;
-  padding-bottom: 20px; 
-
+  padding-bottom: 25px;
   font-size: 300%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} 
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .countdownTitle {
   font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
-  font-size: 200%; 
-  color: grey;
-  text-align: center;
-  }
-.sections{
-  display: inline;
-  color: #ff0000;
-  padding: 50px;
-
-}
-
-.unit{
-  width: fit-content;
-  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
-  font-size: 25%; 
-  color: grey;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 20%;
-
-}
-
-.countdownTitle .countTitle{
-  padding: 10px;
-  margin-right: 15%;
-}
-
-.countdown-container h2{
-  text-align: center;
-  padding-top: 2%;
   font-size: 200%;
-  font-family:    "Fira Sans", sans-serif; /*changes the text font in the divelement */
-}
-#mid{
-  display: inline;
-}
-
-@media   (max-width: 1450px) {
-#s{
-  display: none;
-}
-#mid{
-  display: block;
-  padding-top:8%; 
-}
-}
-@media(max-width: 750px) {
-#f, #s, #t {
-  display: none;
-}
-
-.sections{
-  display: block;
+  color: grey;
   text-align: center;
 }
-.countdown  {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.countdown span {
-  display:block;
-  margin: 0 auto;
+
+.countdownTitle .countTitle {
+  padding: 10px;
+  margin-right: 13%;
 }
 
+.countdown-container h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 200%;
+  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
 }
-  
 
 /* style -arafa- tangraminfo */
 @font-face {
@@ -1263,17 +1181,4 @@ label {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-}
-
-@media (max-width:280px){
-  .countdown span {
-    display:block;
-    margin: 0 auto;
-    margin-left:-20px; 
-  }
-  .unit{
-    margin-left:-20px; 
-
-  }
- 
 }

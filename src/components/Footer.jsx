@@ -3,8 +3,8 @@ import  React, { Fragment}  from "react";
 function Footer() {
   return (
     <div id="footerr" className="footer">
-      <footer class="fixed-bottom">
-        <div class="container">
+      <footer className="fixed-bottom">
+        <div className="container">
           <Fragment>
         <p className="social-fot">
         &copy;2021 TEDxHelwanUniversity. This independent TEDx event is operated under license from TED.{" "}
