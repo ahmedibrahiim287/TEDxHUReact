@@ -2,15 +2,20 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import logob from "../logob.png";
 
+
 function Navigation(props) {
   return (
+<div>
     <nav id="menu" className="navbar-default navbar-fixed-top navbar-dark " role="navigation">
     <div className="container ">
-        <div class="navbar-header naazr">
-          <Link class="navbar-brand" to="/">
+        <div class="navbar-header naaz">
+ 
+          <Link class="navbar-brand page-scroll" to="/">
           <img className="Logo" src={logob}  alt="Logo"/>
           </Link>
-          <div>
+          </div>
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
             <ul className="nav navbar-nav navbar-left">
               <li
                 class={`nav-item  ${
@@ -73,9 +78,8 @@ function Navigation(props) {
             </ul>
           </div>
         </div>
-        </div>
       </nav>
-    
+      </div>
   );
 }
 
