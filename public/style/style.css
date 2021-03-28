@@ -613,21 +613,22 @@ label {
   align-content:center;
 }
 /* Footer Section*/
-#footer {
-  background: #000000;
+#footerr {
+  background: #000000!important;
   width: 100%;
   text-align: center;
 }
-#footer p {
+#footerr p {
   color: rgb(255, 255, 255);
   font-size: 15px;
+  
 }
-#footer a {
+#footerr a {
   color: #ffffff;
   padding: 6px;
   margin: 5px;
 }
-#footer a:hover {
+#footerr a:hover {
   border-bottom: 2px solid #ffffff;
 }
 
