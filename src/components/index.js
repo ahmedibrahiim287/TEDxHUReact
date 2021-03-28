@@ -1,0 +1,11 @@
+export { default as Navigation } from "./Navigation";
+export {default as Team} from './Team';
+export {default as Attend} from './Attend';
+export {default as Contactus} from './Contactus';
+export {default as Event1} from './Event1';
+export {default as Event2} from './Event2';
+export {default as Event3} from './Event3';
+export {default as Home} from './Home';
+export {default as Sponsers} from './Sponsers';
+export {default as Watch} from './Watch';
+export {default as Footer} from './Footer';
