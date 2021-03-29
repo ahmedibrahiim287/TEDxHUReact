@@ -2,28 +2,24 @@ import React from "react";
 
 function Attend() {
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Attend</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </div>
+  <div className="container">
+
+<div className="brief-container"></div>
+<div class="img-fluid rounded mb-4 mb-lg-0">
+  <img src="/img/Event-Cover.jpg" alt="Tangram logo"/>
+</div>
+
+<div className="brief-conatiner ">
+      <h2>About <span className="ted-color">Tangram</span><div class="underline"></div></h2>
+      <p>
+          TED is a non profit organization devoted to Ideas worth Spreading. It started out (in 1984) as a conference bringing together people from three worlds: Technology, 
+          Entertainment and Design. Since then its scope has become ever broader. Along with two annual conferences 
+          - the TED Conference in Long Beach and Palm Springs each spring, and the TEDGlobal conference in Edinburgh UK each summer - 
+          TED includes the award-winning TEDTalks video site, the Open Translation Project and TED Conversations, 
+          the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
+      </p>
     </div>
+  </div>
   );
 }
 

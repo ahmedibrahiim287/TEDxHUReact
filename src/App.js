@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, Attend, Watch, Event1, Event2, Event3, Team, Sponsers, Contactus } from "./components";
+import { Navigation, Footer, Home, Attend, Watch, Event2, Event3, Team, Sponsers, Contactus, Conductor } from "./components/index";
 function App() {
   return (
     <div className="App">
@@ -10,7 +10,7 @@ function App() {
        <Route path="/Home" exact component={() => <Home />} />
        <Route path="/Attend" exact component={() => <Attend />} />
        <Route path="/Watch" exact component={() => <Watch />} />
-       <Route path="/Event1" exact component={() => <Event1 />} />
+       <Route path="/Conductor" exact component={() => <Conductor />} />
        <Route path="/Event2" exact component={() => <Event2 />} />
        <Route path="/Event3" exact component={() => <Event3 />} />
        <Route path="/Team" exact component={() => <Team />} />

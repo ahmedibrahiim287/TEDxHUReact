@@ -2,28 +2,53 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="home">
+    <div class="gradient-bg">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
+        <div class="slides">
+          <div class="slide">
+            <img src="public\img\Event-Cover.jpg" alt="" />
+            <div class="slide-content">
+              <h1 id="slider" >Latest news</h1>
+              <h1 id="slider"># A group of computer science major students designed a websites to help thier collugues </h1>
+            </div>
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+          <div class="slide">
+            <img src="public\img\slider\cover-1.png" alt="" />
+            <div class="slide-content">
+                <br/><h1 id="slider" class ="newsCont"># MSP created an event, presenting AI & Data science and some other related topics </h1>
+              </div>
+          </div>
+          <div class="slide">
+            <img src="public\img\slider\cover.png" alt="" />
+            <div class="slide-content">
+                <br/><h1 id="slider" class ="newsCont"># Shamofors make thier first party in Helwan university</h1>
+              </div>
+          </div>
+          <div class="slide">
+            <img src="public\img\slider\leaveyourl.jpg" alt="" />
+            <div class="slide-content">
+                <br/><h1 id="slider" class ="newsCont"># Computer science students have to take a written exam the next  month</h1>
+              </div>
           </div>
         </div>
+        <div class="slide-controls" >
+          <button id="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          
+          <button id="next-btn" >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
       </div>
+      <script src="./slider.jsx"></script>
+    <img class="slide" alt= "" src="maxresdefault-4.jpg"></img>
+
+
+
     </div>
+   
+    
   );
 }
 

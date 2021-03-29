@@ -80,7 +80,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link className="page-scroll" to="/Team">
-                  Team
+                  About
                 </Link>
               </li>
               <li

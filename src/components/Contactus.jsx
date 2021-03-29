@@ -2,27 +2,52 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="container">
+       <br/>
+       <br/>
+       <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+       <br/>
+      <div class="brief-container">
+    <form className="forrm" action="#">
+     
+         <div class="formdiv">
+            <h2 class="ted-color"> Contact Us </h2>
+         
+
+             <label> Name  </label>
+           {/* <i class=" fas fa-user "></i> */}
+            <input type="text" name="name" placeholder="Your name" />
+         
+         
+         
+            {/* <i  class="far fa-envelope" ></i>  */}
+         <label> E-mail  </label> 
+         <input type="email" name="email" placeholder=" email@server.com" />
+         
+        
+          
+         {/* <i  class="fas fa-align-left" ></i> */}
+         <label >Subject  </label> 
+         <input type="text" name="subject" placeholder="Message Subject" />
+         
+         
+         
+         <label>Message Content   </label>
+         <input type="text" name="message" placeholder=" Type your Message here " />
+         
+         
+         <div>
+            <button class=" ">SEND!</button>
+         </div>
+         </div>
+         <div class="brief-container"></div>
+   </form>
+   <div class="sections">
+  <img  alt=" contact us" src="img\clipart-phone-black-and-white-9.png" style={{width:500,height:500,float:'right',padding:10,margintop:30}}/>
+  </div>
+</div>
+<br/>
+       <br/> <br/> <br/> <br/> <br/> <br/> <br/>
     </div>
   );
 }
