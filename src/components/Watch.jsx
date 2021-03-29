@@ -1,29 +1,28 @@
-import React from "react";
+import React,{Fragment} from "react";
 
 function Watch() {
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Watch</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
+    <Fragment>
+    
+
+    <section className="container boot-elemant-bg py-md-5 py-4" >
+        <div className="container position-relative py-md-5 py-0">
+            <div className="row">
+                <div className="col-lg-8">
+                    <span className="text-black text-uppercase  ">Tedx helwan </span>
+                    <h2 className="text-white display-3 font-weight-bold">Tangram event</h2>
+                    <p className="f-w-16 mb-4">10/4/2021 </p>
+                    <a href="fac.com" className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
+                    <a href="facebook.com" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <div className="elemant-bg-overlay black"></div>
+    </section>
+
+
+
+    </Fragment>
   );
 }
 

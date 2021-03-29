@@ -1,15 +1,41 @@
-import React from "react";
+import React, {Fragment}from "react";
 import { Link, withRouter } from "react-router-dom";
 import logob from "../logob.png";
 
 
+
 function Navigation(props) {
   return (
-<div>
+<Fragment>
+
     <nav id="menu" className="navbar-default navbar-fixed-top navbar-dark " role="navigation">
     <div className="container ">
         <div class="navbar-header naaz">
  
+
+     
+        <button
+        type="button"
+        className="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        {" "}
+        <span className="sr-only">Toggle navigation</span>{" "}
+        <span className="icon-bar"></span>{" "}
+        <span className="icon-bar"></span>{" "}
+        <span className="icon-bar"></span>{" "}
+      </button>
+
+
+
+
+
+
+
+
+
+
           <Link class="navbar-brand page-scroll" to="/">
           <img className="Logo" src={logob}  alt="Logo"/>
           </Link>
@@ -79,7 +105,8 @@ function Navigation(props) {
           </div>
         </div>
       </nav>
-      </div>
+
+      </Fragment>
   );
 }
 
