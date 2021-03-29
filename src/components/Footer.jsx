@@ -2,8 +2,8 @@ import  React, { Fragment}  from "react";
 
 function Footer() {
   return (
-    <div id="footer" >
-      <footer className=" footer fluid-bottom">
+    <div id="footerr" className=" navbar-fixed-bottom" >
+      <footer >
         <div className="container">
           <Fragment>
         <p className="social-fot">
