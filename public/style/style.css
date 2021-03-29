@@ -876,8 +876,7 @@ input{
 
 }
 label{
-font-size: 20px   ;
-font-family: "Montserrat-SemiBold";
+font-size: 20px;
 color: #3b4046;
 }
 
@@ -1362,3 +1361,186 @@ button {
   font-weight: 400;
   font-size: 22px;
 }
+
+
+/*
+####################################################################
+                        Start Slide Section
+#####################################################################
+*/
+
+.gradient-bg{
+    z-index:800; 
+    width: 100%; 
+    border-bottom: 10px solid #1B0D5A;
+   
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #slider.container {
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+
+      
+      }
+      .slides {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+      .slide {
+        min-width: 102%;
+        position: relative;
+      }
+      .slide img {
+        width: 100%;
+        height: 100%;
+        
+      }
+      .slide-controls {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #next-btn,
+      #prev-btn {
+        cursor: pointer;
+        background: transparent;
+        font-size: 30px;
+        border: none;
+        padding: 10px;
+        color: white;
+      }
+      #next-btn:focus,
+      #prev-btn:focus {
+        outline: none;
+      }
+      
+      .slide-content {
+        position: absolute;
+        width:100%; 
+        top: 50%;
+        left: 50px;
+        transform: translateY(-50%);
+        font-size: 40px;
+        color: white;
+        text-shadow: -3px -3px 0 #1B0D5A, 3px -3px 0 #1B0D5A, -3px 3px 0 #1B0D5A, 3px 3px 0 #000;
+      
+       
+      }
+      
+      .newsCont {
+        position: absolute;
+        left:0; 
+        font-size: 30px; 
+        border:none;
+         text-align: left;
+         text-shadow: -3px -3px 0 #1B0D5A, 3px -3px 0 #1B0D5A, -3px 3px 0 #1B0D5A, 3px 3px 0 #000;
+         z-index:-1;
+      }
+      
+    p.news{
+    position: absolute;
+    font-weight: 500;
+    top: 350px; 
+    left:5%; 
+    margin: 50px; 
+    color: black; 
+    
+    font-size: 25px;
+    }
+
+    span#news{
+        border-bottom: 5px solid #1B0D5A    ;
+        font-size: 30px;
+        font-weight: 800;
+        color:#1B0D5A; 
+    }
+    img.slide{
+    position:relative;
+   
+    display:block;
+    height:500px; width:100%;
+    }
+
+
+    /*
+####################################################################
+                        End Slide Section
+#####################################################################
+*/
+/*
+####################################################################
+                        Start About Section
+#####################################################################
+*/
+
+img#logo2{
+    height:150px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px; 
+}
+
+.aboutCon{
+    padding: 20px; 
+    text-shadow: none;
+    border-top: 10px solid #1B0D5A;
+height: max-content; 
+width:auto; 
+background: url(bg2.jpg)center center fixed ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#slider.h1{
+    margin:50px; 
+    padding: 30px;
+    font-size: 80px;
+    text-shadow: none;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white; 
+    color: white; 
+    text-align:center; 
+}
+
+.who{
+    margin: 50px; 
+    width:75%; 
+    height: max-content; 
+    border: 5px dotted white; 
+    background: #1B0D5A;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 90%;
+}
+
+p.con, p.ab{
+    margin:30px; 
+    color: white; 
+    text-shadow: none;
+    font-size: 25px; 
+    letter-spacing: 2px;
+}
+p.ab{
+    width:max-content; 
+    border-bottom:3px solid white;
+    font-weight: 700;
+
+}
+
+
+
