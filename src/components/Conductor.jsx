@@ -1,6 +1,6 @@
 import React from "react";
 
-function Event1() {
+function Conductor() {
   return (
     <div className="about">
       <div class="container">
@@ -27,4 +27,4 @@ function Event1() {
   );
 }
 
-export default Event1;
+export default Conductor;
