@@ -1182,3 +1182,121 @@ label {
   background-size: cover;
   position: absolute;
 }
+/* layout style */
+
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+font-family: "Open Sans", sans-serif;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.sponser-head{
+  width: 100%;
+  height: 180px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.sponser-head h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 29px;
+  
+}
+
+.sponser-head h1 .dash-color{color: red;}
+
+.sponser-head .sponser-quote{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  margin-top: 25px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.86);
+}
+
+.sponser-grid{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(2, 250px);
+  grid-template-columns: repeat(4, 17%);
+  justify-content: center;
+  
+}
+.sponser-grid .sponser-card{
+  display: block;
+  text-align: center;
+  height: 100px;
+  width: 225px;
+}
+
+.sponser-grid .sponser-card img{
+  width: 80%;
+  height: 150px;
+}
+
+.sponser-grid .sponser-card span{
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* style - eventdoc- by arafa */
+#slider {
+
+  position: relative;
+}
+#slider.img1{
+  margin-top: 150px;
+  width: 97%;
+  height: 440px;
+}
+#slider.img2{
+  margin-top: 50px;
+  width: 97%;
+  height: 440px;
+}
+
+#slider.img3{
+   margin-top: 50px;
+  width: 97%;
+  height: 440px;
+}
+#slider.h1{
+position: absolute;
+bottom: 130px;
+left: 90px;
+font-size: 60px;
+opacity: 80%;
+}
+#slider.p{
+position: absolute;
+bottom: 50px;
+left: 90px;
+font-size: 50px;
+}
+#slider.btn1{
+position: absolute;    
+bottom: 130px;
+right: 100px;
+background-color: red;
+color: white;
+font-size: 30px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+#slider.button:hover {
+background-color: black;
+}
