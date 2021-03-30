@@ -1,16 +1,17 @@
-import React from "react";
+import React, {Component} from "react";
 
-function About() {
+export class Contactus extends Component {
+  render() {
   return (
     <div class="container">
        <br/>
        <br/>
        <br/> <br/> <br/> <br/> <br/> <br/> <br/>
        <br/>
-      <div class="brief-container">
+      <div class="form-group">
     <form className="forrm" action="#">
      
-         <div class="formdiv">
+         <div class="form-inline">
             <h2 class="ted-color"> Contact Us </h2>
          
 
@@ -51,5 +52,5 @@ function About() {
     </div>
   );
 }
-
-export default About;
+}
+export default Contactus;

@@ -3,7 +3,7 @@ import React from "react";
 function Team() {
   return (
     <div id="container">
-      
+          <div className="brief-conatiner "></div>
     <div className="brief-conatiner ">
       <h2>About <span className="ted-color">TED</span><div class="underline"></div></h2>
       <p>

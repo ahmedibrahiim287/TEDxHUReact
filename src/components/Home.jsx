@@ -49,7 +49,7 @@ function Home() {
           </tbody>
       </div>
           
-    <div className="brief-conatiner">
+    <div className="brief-conatiner ">
         <h2 className="helwan-head"><i className="arrow right"></i> About <span className="ted-color">Tedx</span>HelwanUniversity</h2>
         <p>An independently organized TED event in Helwan
             Proceeding from our belief in the power of ideas, we determined to create a community of ideas aiming to enrich our community minds.
