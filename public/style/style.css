@@ -1078,93 +1078,7 @@ button {
   font-weight: 300;
   font-size: 22px;
 }
-/* HEAD */
 
-/* New Task team Layout Made By: Mohamed Nasr */
-
-.chairwoman-grid {
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-rows: repeat(1, 382px);
-  justify-content: center;
-  color: #000 !important;
-}
-
-.chairwoman-grid .grid-card {
-  text-align: center;
-  height: 550px;
-  display: block;
-}
-
-.chairwoman-grid img {
-  border-radius: 50%;
-  height: 228px;
-  width: 228px;
-  box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-  -webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-  -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-}
-
-.chairwoman-grid .grid-card .fatma-name {
-  display: block;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 24px;
-  color: #000 !important;
-}
-
-.chairwoman-grid .grid-card .fatma-title {
-  display: block;
-  margin-top: 18px;
-  text-align: center;
-  font-style: italic;
-  font-size: 18px;
-  font-weight: 400;
-  color: #000 !important;
-}
-
-.table-parent {
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 25%);
-  grid-template-rows: repeat(5, 350px);
-  justify-content: center;
-  color: #000 !important;
-}
-.table-parent .grid-card {
-  text-align: center;
-  height: 550px;
-  display: block;
-}
-
-.table-parent img {
-  border-radius: 50%;
-  height: 228px;
-  width: 228px;
-  box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-  -webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-  -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
-}
-
-.table-parent .grid-card .head-name {
-  display: block;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.table-parent .grid-card .head-title {
-  display: block;
-  margin-top: 18px;
-  text-align: center;
-  font-style: italic;
-  font-size: 18px;
-  font-weight: 400;
-}
 /* start ibtissam buttons */
 
 .btn-container {
@@ -1300,11 +1214,6 @@ button {
   position: absolute;
 }
 /* layout style */
-
-*{
-  padding:0;
-  margin:0;
-}
 
 .sponser-head{
   width: 100%;
@@ -1505,6 +1414,233 @@ button {
                         End Slide Section
 #####################################################################
 */
+
+
+/*
+*********************************************************************
+                        Style Of Team layout Mohamed Nasr
+*********************************************************************
+*/
+
+.chairwoman-grid{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(1, 400px);
+  grid-template-columns: repeat(1, 100%);
+  justify-content: center;
+}
+
+.chairwoman-grid .grid-card{
+  text-align: center;
+  height: 382px;
+  width: auto;
+  display: block;
+}
+
+.chairwoman-grid .grid-card .fatma-name{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.chairwoman-grid .grid-card .fatma-title{
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.table-parent{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(6, 430px);
+  justify-content:center
+  
+}
+.table-parent .grid-card{
+  height: 360px;
+  display: block;
+  max-width: 228px;
+  min-height: 150px;
+  max-height: 100%;
+}
+
+.table-parent .grid-card img{
+  border-radius:50%;
+  width: auto;
+  min-height: 150px;
+  max-height: 228px;
+  max-width: 228px;
+  box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+-webkit-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+  -moz-box-shadow: 0 2px 15px rgba(16, 14, 14, 0.6);
+}
+
+.table-parent .grid-card .head-name{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.table-parent .grid-card .head-title{
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* media q */
+
+/* First Screen */ 
+/* Extra-small */
+@media screen and (max-width: 360px) {
+
+.chairwoman-grid{
+  width: auto;
+  grid-template-rows: repeat(1, 350px);
+}
+.chairwoman-grid .grid-card img{
+  width: 180px;
+}
+.table-parent{
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(2, 46%);
+  grid-template-rows: repeat(8, 370px);
+  justify-content: center
+} 
+.table-parent .grid-card{height: auto;width: 65px;}
+.table-parent .grid-card img{
+  width: 150px;height: auto;max-width:150px;
+}
+.table-parent .grid-card .head-name{
+  width: 150px;max-width:150px;font-size: 22px;
+}
+.table-parent .grid-card .head-title{
+  width: 150px;max-width:150px;
+}
+}
+
+/**************** Second Screen *****************/
+/* Small */
+@media screen and (min-width: 361px) and (max-width: 591px) {
+.chairwoman-grid{
+  width: auto;
+  grid-template-rows: repeat(1, 350px);
+}
+.chairwoman-grid .grid-card img{
+  width: 191px;
+}
+.table-parent{
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(5, 350px);
+  justify-content: center;
+  column-gap: 29px;
+  text-align: center
+} 
+.table-parent .grid-card{height: auto;}
+.table-parent .grid-card img{
+  width: 100%;
+  height: auto;
+}
+.table-parent .grid-card .head-name{
+  width: 150px;
+  font-size: 20px;
+  }
+.table-parent .grid-card .head-title{width: 150px;}
+}
+
+/************************ Third Screen **************************/
+/* Medium-only */
+@media screen and (min-width: 592px) and (max-width: 768px) {
+
+}
+/************** Fourth Screen ********************/
+@media (min-width: 768px) and (max-width: 834px) {
+.chairwoman-grid{
+  width: auto;
+  grid-template-rows: repeat(1, 350px);
+}
+.chairwoman-grid .grid-card img{
+  width: 191px;
+}
+.table-parent{
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(5, 350px);
+  column-gap: 29px;
+  text-align: center
+} 
+.table-parent .grid-card{height: auto;}
+.table-parent .grid-card img{
+  width: 100%;
+  height: auto;
+}
+.table-parent .grid-card .head-name{
+  width: auto;
+  font-size: 20px;
+  }
+.table-parent .grid-card .head-title{width: auto;}
+}
+
+/************************** Fifth Screen ***************/
+@media (min-width: 835px) and (max-width: 3000px) {
+
+.chairwoman-grid{
+  width: 100%;
+  grid-template-rows: repeat(1, 400px);
+  grid-template-columns: repeat(1, 100%);
+}
+
+.chairwoman-grid .grid-card{
+  text-align: center;
+  height: 382px;
+  width: auto;
+  display: block;
+}
+
+.chairwoman-grid .grid-card .fatma-name{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.chairwoman-grid .grid-card .fatma-title{
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.table-parent{
+  grid-template-columns: repeat(4, 21%);
+  grid-template-rows: repeat(4, 430px);
+  justify-content: center;
+}
+
+.table-parent .grid-card img{
+  width: auto;
+  min-height: 150px;
+  max-height: 228px;
+  max-width: 228px;
+}
+}
 
 
 
