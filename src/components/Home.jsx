@@ -1,48 +1,47 @@
 import React from "react";
-
+import AwesomeSlider from 'react-awesome-slider'; 
+import 'react-awesome-slider/dist/styles.css';
 function Home() {
   return (
-    <div class="gradient-bg">
-      <div class="containerS">
-        <div class="slides">
-          <div class="slide">
-            <img src="img\slider\cover-1.png" alt="" />
-            <div class="slide-content">
-            </div>
-          </div>
-          <div class="slide">
-            <img src="img\slider\cover.png" alt="" />
-            <div class="slide-content">
-              <h1 class="newsCont"># MSP created an event, presenting AI & Data science and some other related topics </h1>
-            </div>
-          </div>
-          <div class="slide">
-            <img src="img\slider\leaveyourl.jpg" alt="" />
-            <div class="slide-content">
-              <h1 class="newsCont"># Shamofors make thier first party in Helwan university</h1>
-            </div>
-          </div>
-          <div class="slide">
-            <img src="slider4.jpg" alt="" />
-            <div class="slide-content">
-              <h1 class="newsCont"># Computer science students have to take a written exam the next  month</h1>
-            </div>
-          </div>
-        </div>
-        <div class="slide-controls" >
-          <button id="prev-btn" >
-            <i class="fas fa-chevron-left"></i>
-          </button>
+    <div class="container">
+     
+  <AwesomeSlider bullets={false} class="slider-container" >
+    <div data-src="\img\slider\cover-1.png" />
+    <div data-src="\img\slider\cover.png" />
+    <div data-src="\img\slider\leaveyourl.jpg" />
+    <div data-src="\img\Event-Cover.jpg" />
+  </AwesomeSlider>
 
-          <button id="next-btn" >
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        </div>
+  <div className="grid-holder">
+          <div className="grid-box">
+          
+            {/* Attendees <br></br> */}
+            1100
+         
+          </div>
+          <div className="grid-box">
+            
+              Members <br></br>
+              +400
+            
+          </div>
+          <div className="grid-box">
+          
+            Speakers <br></br>
+            43
+          
+          </div>
+          <div className="grid-box">
+              sponsors <br></br>
+              notyet
+            
+          </div>
+  
+          <tbody>
+  
+          </tbody>
       </div>
-      
-        <div class="footer" ></div>
-        <script src="..\component\slider.js" ></script>
-
+      <div className="brief-conatiner "></div>
         </div>
 
   );

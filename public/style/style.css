@@ -1177,20 +1177,22 @@ button {
 /* Abdeldayem start  */
 
 .grid-holder {
-  background-color: rgb(255, 0, 0);
-  height: 500px;
+  margin-top: 20px;
+  background-color: rgb(221, 34, 34);
+  box-shadow: ivory;
+  border-radius: 25px;
+  height: 100px;
   color: white;
   display: grid;
   grid-template-columns: repeat(4, 15%);
   align-content: center;
   justify-content: space-around;
-  height: 400px;
+  height: 100px;
   width: 100%;
   margin-top: 40px;
-  font-size: larger;
+  font-weight: 700;
 }
 .gridbox {
-  height: 250px;
   border: 2px solid #fff;
 }
 
@@ -1505,6 +1507,19 @@ button {
                         End Slide Section
 #####################################################################
 */
+/* slider  */
+.slider-container{
+width:100%;
+height: 400px;
+padding-top: 20px;
+align-items:center;
+margin-bottom: 20px;
+  border-radius: 20px;
+}
+.slider-container div{
+  height:max-content;
+  width:max-content;
+  
 
-
+}
 
