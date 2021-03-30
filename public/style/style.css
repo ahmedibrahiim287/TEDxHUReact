@@ -945,20 +945,20 @@ button {
 {
 
   box-shadow: 2px 2px 20px #c5b8b8;
-  margin-top: 55% ; 
-  margin-left: 55%;
+  margin-top: 30% ; 
+  margin-left: 30%;
   padding: 7px;
   /* border:#cc0033 solid ; */
   width: 200px;
-  height  :99px;
-  border-radius: 20%;
+  height  :50px;
+  border-radius: 10%;
   align-items: center;
   justify-content: center;
   /* background: rgb(241, 37, 37); */
   font-size: 22px;
   color: rgb(247, 239, 239);
   text-transform: uppercase;
-  transform: perspective(1px) translateZ(0);
+  
 
 
 }

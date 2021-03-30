@@ -24,6 +24,21 @@ function Attend() {
       </p>
     </div>
     <div className="brief-conatiner "></div>
+    <div class="col-md-3">
+     
+     
+          <div>
+          <ul class="list-inline">
+            <li> 
+            <i class="FA fas fa-map-marker-alt"> <a href="#" > </a></i></li>
+            <li><i class="FA fas fa-calendar-alt"></i></li>
+            <li><i class=" FA far fa-clock" ></i></li>
+</ul>
+           
+            
+     </div>
+          </div>
+
   </div>
   );
 }

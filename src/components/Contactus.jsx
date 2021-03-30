@@ -44,7 +44,7 @@ export class Contactus extends Component {
          <div class="brief-container"></div>
    </form>
    <div class="sections">
-  <img  alt=" contact us" src="img\clipart-phone-black-and-white-9.png" style={{width:500,height:500,float:'right',padding:10,margintop:30}}/>
+  <img  alt=" contact us" src="img\clipart-phone-black-and-white-9.png" style={{width:500,height:500,float:'right',padding:10,margintop:30,alignContent:'right'}}/>
   </div>
 </div>
 <br/>
