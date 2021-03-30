@@ -10,7 +10,7 @@ function Navigation(props) {
     <div className="container ">
         <div class="navbar-header naaz">
  
-          <Link class="navbar-brand page-scroll" to="/">
+          <Link class="navbar-brand page-scroll" to="/Home">
           <img className="Logo" src={logob}  alt="Logo"/>
           </Link>
           </div>
@@ -19,7 +19,7 @@ function Navigation(props) {
             <ul className="nav navbar-nav navbar-left">
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/" ? "active" : ""
+                  props.location.pathname === "/Home" ? "active" : ""
                 }`}
               >
                 <Link className="page-scroll" to="/Home">

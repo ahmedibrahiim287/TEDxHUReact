@@ -3,9 +3,13 @@ import React from "react";
 function Attend() {
   return (
   <div className="container">
+<br/>
+<br/>
+<br/>
+<br/>
 
-<div className="brief-container"></div>
-<div class="img-fluid rounded mb-4 mb-lg-0">
+
+<div className="brief-container">
   <img src="/img/Event-Cover.jpg" alt="Tangram logo"/>
 </div>
 
@@ -19,6 +23,7 @@ function Attend() {
           the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
       </p>
     </div>
+    <div className="brief-conatiner "></div>
   </div>
   );
 }

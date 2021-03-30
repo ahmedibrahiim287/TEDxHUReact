@@ -33,6 +33,9 @@ h5 {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
+  text-shadow: 10px 2px 10px #530404d8;
+  
+  align-self: center;
 }
 p {
   font-size: 15px;
@@ -893,6 +896,7 @@ color: #3b4046;
     flex-direction: row;
     justify-content: center;
     float: left;
+    
 
 }
 
@@ -1093,7 +1097,7 @@ button {
 .grid-holder {
   margin-top: 20px;
   background-color: rgb(221, 34, 34);
-  box-shadow: ivory;
+  box-shadow: 0px 0px 20px #888484d8;
   border-radius: 25px;
   height: 100px;
   color: white;
@@ -1115,18 +1119,22 @@ button {
 /* countdown  yahya */
 .countdown-container {
   display: block; /*displays divs on a line*/
-  width: 80%; /*gives the div element a width of 300px*/
+ /*gives the div element a width of 300px*/
   border-radius: 5px; /*curves the edges of the div element by 5px;*/
-  color: #ff0000; /*gives the div element a background color*/
+  color: #be0000; /*gives the div element a background color*/
   margin: 0 auto;
-  padding-top: 235px;
+  padding-top: 200px;
+  
 }
 .countdown {
-  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+   /*changes the text font in the divelement */
   color: black; /*gives the div element a background color*/
-  font-size: 1000%;
+  font-size: 300%;
   padding: 10px;
+  width:100%;
   text-align: center;
+  display:block;
+  
 }
 
 .countdown span {
