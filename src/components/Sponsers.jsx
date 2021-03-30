@@ -101,6 +101,17 @@ function Sponsers() {
         <span>Sponser Name</span>
     </div>
 </div>
+        {/* 
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+        */}
 </div>
   );
 }

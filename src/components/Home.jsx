@@ -39,7 +39,17 @@ function Home() {
           </button>
         </div>
       </div>
-      
+        {/* 
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+        */} 
         <div class="footer" ></div>
         <script src="..\component\slider.js" ></script>
 
