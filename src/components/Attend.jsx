@@ -23,22 +23,20 @@ function Attend() {
           the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
       </p>
     </div>
-    <div className="brief-conatiner "></div>
+    <hl></hl>
     <div class="col-md-3">
-     
-     
-          <div>
+          
           <ul class="list-inline">
             <li> 
             <i class="FA fas fa-map-marker-alt"> <a href="#" > </a></i></li>
             <li><i class="FA fas fa-calendar-alt"></i></li>
             <li><i class=" FA far fa-clock" ></i></li>
-</ul>
-           
-            
-     </div>
-          </div>
+          </ul>
+      
+    </div>
+    <div className="brief-conatiner "></div>
 
+    <div className="container"></div>
   </div>
   );
 }
