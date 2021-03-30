@@ -6,14 +6,18 @@ function Watch() {
     
 
     <section className="container boot-elemant-bg py-md-5 py-4" >
+    
         <div className="container position-relative py-md-5 py-0">
-            <div className="row">
+        <div className="brief-conatiner "></div>
+        <div className="brief-conatiner "></div>
+    
+                    <div className="row">
                 <div className="col-lg-8">
                     <span className="text-black text-uppercase  ">Tedx helwan </span>
                     <h2 className="text-white display-3 font-weight-bold">Tangram event</h2>
                     <p className="f-w-16 mb-4">10/4/2021 </p>
-                    <a href="fac.com" className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
-                    <a href="facebook.com" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
+                    <a href="./Sponsers" className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
+                    <a href="./Sponsers" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ function Attend() {
 
 
 <div className="brief-container">
-  <img src="/img/Event-Cover.jpg" alt="Tangram logo"/>
+  <img src="/img/Event-Cover.jpg" alt="Tangram logo" class="img-responsive"/>
 </div>
 
 <div className="brief-conatiner ">
@@ -36,7 +36,7 @@ function Attend() {
     </div>
     <div className="brief-conatiner "></div>
 
-    <div className="container"></div>
+  
   </div>
   );
 }

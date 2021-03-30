@@ -11,7 +11,7 @@ function Sponsers() {
 <div className="sponser-grid">
     
     <div className="sponser-card">
-        <img src="img\sponsers\Burger-King.png" alt="" />
+        <img className="img-responsive" src="img\sponsers\Burger-King.png" alt="" />
         <span>Sponser Name</span>
     </div>
    
