@@ -95,6 +95,18 @@ function Home() {
         </div>
 
     <div className="brief-conatiner "></div>
+        {/* 
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+           __   
+        .__(.)< (Buck Buck)
+        (____)
+        */} 
+     
 
         </div>
 
