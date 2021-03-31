@@ -39,154 +39,155 @@ function Team() {
             “Individually, we are one drop. Together, we are an ocean.” - Ryunosuke Satoro
         </p>
     </div>
-    <div class="chairwoman-grid">
-            <div class="grid-card">
-                <img src="Fatma%20Sabry-Chairwoman.png" alt="Fatma Sabry" title="Fatma Sabry"/>
-                <span class="fatma-name">Fatma Sabry</span>
-                <span class="fatma-title">Chairwoman</span>
-            </div>
+    <div className="chairwoman-grid">
+        <div className="grid-card">
+            <img src="Fatma%20Sabry-Chairwoman.png" alt="Fatma Sabry" title="Fatma Sabry"/>
+            <span className="fatma-name">Fatma Sabry</span>
+            <span className="fatma-title">Chairwoman</span>
         </div>
-        <div class="table-parent">
-            {/*HR Comittee*/}
-            <div class="grid-card">
-                <img src="Rawan Mahmoud - Human Resources Curator.png" alt="Rawan Mahmoud" title="Rawan Mahmoud"/>
-                <span class="head-name"> Rawan Mahmoud</span>
-                <span class="head-title">Human Resources Curator</span>
-            </div>
-            <div class="grid-card">
-                <img src="Enass%20Abdullah-Executive%20of%20human%20resources.png" alt="Enass Abdullah" title="Enass Abdullah"/>
-                <span class="head-name">Enass Abdullah</span>
-                <span class="head-title">Executive of human resources</span>
-            </div>
-            {/* End Of HR Comittee*/}
-            {/* Markting Comittee*/}
-            <div class="grid-card">
-                <img src="Mariam Hamza - Marketing Curator.png" alt="Mariam Hamza" title="Mariam Hamza"/>
-                <span class="head-name">Mariam Hamza</span>
-                <span class="head-title">Marketing Curator</span>
-            </div>
-            <div class="grid-card">
-                <img src="Mostafa%20Gohary-Marketing%20Advisor.png" alt="Mostafa Gohary" title="Mostafa Gohary"/>
-                <span class="head-name">Mostafa Gohary</span>
-                <span class="head-title">Marketing Advisor</span>
-            </div>
-            <div class="grid-card">
-                <img src="Mahmoud El Haiwan-Executive of Social Media Marketing.png" alt="Mahmoud El Haiwan" title="Mahmoud El Haiwan"/>
-                <span class="head-name">Mahmoud El Haiwan</span>
-                <span class="head-title">Executive of Social Media Marketing</span>
-            </div>
-            <div class="grid-card">
-                <img src="Shahd Roshdy - Vice Executive of Social Media Marketing.png" alt="Shahd Roshdy" title="Shahd Roshdy"/>
-                <span class="head-name">Shahd Roshdy </span>
-                <span class="head-title">Vice Executive of Social Media Marketing</span>
-            </div>
-            <div class="grid-card">
-                <img src="Ahmed%20Hesham-Executive%20of%20Graphic%20Design.png" alt="Ahmed Hesham" title="Ahmed Hesham"/>
-                <span class="head-name">Ahmed Hesham</span>
-                <span class="head-title">Executive of Graphic Design</span>
-            </div>
-            <div class="grid-card">
-                <img src="Malak%20Magdy.png" alt="Malak Magdy" title="Malak Magdy"/>
-                <span class="head-name">Malak Magdy</span>
-                <span class="head-title">Vice Executive of Graphic Design</span>
-            </div>
-            <div class="grid-card">
-                <img src="Maryam Esmaeil - Executive of IT .png" alt="Mariam ismail" title="Mariam Isamil"/>
-                <span class="head-name">Mariam ismail</span>
-                <span class="head-title">Executive of IT </span>
-            </div>
-            <div class="grid-card">
-                <img src="Ahmed Ibrahim - Vice Executive of IT.png" alt="Ahmed Ibrahim" title="Ahmed Ibrahim"/>
-                <span class="head-name">Ahmed Ibrahim</span>
-                <span class="head-title">Vice Executive of IT</span>
-            </div>
-            <div class="grid-card">
-                <img src="Mohamed Nasr - Vice Executive of IT.png" alt="Mohamed Nasr" title="Mohamed Nasr"/>
-                <span class="head-name">Mohamed Nasr</span>
-                <span class="head-title">Vice Executive of IT</span>
-            </div>
-            <div class="grid-card">
-                <img src="Adham%20Ahmed-Executive%20of%20Multimedia.png" alt="Adham Ahmed" title="Adham Ahmed"/>
-                <span class="head-name">Adham Ahmed</span>
-                <span class="head-title">Executive of Multimedia</span>
-            </div>
-            <div class="grid-card">
-                <img src="Abdallah%20Domery-Vice%20Executive%20of%20Multimedia.png" alt="Abdallah Domery" title="Abdallah Domery"/>
-                <span class="head-name">Abdallah Domery</span>
-                <span class="head-title">Vice Executive of Multimedia</span>
-            </div>
-            {/*End Of Marketing Comittee*/}
-            {/* Opeation Comittee*/}
-            <div class="grid-card">
-                <img src="no-photo.png" alt="Omar Tamer" title="Omar Tamer"/>
-                <span class="head-name">Omar Tamer</span>
-                <span class="head-title">Operation Curator</span>
-            </div>
-            <div class="grid-card">
-                <img src="Radwa%20Mohsen-Operation%20Advisor.png" alt="Radwa Mohsen" title="Radwa Mohsen"/>
-                <span class="head-name">Radwa Mohsen</span>
-                <span class="head-title">Operation Advisor</span>
-            </div>
-            <div class="grid-card">
-                <img src="Radwa%20Ashraf-Executive%20of%20Fundraising.png" alt="Radwa Ashraf" title="Radwa Ashraf"/>
-                <span class="head-name">Radwa Ashraf</span>
-                <span class="head-title">Executive of Fundraising</span>
-            </div>
-            <div class="grid-card">
-                <img src="Radwa%20Ashraf-Executive%20of%20Fundraising.png" alt="Rawan Mohamed" title="Rawan Mohamed"/>
-                <span class="head-name">Rawan Mohamed</span>
-                <span class="head-title">Vice Executive of Fundraising</span>
-            </div>
-            <div class="grid-card">
-                <img src="no-photo.png" alt="Rawan Wael" title="Rawan Wael"/>
-                <span class="head-name">Rawan Wael</span>
-                <span class="head-title">Vice Executive of IT</span>
-            </div>
-            <div class="grid-card">
-                <img src="Nayera Maged-Vice Executive of Public Relations.png" alt="Nayera Maged" title="Nayera Maged"/>
-                <span class="head-name">Nayera Maged</span>
-                <span class="head-title">Vice Executive of PR</span>
-            </div>
-            {/* End Of Opeation Comittee*/}
-            {/* Logistics Comittee*/}
-            <div class="grid-card">
-                <img src="Mohamed Bakry-Logistics Curator.png" alt="Mohamed Bakry" title="Mohamed Bakry"/>
-                <span class="head-name">Mohamed Bakry</span>
-                <span class="head-title">Logistics Curator</span>
-            </div>
-            <div class="grid-card">
-                <img src="Salma%20Hussien-Executive%20of%20Event%20Planning.png" alt="Salma Hussien" title="Salma Hussien"/>
-                <span class="head-name">Salma Hussien</span>
-                <span class="head-title">Executive of Event Planning</span>
-            </div>
-            <div class="grid-card">
-                <img src="Weaam Essam - Executive of Coordination.png" alt="Weaam Essam" title="Weaam Essam"/>
-                <span class="head-name">Weaam Essam </span>
-                <span class="head-title">Executive of Coordination</span>
-            </div>
-            <div class="grid-card">
-                <img src="Ahmed%20Ibrahim-Vice%20Executive%20of%20Coordination.png" alt="Ahmed Ibrahim" title="Ahmed Ibrahim"/>
-                <span class="head-name">Ahmed Ibrahim</span>
-                <span class="head-title">Vice Executive of Coordination</span>
-            </div>  
-            {/* End Of Logistics Comittee*/}
-            {/* Coaching Comittee*/}
-            <div class="grid-card">
-                <img src="Abdelrahman%20Ahmed-Coaching%20Curator.png" alt="Abdelrahman Ahmed" title="Abdelrahman Ahmed"/>
-                <span class="head-name">Abdelrahman Ahmed</span>
-                <span class="head-title">Coaching Curator</span>
-            </div>
-            <div class="grid-card">
-                <img src="no-photo.png" alt="Toaa Qandil" title="Toaa Qandil"/>
-                <span class="head-name">Toaa Qandil</span>
-                <span class="head-title">Coaching Executive</span>
-            </div>
-            <div class="grid-card">
-                <img src="no-photo.png" alt="Aya ibrahim" title="Aya ibrahim"/>
-                <span class="head-name">Aya ibrahim</span>
-                <span class="head-title">Coaching Vice Executive</span>
-            </div>
-            {/* End Of Coaching Comittee*/}
+    </div>
+    {/* Team Layout */}
+    <div className="table-parent">
+        {/*HR Comittee*/}
+        <div className="grid-card">
+            <img src="Rawan Mahmoud - Human Resources Curator.png" alt="Rawan Mahmoud" title="Rawan Mahmoud"/>
+            <span className="head-name"> Rawan Mahmoud</span>
+            <span className="head-title">Human Resources Curator</span>
+        </div>
+        <div className="grid-card">
+            <img src="Enass%20Abdullah-Executive%20of%20human%20resources.png" alt="Enass Abdullah" title="Enass Abdullah"/>
+            <span className="head-name">Enass Abdullah</span>
+            <span className="head-title">Executive of human resources</span>
+        </div>
+        {/* End Of HR Comittee*/}
+        {/* Markting Comittee*/}
+        <div className="grid-card">
+            <img src="Mariam Hamza - Marketing Curator.png" alt="Mariam Hamza" title="Mariam Hamza"/>
+            <span className="head-name">Mariam Hamza</span>
+            <span className="head-title">Marketing Curator</span>
+        </div>
+        <div className="grid-card">
+            <img src="Mostafa%20Gohary-Marketing%20Advisor.png" alt="Mostafa Gohary" title="Mostafa Gohary"/>
+            <span className="head-name">Mostafa Gohary</span>
+            <span className="head-title">Marketing Advisor</span>
+        </div>
+        <div className="grid-card">
+            <img src="Mahmoud El Haiwan-Executive of Social Media Marketing.png" alt="Mahmoud El Haiwan" title="Mahmoud El Haiwan"/>
+            <span className="head-name">Mahmoud El Haiwan</span>
+            <span className="head-title">Executive of Social Media Marketing</span>
+        </div>
+        <div className="grid-card">
+            <img src="Shahd Roshdy - Vice Executive of Social Media Marketing.png" alt="Shahd Roshdy" title="Shahd Roshdy"/>
+            <span className="head-name">Shahd Roshdy </span>
+            <span className="head-title">Vice Executive of Social Media Marketing</span>
+        </div>
+        <div className="grid-card">
+            <img src="Ahmed%20Hesham-Executive%20of%20Graphic%20Design.png" alt="Ahmed Hesham" title="Ahmed Hesham"/>
+            <span className="head-name">Ahmed Hesham</span>
+            <span className="head-title">Executive of Graphic Design</span>
+        </div>
+        <div className="grid-card">
+            <img src="Malak%20Magdy.png" alt="Malak Magdy" title="Malak Magdy"/>
+            <span className="head-name">Malak Magdy</span>
+            <span className="head-title">Vice Executive of Graphic Design</span>
+        </div>
+        <div className="grid-card">
+            <img src="Maryam Esmaeil - Executive of IT .png" alt="Mariam ismail" title="Mariam Isamil"/>
+            <span className="head-name">Mariam ismail</span>
+            <span className="head-title">Executive of IT </span>
+        </div>
+        <div className="grid-card">
+            <img src="Ahmed Ibrahim - Vice Executive of IT.png" alt="Ahmed Ibrahim" title="Ahmed Ibrahim"/>
+            <span className="head-name">Ahmed Ibrahim</span>
+            <span className="head-title">Vice Executive of IT</span>
+        </div>
+        <div className="grid-card">
+            <img src="Mohamed Nasr - Vice Executive of IT.png" alt="Mohamed Nasr" title="Mohamed Nasr"/>
+            <span className="head-name">Mohamed Nasr</span>
+            <span className="head-title">Vice Executive of IT</span>
+        </div>
+        <div className="grid-card">
+            <img src="Adham%20Ahmed-Executive%20of%20Multimedia.png" alt="Adham Ahmed" title="Adham Ahmed"/>
+            <span className="head-name">Adham Ahmed</span>
+            <span className="head-title">Executive of Multimedia</span>
+        </div>
+        <div className="grid-card">
+            <img src="Abdallah%20Domery-Vice%20Executive%20of%20Multimedia.png" alt="Abdallah Domery" title="Abdallah Domery"/>
+            <span className="head-name">Abdallah Domery</span>
+            <span className="head-title">Vice Executive of Multimedia</span>
+        </div>
+        {/*End Of Marketing Comittee*/}
+        {/* Opeation Comittee*/}
+        <div className="grid-card">
+            <img src="no-photo.png" alt="Omar Tamer" title="Omar Tamer"/>
+            <span className="head-name">Omar Tamer</span>
+            <span className="head-title">Operation Curator</span>
+        </div>
+        <div className="grid-card">
+            <img src="Radwa%20Mohsen-Operation%20Advisor.png" alt="Radwa Mohsen" title="Radwa Mohsen"/>
+            <span className="head-name">Radwa Mohsen</span>
+            <span className="head-title">Operation Advisor</span>
+        </div>
+        <div className="grid-card">
+            <img src="Radwa%20Ashraf-Executive%20of%20Fundraising.png" alt="Radwa Ashraf" title="Radwa Ashraf"/>
+            <span className="head-name">Radwa Ashraf</span>
+            <span className="head-title">Executive of Fundraising</span>
+        </div>
+        <div className="grid-card">
+            <img src="Radwa%20Ashraf-Executive%20of%20Fundraising.png" alt="Rawan Mohamed" title="Rawan Mohamed"/>
+            <span className="head-name">Rawan Mohamed</span>
+            <span className="head-title">Vice Executive of Fundraising</span>
+        </div>
+        <div className="grid-card">
+            <img src="no-photo.png" alt="Rawan Wael" title="Rawan Wael"/>
+            <span className="head-name">Rawan Wael</span>
+            <span className="head-title">Vice Executive of IT</span>
+        </div>
+        <div className="grid-card">
+            <img src="Nayera Maged-Vice Executive of Public Relations.png" alt="Nayera Maged" title="Nayera Maged"/>
+            <span className="head-name">Nayera Maged</span>
+            <span className="head-title">Vice Executive of PR</span>
+        </div>
+        {/* End Of Opeation Comittee*/}
+        {/* Logistics Comittee*/}
+        <div className="grid-card">
+            <img src="Mohamed Bakry-Logistics Curator.png" alt="Mohamed Bakry" title="Mohamed Bakry"/>
+            <span className="head-name">Mohamed Bakry</span>
+            <span className="head-title">Logistics Curator</span>
+        </div>
+        <div className="grid-card">
+            <img src="Salma%20Hussien-Executive%20of%20Event%20Planning.png" alt="Salma Hussien" title="Salma Hussien"/>
+            <span className="head-name">Salma Hussien</span>
+            <span className="head-title">Executive of Event Planning</span>
+        </div>
+        <div className="grid-card">
+            <img src="Weaam Essam - Executive of Coordination.png" alt="Weaam Essam" title="Weaam Essam"/>
+            <span className="head-name">Weaam Essam </span>
+            <span className="head-title">Executive of Coordination</span>
+        </div>
+        <div className="grid-card">
+            <img src="Ahmed%20Ibrahim-Vice%20Executive%20of%20Coordination.png" alt="Ahmed Ibrahim" title="Ahmed Ibrahim"/>
+            <span className="head-name">Ahmed Ibrahim</span>
+            <span className="head-title">Vice Executive of Coordination</span>
+        </div>  
+        {/* End Of Logistics Comittee*/}
+        {/* Coaching Comittee*/}
+        <div className="grid-card">
+            <img src="Abdelrahman%20Ahmed-Coaching%20Curator.png" alt="Abdelrahman Ahmed" title="Abdelrahman Ahmed"/>
+            <span className="head-name">Abdelrahman Ahmed</span>
+            <span className="head-title">Coaching Curator</span>
+        </div>
+        <div className="grid-card">
+            <img src="no-photo.png" alt="Toaa Qandil" title="Toaa Qandil"/>
+            <span className="head-name">Toaa Qandil</span>
+            <span className="head-title">Coaching Executive</span>
+        </div>
+        <div className="grid-card">
+            <img src="no-photo.png" alt="Aya ibrahim" title="Aya ibrahim"/>
+            <span className="head-name">Aya ibrahim</span>
+            <span className="head-title">Coaching Vice Executive</span>
+        </div>
+        {/* End Of Coaching Comittee*/}
         </div>
         {/* 
            __   
