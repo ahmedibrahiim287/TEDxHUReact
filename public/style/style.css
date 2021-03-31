@@ -621,6 +621,7 @@ label {
 .Logo {
   margin: auto;
   width: 20%;
+  margin-top: 0.80rem;
 }
 /* ibrahim start */
 /* media q */
@@ -2230,7 +2231,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* start count down */
 #countdown.container {
-  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
   margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(to right, #b90000 0%, #ff2525 100%);
