@@ -4,7 +4,7 @@ import { Navigation, Footer, Home, Attend, Watch, Event2, Event3, Team, Sponsers
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router path="/Home">
         <Navigation />
         <Switch>
        <Route path="/Home" exact component={() => <Home />} />
