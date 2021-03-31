@@ -3,8 +3,11 @@ import React from "react";
 function Sponsers() {
   return (
 <div>
+
 <div className="sponser-head">
-            <h1><span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span></h1>
+            <h1>
+                <span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span>
+                </h1>
         </div>
         <div className="sponser-quotation">
             <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us with our event "Tangram". All thanks to thier sponsorship that were able to host our event and make it great</p>

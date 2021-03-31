@@ -1212,8 +1212,9 @@ label {
 /* layout style */
 
 .sponser-head {
+  margin-top:120px;
   width: 100%;
-  height: 180px;
+  height: 100px;
   display: block;
   text-transform: capitalize;
 }
@@ -2308,6 +2309,7 @@ li span {
 /* Extra-small */
 @media screen and (max-width: 360px) {
   .sponser-head{
+    margin-top: 100px;
       height: 100px;
       max-height: 160px;
   }

@@ -105,8 +105,8 @@ export class Contactus extends Component {
             {/* <img  src="/img/clipart-phone-black-and-white-9.png" alt="contact-us" width="500" height="600"/> */}
 
             <div classNameName="wrapper row">
-        <a onClick={alert("")}><button type="button" className=" btn--border btn-read btn--animated">volanter</button></a>
-        <a onClick={alert("")}><button type="button" className=" btn--border btn-read btn--animated">speaker</button></a>
+        <a ><button type="button" className=" btn--border btn-read btn--animated">volanter</button></a>
+        <a ><button type="button" className=" btn--border btn-read btn--animated">speaker</button></a>
       </div>
      
               
