@@ -3,8 +3,11 @@ import React from "react";
 function Sponsers() {
   return (
 <div>
-    <div className="sponser-head">
-            <h1><span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span></h1>
+
+<div className="sponser-head">
+            <h1>
+                <span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span>
+                </h1>
         </div>
         <div className="sponser-quotation">
             <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us with our event "Tangram". All thanks to thier sponsorship that were able to host our event and make it great</p>
@@ -14,30 +17,37 @@ function Sponsers() {
                 <img src="\img\sponsers\Burger-King.png" title="Burger King" alt="Burger king"/>
                 <span>Burger King</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\Chess.png" title="Chess" alt="Chess"/>
                 <span>Chess</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\Chicken-Buzz.png" title="Chicken Buzz" alt="Chicken Buzz"/>
                 <span>Chicken Buzz</span>
             </div>
+             
             <div className="sponser-card">
                 <img className="crispy" src="\img\sponsers\Crispy-meals.png" alt="Crispy Meals" title="Crispy Meals"/>
                 <span>Crispy Meals</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\fatem.png" title="Fatem" alt="Fatem"/>
                 <span>Fatem</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\IBM.png" alt="IBM" title="IBM"/>
                 <span>IBM</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\Itqan.png" alt="Itqan" title="Itqan"/>
                 <span>ITQAN</span>
             </div>
+             
             <div className="sponser-card">
                 <img src="\img\sponsers\Panasonic.png" alt="Panasonic" title="Panasonic"/>
                 <span>Panasonic</span>
@@ -74,13 +84,11 @@ function Sponsers() {
                 <img src="\img\sponsers\TeensStuff.png" alt="TeensStuff" title="TeensStuff"/>
                 <span>TeensStuff</span>
             </div>
-        </div>
-        <div className="ending-grid">
-            <div className="ending-sponser-card">
+            <div className="sponser-card">
                 <img src="\img\sponsers\Tut_s-Socks.png" alt="Tuts Socks" title="Tuts Socks"/>
                 <span>Tuts Socks</span>
             </div>
-            <div className="ending-sponser-card">
+            <div className="sponser-card">
                 <img src="\img\sponsers\TicketsMarch.png" alt="Tickets March" title="Tickets March"/>
                 <span>Tickets March</span>
             </div>

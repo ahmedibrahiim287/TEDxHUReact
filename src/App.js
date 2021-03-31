@@ -1,13 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, Attend, Watch, Event2, Event3, Team, Sponsers, Contactus, Conductor } from "./components/index";
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <div className="App">
-      <Router path="/Home">
+      <Router >
         <Navigation />
+        <ScrollToTop/>
         <Switch>
-       <Route path="/Home" exact component={() => <Home />} />
+        <Route path="/" exact component={() => <Home />} />
+        <Route path="/Home" exact component={() => <Home />} />
        <Route path="/Attend" exact component={() => <Attend />} />
        <Route path="/Watch" exact component={() => <Watch />} />
        <Route path="/Conductor" exact component={() => <Conductor />} />
