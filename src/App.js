@@ -4,10 +4,11 @@ import { Navigation, Footer, Home, Attend, Watch, Event2, Event3, Team, Sponsers
 function App() {
   return (
     <div className="App">
-      <Router path="/Home">
+      <Router >
         <Navigation />
         <Switch>
-       <Route path="/Home" exact component={() => <Home />} />
+        <Route path="/" exact component={() => <Home />} />
+        <Route path="/Home" exact component={() => <Home />} />
        <Route path="/Attend" exact component={() => <Attend />} />
        <Route path="/Watch" exact component={() => <Watch />} />
        <Route path="/Conductor" exact component={() => <Conductor />} />
