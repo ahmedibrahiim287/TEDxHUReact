@@ -2302,3 +2302,139 @@ li span {
 }
 
 /* end countdown */
+*/
+
+/*
+#############################################
+                Sponsers Layout
+#############################################
+*/                
+
+.sponser-head{
+  width: 100%;
+  height: 52px;
+  max-height: 108px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.sponser-head h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 29px;
+  display: block;
+  margin:auto;
+}
+
+.sponser-head h1 .dash-color{color: red;}
+
+.sponser-quotation{
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+
+.sponser-quotation .sponser-quote{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.86);
+  width: 80%;
+  margin: auto;
+}
+
+.sponser-grid{
+  display: grid;
+  grid-template-rows: 250px 250px 250px 250px 60px;
+  grid-template-columns: repeat(4, 20%);
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-content: space-between;
+  text-transform: capitalize;
+}
+.sponser-grid .sponser-card{
+  display: block;
+  text-align: center;
+  height: 100px;
+  width: auto;
+}
+
+.sponser-grid .sponser-card img{
+  width: auto;
+  height: 150px;
+  max-width: auto;
+  max-height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.crispy{border-radius: 50%;}
+.sponser-grid .sponser-card span{
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 22px;
+  width: auto;
+
+}
+
+.ending-grid{
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: repeat(2, 20%);
+  width: 100%;
+  column-gap: 50px;
+  justify-content: center;
+  height: 200px;
+}
+.ending-grid .ending-sponser-card{
+  text-align: center;
+  width: auto;
+}
+
+.ending-grid .ending-sponser-card img{
+  width: auto;
+  height: 150px;
+  max-width: 225px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ending-grid .ending-sponser-card span{
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/*
+############################################################
+      Media Queries   will be back at the morning
+############################################################
+*/
+
+/* Extra-small */
+@media screen and (max-width: 360px) {
+  
+}
+
+/* Small */
+@media screen and (min-width: 361px) and (max-width: 591px) {
+}
+
+/* Medium-only */
+@media screen and (min-width: 592px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+}
+
+@media (min-width: 834px) and (max-width: 3000px) {
+}
