@@ -3,8 +3,35 @@ import React from "react";
 function Team() {
   return (
     <div id="container">
-          <div className="brief-conatiner "></div>
-    <div className="brief-conatiner ">
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    
+<section className="padd container boot-elemant-bggggg py-md-5 py-4  " >
+    
+<div className="container position-relative py-md-5 py-0">
+<div className="brief-conatiner "></div>
+<div className="brief-conatiner "></div>
+
+            <div className="row">
+        <div className="evicon col-lg-8">
+            <span className="text-black text-uppercase  "> </span>
+            <h2 className="text-white display-3 font-weight-bold"> </h2>
+            <p className="f-w-16 mb-4"> </p>
+            
+          
+        </div>
+    </div>
+</div>
+<div className="elemant-bg-overlay black"></div>
+</section>
+   
+  
+  <div className="brief-conatiner ">
       <h2>About <span className="ted-color">TED</span><div class="underline"></div></h2>
       <p>
           TED is a non profit organization devoted to Ideas worth Spreading. It started out (in 1984) as a conference bringing together people from three worlds: Technology, 
@@ -25,14 +52,7 @@ function Team() {
         </p>
     </div>
 
-    <div className="brief-conatiner">
-        <h2 className="helwan-head"><i className="arrow right"></i> About <span className="ted-color">Tedx</span>HelwanUniversity</h2>
-        <p>An independently organized TED event in Helwan
-            Proceeding from our belief in the power of ideas, we determined to create a community of ideas aiming to enrich our community minds.
-            Also inspiring and motivating them to cope with and contribute to the age of renaissance that our country lives in recently,
-            hoping to get out and reach the global edge of success starting from Helwan University.
-        </p>
-    </div>
+
     <div className="brief-conatiner "></div>
 
     <div className="quote-container">
@@ -49,7 +69,7 @@ function Team() {
         </div>
     </div>
     {/* Team Layout */}
-    <div className="table-parent">
+    <div className="table-parent  posit">
         {/*HR Comittee*/}
         <div className="grid-card">
             <img src="\img\board2\Rawan Mahmoud - Human Resources Curator.png" alt="Rawan Mahmoud" title="Rawan Mahmoud"/>

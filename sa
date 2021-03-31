@@ -1,0 +1,5 @@
+
+    <div className="brief-container allteam">
+    <img src="/img/all team.jpeg" alt="Tangram logo" className="allteam img-responsive"/>
+    
+  </div> 

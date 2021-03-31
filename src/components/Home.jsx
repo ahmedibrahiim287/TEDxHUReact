@@ -82,6 +82,8 @@ import 'react-awesome-slider/dist/styles.css';
   </div>
 </div>
 
+
+
     <div className="brief-conatiner "></div>
         {/* 
            __   
