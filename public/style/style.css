@@ -2438,3 +2438,12 @@ li span {
 
 @media (min-width: 834px) and (max-width: 3000px) {
 }
+
+.evicon {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 15%;
+  display: block;
+}
