@@ -1,9 +1,12 @@
-import React from "react";
+import React, {Component} from "react";
 import AwesomeSlider from 'react-awesome-slider'; 
 import 'react-awesome-slider/dist/styles.css';
 
 
-function Home() {
+    export class Home extends Component{
+        
+     
+        render(){
   return (
     <div class="container">
      <br/>
@@ -41,7 +44,7 @@ function Home() {
           <h5>
               sponsors <br></br>
               18
-              </h5>
+              </h5>                  
           </div>
   
           <tbody>
@@ -110,7 +113,7 @@ function Home() {
 
         </div>
 
-  );
+);
 }
-
+}
 export default Home;
