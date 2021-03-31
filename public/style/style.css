@@ -35,7 +35,7 @@ h5 {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
-  text-shadow: 10px 2px 10px #530404d8;
+  text-shadow: 10px 2px 10px rgb(255, 0, 0);
   
   align-self: center;
 }
@@ -48,13 +48,13 @@ p.intro {
 }
 a,
 button {
-  color: #fd6060;
+  color: rgb(255, 0, 0);
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #fd6060;
+  color: rgb(255, 0, 0);
 }
 ul,
 ol {
@@ -69,7 +69,7 @@ hr {
   width: 70px;
   text-align: center;
   position: relative;
-  background: #1e7a46;
+  background: rgb(255, 0, 0);
   margin-bottom: 20px;
   border: 0;
 }
@@ -180,7 +180,7 @@ button {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
+  background-color: #770000;
   background-image: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -198,7 +198,7 @@ button {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #ac0000;
 }
 .btn:active,
 .btn.active {
@@ -814,6 +814,7 @@ label {
   }
   .ico {
     padding: 0px !important;
+
   }
 }
 @media (min-width: 834px) and (max-width: 3000px) {
@@ -1097,9 +1098,9 @@ button {
 
 .grid-holder {
   margin-top: 20px;
-  background-color: rgb(221, 34, 34);
+  background-image: linear-gradient(to right, #b90000 0%, #ff2525 100%);
   box-shadow: 0px 0px 20px #888484d8;
-  border-radius: 25px;
+  border-radius: 10px;
   height: 100px;
   color: white;
   display: grid;
@@ -1118,58 +1119,57 @@ button {
 /* Abdeldayem end */
 
 /* countdown  yahya */
-.countdown-container {
-  display: block; /*displays divs on a line*/
- /*gives the div element a width of 300px*/
-  border-radius: 5px; /*curves the edges of the div element by 5px;*/
-  color: #be0000; /*gives the div element a background color*/
+/* .countdown-container {
+  display: block;
+  border-radius: 5px; 
+  color: #be0000;
   margin: 0 auto;
   padding-top: 200px;
   
-}
-.countdown {
-   /*changes the text font in the divelement */
-  color: black; /*gives the div element a background color*/
+} */
+/* .countdown {
+   
+  color: black; 
   font-size: 300%;
   padding: 10px;
   width:100%;
   text-align: center;
   display:block;
   
-}
+} 
 
-.countdown span {
-  font-weight: bold; /*boldens text in the span element*/
+/* .countdown span {
+  font-weight: bold; 
   margin: 0 auto;
   text-align: center;
   color: #ff0000;
-}
-.desc .title {
+} */
+/* .desc .title {
   text-align: center;
   color: black;
   padding-bottom: 25px;
   font-size: 300%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+} */
 
-.countdownTitle {
-  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+/* .countdownTitle {
+  font-family: "Fira Sans", sans-serif; 
   font-size: 200%;
   color: grey;
   text-align: center;
-}
-
+} */
+/* 
 .countdownTitle .countTitle {
   padding: 10px;
   margin-right: 13%;
-}
+} */
 
-.countdown-container h2 {
+ /* .countdown-container h2 {
   text-align: center;
   padding-top: 50px;
   font-size: 200%;
-  font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
-}
+  font-family: "Fira Sans", sans-serif; 
+}  */
 
 /* style -arafa- tangraminfo */
 @font-face {
@@ -2227,3 +2227,57 @@ and (-webkit-min-device-pixel-ratio: 2) {
             Team Layout Is Done
 #############################################
 */                
+
+/* start count down */
+#countdown.container {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(to right, #b90000 0%, #ff2525 100%);
+}
+
+#headline.h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+.cd {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 3em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.message {
+  font-size: 4rem;
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  .cd {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+}
+
+/* end countdown */
