@@ -1353,6 +1353,27 @@ h6,
   background-size: cover;
   height: 534px;
 }
+.boot-elemant-bgg {
+  background-image: url("../img/eventcover/conn.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 534px;
+}
+.boot-elemant-bggg {
+  background-image: url("../img/eventcover/tele.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 534px;
+}
+.boot-elemant-bgggg {
+  background-image: url("../img/eventcover/leg.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 534px;
+}
 .elemant-bg-overlay {
   position: absolute;
   height: 100%;
@@ -2005,4 +2026,12 @@ img.slide {
   .padd {
     width: 90%;
   }
+}
+.evicon {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 15%;
+  display: block;
 }
