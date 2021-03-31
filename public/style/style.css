@@ -2163,7 +2163,7 @@ li span {
 
 /*
 #############################################
-                Sponsers Layout
+                Sponsers Layout Is Done
 #############################################
 */                
 
@@ -2204,7 +2204,7 @@ li span {
 
 .sponser-grid{
   display: grid;
-  grid-template-rows: 250px 250px 250px 250px 60px;
+  grid-template-rows: 250px 250px 250px 250px 250px 0px;
   grid-template-columns: repeat(4, 20%);
   height: auto;
   width: 100%;
@@ -2212,11 +2212,13 @@ li span {
   align-content: space-between;
   text-transform: capitalize;
 }
+
 .sponser-grid .sponser-card{
   display: block;
   text-align: center;
   height: 100px;
   width: auto;
+  
 }
 
 .sponser-grid .sponser-card img{
@@ -2240,57 +2242,153 @@ li span {
 
 }
 
-.ending-grid{
-  display: grid;
-  grid-template-rows: 150px;
-  grid-template-columns: repeat(2, 20%);
-  width: 100%;
-  column-gap: 50px;
-  justify-content: center;
-  height: 200px;
-}
-.ending-grid .ending-sponser-card{
-  text-align: center;
-  width: auto;
-}
-
-.ending-grid .ending-sponser-card img{
-  width: auto;
-  height: 150px;
-  max-width: 225px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.ending-grid .ending-sponser-card span{
-  display: block;
-  text-align: center;
-  margin-top: 25px;
-  font-weight: 400;
-  font-size: 22px;
-}
-
 /*
 ############################################################
-      Media Queries   will be back at the morning
+      Media Queries  
 ############################################################
 */
 
 /* Extra-small */
 @media screen and (max-width: 360px) {
-  
+  .sponser-head{
+      height: 100px;
+      max-height: 160px;
+  }
+  .sponser-head h1{font-size: 20px;}
+  .sponser-head h1 .dash-color{color: red;}
+  .sponser-quotation{height: 150px;}
+  .sponser-quotation .sponser-quote{font-size: 16px;}
+  .sponser-grid{
+      display: grid;
+      grid-template-rows: repeat(6, 200px);
+      grid-template-columns: repeat(3, 22%);
+      height: auto;
+      width: 95%;
+      justify-content: space-around;
+  }
+  .sponser-grid .sponser-card{
+      height: 86x;
+      width: 100%;
+  }
+  .sponser-grid .sponser-card img{
+      width: 70px;
+      height: 70px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .sponser-grid .sponser-card span{
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 14px;
+  }
 }
 
 /* Small */
 @media screen and (min-width: 361px) and (max-width: 591px) {
+  .sponser-head{
+      height: 74px;
+      max-height: 160px;
+  }
+  .sponser-head h1{font-size: 20px;}
+  .sponser-head h1 .dash-color{color: red;}
+  .sponser-quotation{height: 150px;}
+  .sponser-quotation .sponser-quote{font-size: 16px;}
+  .sponser-grid{
+      display: grid;
+      grid-template-rows: repeat(5, 200px);
+      grid-template-columns: repeat(4, 15%);
+      height: auto;
+      width: 95%;
+      justify-content: space-around;
+  }
+  .sponser-grid .sponser-card{
+      height: 150x;
+      width: 100%;
+      color: #303030 !important;
+  }
+  .sponser-grid .sponser-card img{
+      width: 70px;
+      height: 70px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .sponser-grid .sponser-card span{
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 16px;
+  }
 }
 
 /* Medium-only */
 @media screen and (min-width: 592px) and (max-width: 767px) {
+  .sponser-head{
+      height: 74px;
+      max-height: 160px;
+  }
+  .sponser-head h1{font-size: 22px;}
+  .sponser-head h1 .dash-color{color: red;}
+  .sponser-quotation{height: 150px;}
+  .sponser-quotation .sponser-quote{font-size: 18px;}
+  .sponser-grid{
+      display: grid;
+      grid-template-rows: repeat(5, 200px);
+      grid-template-columns: repeat(4, 15%);
+      height: auto;
+      width: 95%;
+      justify-content: space-around;
+  }
+  .sponser-grid .sponser-card{
+      height: 150x;
+      width: 100%;
+      color: #303030 !important;
+  }
+  .sponser-grid .sponser-card img{
+      width: 70px;
+      height: 70px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .sponser-grid .sponser-card span{
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 833px) {
+
+  .sponser-head{
+      height: 74px;
+      max-height: 160px;
+  }
+  .sponser-head h1{font-size: 24px;}
+  .sponser-head h1 .dash-color{color: red;}
+  .sponser-quotation{height: 150px;}
+  .sponser-quotation .sponser-quote{font-size: 20px;}
+  .sponser-grid{
+      display: grid;
+      grid-template-rows: repeat(5, 200px);
+      grid-template-columns: repeat(4, 15%);
+      height: auto;
+      justify-content: space-around;
+  }
+  .sponser-grid .sponser-card{
+      height: 150x;
+      width: 100%;
+      color: #303030 !important;
+  }
+  .sponser-grid .sponser-card img{
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .sponser-grid .sponser-card span{
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 16px;
+  }
+
 }
 
 @media (min-width: 834px) and (max-width: 3000px) {
@@ -2428,3 +2526,36 @@ li span {
   float: inline-end;
 }
 /* form end */
+@media (min-width: 834px) and (max-width: 1280px) {
+  .sponser-head{
+      height: 74px;
+      max-height: 160px;
+  }
+  .sponser-head h1{font-size: 24px;}
+  .sponser-head h1 .dash-color{color: red;}
+  .sponser-quotation{height: 150px;}
+  .sponser-quotation .sponser-quote{font-size: 20px;}
+  .sponser-grid{
+      display: grid;
+      grid-template-rows: repeat(5, 250px);
+      grid-template-columns: repeat(4, 15%);
+      height: auto;
+      justify-content: space-around;
+  }
+  .sponser-grid .sponser-card{
+      height: 150px;
+      width: 100%;
+      color: #303030 !important;
+  }
+  .sponser-grid .sponser-card img{
+      width: 150px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .sponser-grid .sponser-card span{
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 16px;
+  }
+}
