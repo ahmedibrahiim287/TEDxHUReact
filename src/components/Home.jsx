@@ -8,43 +8,54 @@ import 'react-awesome-slider/dist/styles.css';
      
         render(){
   return (
-    <div class="container">
+    <div className="container-fluid" style={{padding :0 }}>
      <br/>
      <br/>
      <br/>
+<div>
+
+  
+<div class="alrazy-title" data-splitting>Welcome TEDx Helwan university 2021</div>
+<script src="https://unpkg.com/splitting@1.0.0/dist/splitting.js"></script>
+<script>
+    Splitting();
+</script>
   <AwesomeSlider bullets={false} class="slider-container" >
-    <div data-src="\img\Event-Cover.jpg" />
+  
+    <div data-src="\img\Teleportation\40330198_2092329610791458_9202531322231259136_o.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\40298030_2092329867458099_5504781320389132288_o.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\40512934_2092332977457788_6237028374833790976_o.jpg"/>
     {/*  eslint-disable-next-line  */}
-    <div data-src="\img\Teleportation\40330198_2092329610791458_9202531322231259136_o.jpg" />
+    <div data-src="\img\Event-Cover.jpg" />
     <div data-src="\img\slider\cover-1.png" />
   </AwesomeSlider>
+  </div>
+
 
   <div className="grid-holder">
           <div className="grid-box">
           
-            <h5>Attendees <br></br>
+            <h5 className="calco">Attendees <br></br>
             1100
             </h5>
           </div>
         
           <div className="grid-box">
-          <h5>
+          <h5  className="calco">
               Members <br></br>
               +400
               </h5>
           </div>
           <div className="grid-box">
-          <h5>
+          <h5  className="calco">
             Speakers <br></br>
             43
             </h5>
           </div>
           <div className="grid-box">
-          <h5>
+          <h5 className="calco">
               sponsors <br></br>
               18
               </h5>                  
@@ -54,8 +65,12 @@ import 'react-awesome-slider/dist/styles.css';
   
           </tbody>
       </div>
-          
+    
+
+  
+    
     <div className="brief-conatiner ">
+    
         <h2 className="helwan-head"><i className="arrow right"></i> About <span className="ted-color">Tedx</span>HelwanUniversity</h2>
         <p>An independently organized TED event in Helwan
             Proceeding from our belief in the power of ideas, we determined to create a community of ideas aiming to enrich our community minds.
@@ -65,7 +80,14 @@ import 'react-awesome-slider/dist/styles.css';
     </div>
 
     <div className="brief-conatiner "></div>
-    
+    <div class="container">
+    <div class="row text-center">
+    <div class = "centered">
+    <div class = "blob-1"></div>
+    <div class = "blob-2"></div>
+</div>
+    </div>
+</div>
     <div id="countdown" class="container">
   <h1 id="headline">Countdown To Our Next Event:</h1>
   <div id="countdown">
