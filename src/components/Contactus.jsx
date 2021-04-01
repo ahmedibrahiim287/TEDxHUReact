@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import axios from 'axios';
-import { Fragment } from "react";
+
 
 export class Contactus extends Component {
 
@@ -48,89 +48,46 @@ export class Contactus extends Component {
 
   render() {
   return (
-  
+ 
 <div className="container">
-       <div className="row " id="contatti">
-    <div className="container mt-5 " >
-    
-        <div class="row" style={{height:550}}>
-         
-          <div className="thanks-photo lefti">
-            <h2 className="text-uppercase mt-3 font-weight-bold text-black">Contact Us</h2>
-            <form action="">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="form-group">
-                  <label class="prod-form" for="name">Your Name</label>
-                    <input type="text" className="form-control mt-2" placeholder="Name" 
-                     required value={this.state.name}  onChange={this.onChangeName}/>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="form-group">
-                  <label class="prod-form" for="Email">Email address</label>
-                    <input type="email" className="form-control mt-2" placeholder="Email" 
-                    required value={this.state.email} onChange={this.onChangeEmail}/>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="form-group">
-                    <input type="text" className="form-control mt-2" placeholder="subject" 
-                      required  value={this.state.subject}
-                      onChange={this.onChangeSubject}/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-6">
-                  <div className="form-group">
-                    <input type="phone" className="form-control mt-2" placeholder="phone number" required/>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="form-group">
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="your massage" rows="3" required
-                   value={this.state.message} onChange={this.onChangeMessage} ></textarea>
-                  </div>
-                </div>
-
-                <div className="wrapper col-6">
-                  <a href=""><button type="submit" className=" btn--border btn-read btn--animated"onClick={e => this.onSubmit(e)} >SUBMIT</button></a>
+<br/> <br/> <br/> <br/> <br/> <br/> <br/>
+<div class="contact-shape">
+<div class="top-border left"></div>
+<div class="top-border right"></div>
+<h1>CONTACT US</h1>
+<p>We'd love to hear from you so please dont hesitate to contact us ! </p>
+  <a>CONTACT US</a>
+</div>
+<div >  
+<form id="contact" action="" method="post">
+  <h3>Contact <span class="color-con">Us</span></h3>
+    <img className="img-responsive" src="/img/clipart-phone-black-and-white-9.png" alt="phone call" title="phone call"/>
+    <div style={{align:'center'}} >
+  <fieldset>
+    <input placeholder="Your name" value={this.state.name}  onChange={this.onChangeName} type="text" tabindex="1" required autoFocus/>
+  </fieldset>
+  <fieldset>
+    <input placeholder="Your Email Address" value={this.state.email} onChange={this.onChangeEmail} type="email" tabindex="2" required/>
+  </fieldset>
+  <fieldset>
+    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required/>
+  </fieldset>
+  <fieldset>
+    <input placeholder="Your Web Site (optional)" value={this.state.subject}   onChange={this.onChangeSubject} type="url" tabindex="4" required/>
+  </fieldset>
+  <fieldset>
+    <textarea placeholder="Type your message here...." value={this.state.message} onChange={this.onChangeMessage} tabindex="5" required></textarea>
+  </fieldset>
+  <fieldset>
+  <div className="wrapper col-6">
+   <a ><button type="submit" className=" btn--border btn-read btn--animated"onClick={e => this.onSubmit(e)} >SUBMIT</button></a>
                 </div>    
 
-            </div>
-            </form>
-            </div> 
-            
-          <div className=" thanks-photo righti " >
-            {/* <img  src="/img/clipart-phone-black-and-white-9.png" alt="contact-us" width="500" height="600"/> */}
-
-            <div classNameName="wrapper row">
-        <a ><button type="button" className=" btn--border btn-read btn--animated">volanter</button></a>
-        <a ><button type="button" className=" btn--border btn-read btn--animated">speaker</button></a>
-      </div>
-     
-              
-            
-
-            
-            <div className="brief-container">
-               <br/>
-            <h2 className="text-uppercase mt-4 font-weight-bold">find us</h2>
-            <div className="my-4">
-                <a href=" https://www.facebook.com/TEDxHUni/"><i class="fab fa-facebook fa-3x"></i></a>
-                <a href="https://www.linkedin.com/company/tedxhuni/"><i class="fab fa-linkedin fa-3x"></i></a>
-                {/* <a href=""><i class="fab fa-instagram-square "></i></a>  */}
-                <a href="https://www.youtube.com/user/TEDxTalks/videos"><i class="fab fa-youtube fa-3x"></i></a>
-                <a href="https://www.instagram.com/TEDxHUni/"><i class="fab fa-instagram fa-3x"></i></a>
-                </div>
-            <i className="fas fa-phone mt-3"></i> <a href="tel:+">+201158567766</a><br/>
-            <i className="fa fa-envelope mt-3"></i> <a href="Tedxhelwanuniversity@gmail.com">Tedxhelwanuniversity@gmail.com</a><br/>
-          
-            </div> </div> </div>
-              <br/>
-       <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-      </div> 
-       </div></div>
+  </fieldset>
+  </div>
+</form>
+</div>
+</div>
   );
 }
 }
