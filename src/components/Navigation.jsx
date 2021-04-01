@@ -10,7 +10,7 @@ function Navigation(props) {
 
     <nav id="menu" className="navbar-default navbar-fixed-top navbar-dark " role="navigation">
     <div className="container ">
-        <div class="navbar-header naaz">
+        <div className="navbar-header naaz">
  
 
      
@@ -28,15 +28,8 @@ function Navigation(props) {
       </button>
 
 
-
-
-
-
-
-
-
          
-          <Link class="navbar-brand page-scroll" to="/Home">
+          <Link className="navbar-brand page-scroll" to="/Home">
           <img className="Logo" src={logob}  alt="Logo"/>
           </Link>
           </div>
@@ -44,17 +37,17 @@ function Navigation(props) {
 
             <ul className="nav navbar-nav navbar-left">
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Home" ? "active" : ""
                 }`}
               >
                 <Link className="page-scroll" to="/Home">
                   Home
-                  <span class="sr-only">(current)</span>
+                  <span className="sr-only">(current)</span>
                 </Link>
               </li>
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Attend" ? "active" : ""
                 }`}
               >
@@ -63,7 +56,7 @@ function Navigation(props) {
                 </Link>
               </li>
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Watch" ? "active" : ""
                 }`}
               >
@@ -75,7 +68,7 @@ function Navigation(props) {
 
             <ul className="nav navbar-nav navbar-right">
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Team" ? "active" : ""
                 }`}
               >
@@ -84,7 +77,7 @@ function Navigation(props) {
                 </Link>
               </li>
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Sponsers" ? "active" : ""
                 }`}
               >
@@ -93,12 +86,12 @@ function Navigation(props) {
                 </Link>
               </li>
               <li
-                class={`nav-item  ${
+                className={`nav-item  ${
                   props.location.pathname === "/Contactus" ? "active" : ""
                 }`}
               >
                 <Link className="page-scroll" to="/Contactus">
-                  Contactus
+                  Contact us
                 </Link>
               </li>
             </ul>

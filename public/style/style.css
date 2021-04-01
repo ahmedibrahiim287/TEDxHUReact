@@ -1013,8 +1013,9 @@ button {
 }
 
 .right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+  /* transform: rotate(45deg); */
+  /* -webkit-transform: rotate(-45deg); */
+  right:0;
 }
 
 .brief-conatiner p,
@@ -2192,8 +2193,7 @@ li span {
 
 .sponser-head {
   width: 100%;
-  height: 52px;
-  max-height: 108px;
+  height: 250px;
   display: block;
   text-transform: capitalize;
 }
@@ -2204,6 +2204,8 @@ li span {
   font-size: 29px;
   display: block;
   margin: auto;
+  height: auto;
+  color: rgba(0, 0, 0, 0.842);
 }
 
 .sponser-head h1 .dash-color {
@@ -2229,7 +2231,7 @@ li span {
 
 .sponser-grid {
   display: grid;
-  grid-template-rows: 250px 250px 250px 250px 250px 0px;
+  grid-template-rows: 250px 250px 250px 250px 250px 150px;
   grid-template-columns: repeat(4, 20%);
   height: auto;
   width: 100%;
@@ -2264,9 +2266,10 @@ li span {
   display: block;
   text-align: center;
   margin-top: 25px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 22px;
   width: auto;
+  color: #000;
 }
 
 .ending-grid {
@@ -2503,88 +2506,6 @@ li span {
 }
 /* end button hover */
 
-#contatti {
-  margin-top: 200px;
-  background-color: #fff;
-  letter-spacing: 2px;
-  height: auto;
-
-}
-#contatti a {
-  color: #000;
-  text-decoration: none;
-  margin-left: 25px;
-}
-
-@media (max-width: 575.98px) {
-  #contatti {
-    padding-bottom: 800px;
-  }
-  #contatti .maps iframe {
-    width: 100%;
-    height: 450px;
-  }
-}
-
-@media (min-width: 576px) {
-  #contatti {
-    padding-bottom: 800px;
-  }
-
-  #contatti .maps iframe {
-    width: 100%;
-    height: 450px;
-  }
-}
-
-@media (min-width: 768px) {
-  #contatti {
-    padding-bottom: 350px;
-  }
-
-  #contatti .maps iframe {
-    width: 100%;
-    height: 850px;
-  }
-}
-
-@media (min-width: 992px) {
-  #contatti {
-    padding-bottom: 200px;
-  }
-
-  #contatti .maps iframe {
-    width: 100%;
-    height: 700px;
-  }
-}
- 
-.thanks-photo {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0;
-  border-radius: 20px;
-  border: 2px salmon solid;
-  padding: 29px;
-  align-content: center;
-
-}
-.lefti{
-  width: auto;
-  max-width: 50%;
-  align-self: left;
-  align-content:center ;
-}
-.righti{
-  width: auto;
-  max-width: 50%;
-  align-self: right;
-  float: inline-end;
-}
-/* form end */
 
 @media (min-width: 834px) and (max-width: 1280px) {
   .sponser-head{
@@ -2620,3 +2541,306 @@ li span {
   }
 }
 
+.contact-shape {
+  position: relative;
+  width: 900px;
+  max-width: 80%;
+  border: 3px solid #333;
+  border-top: none;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.contact-shape h1 {
+  position: relative;
+  margin-top: -14px;
+  display: inline-block;
+  letter-spacing: 4px;
+}
+
+.top-border{
+  position: absolute;
+  height: 2px;
+  width: 24%;
+  background-color: #333;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+/*
+##################################################################
+                    Contact Us Form Full Responsive
+##################################################################
+*/
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: rgba(59, 59, 59, 0.164);
+  padding: 25px;
+  margin: 75px 0; 
+  /* width: 90%; */
+  position: relative;
+  border-radius: 8px;
+  display: none;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 65px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.color-con{
+  color: red;
+  align-items: center;
+}
+
+#contact  img{
+  display: inline;
+  position: absolute;
+  right:0;
+  width: 326px;
+  height: 400px;
+  margin-right: 80px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+ 
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 50%;
+  border: 1.5px solid #303030;
+  background: #FFF;
+  margin: 0 0 28px;
+  padding: 18px;
+  position: center;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1.5px solid #303030;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.18);
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+  font-size: 16px
+}
+
+:-moz-placeholder {
+  color: #888;
+  font-size: 16px
+}
+
+::-moz-placeholder {
+  color: #888;
+  font-size: 16px
+}
+
+:-ms-input-placeholder {
+  color: #888;
+  font-size: 16px
+}
+
+/*
+#########################################################
+                  Media Queries
+#########################################################
+*/                    
+@media (max-width: 700px) {
+.top-border {width: 18%;}
+  .contact-shape h1{padding-top: 25px;}
+  #contact img{display: none;}
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {width: 100%}
+}
+
+.contact-shape p {
+  width: 61%;
+  margin: 20px auto 40px auto;
+  line-height: 30px;
+}
+
+.contact-shape a {
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 440px;
+  max-width: 80%;
+  background-color: #333 !important;
+  color: #fff !important; 
+  font-size: 22px;
+  letter-spacing: 3px;
+  border-radius: 13px;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+.contact-shape a:hover {background-color: #1D222D;cursor: pointer;}
+.contact-shape a:link, .contact-shape a:visited, .contact-shape a:link:hover, .contact-shape a:visited:hover {text-decoration: none;color: #fff;}
+
+@media (max-width: 500px) {
+  #contact img{
+    width: 50%;
+    height: 50%;
+  }
+}
+
+
+/*
+##################################
+              Event Box Style
+##################################
+*/
+i{
+  margin:5px;
+}
+.location-container{
+  width: 50%;
+  height: 300px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 35px;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(4, 65px);
+  justify-content: center;
+}
+
+.location-container a{text-decoration: none;}
+.location-box{
+  width: 100%;
+  text-align: center;
+}
+.location-container .location-box a:visited{color: #f00;}
+.location-container .location-box a:hover{
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+.location-container .location-box a:active{color: #f00;}
+.location-container .location-box a i{
+  color: #f00;
+  font-size: 36px;
+}
+.location-container .location-box a span{
+  color: #f00;
+  font-weight: 600;
+}
+.attend-box{width: 100%;text-align: center;}
+.attend-box a.button {
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 50px;
+  padding: 10px;
+  color: #FFF;
+  background-color: #000;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+.attend-box .btnFade:hover {
+  background-color: #f00;
+  color: white;
+}
+.attend-box .attend-box a:hover{color: #fff;}
+
+/*
+##########################################
+        Media Queries Of location
+##########################################
+*/
+
+@media screen and (min-width:270px) and (max-width:715px) {
+  .location-container{
+    width: 50%;
+    height: 300px;
+    font-size: 24px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 80px);
+  }
+  .attend-box a.button {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width:716px) and (max-width:1210px) {
+  .location-container{
+    width: 50%;
+    height: 300px;
+    font-size: 24px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 80px);
+  }
+  .attend-box a.button {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

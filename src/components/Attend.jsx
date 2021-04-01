@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Attend() {
   return (
   <div className="container">
@@ -10,7 +11,7 @@ function Attend() {
 
 
 <div className="brief-container">
-  <img src="/img/Event-Cover.jpg" alt="Tangram logo" class="img-responsive"/>
+  <img src="/img/slider/tang.png" alt="Tangram logo" class="img-responsive"/>
 </div>
 
 <div className="brief-conatiner ">
@@ -23,22 +24,43 @@ function Attend() {
           the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
       </p>
     </div>
-    <hl></hl>
-    <div class="col-md-3">
-          
-          <ul class="list-inline">
-            <li> 
-            <i class="FA fas fa-map-marker-alt"> <a href="#" > </a></i></li>
-            <li><i class="FA fas fa-calendar-alt"></i></li>
-            <li><i class=" FA far fa-clock" ></i></li>
-          </ul>
-      
+    <div className="location-container">
+      {/* Location Div*/}
+      <div className="location-box">
+        <a rel="noreferrer" href="https://www.google.com/maps/place/El+Nahar+Theater/@30.0277383,31.2298957,17z/data=!3m1!4b1!4m5!3m4!1s0x145847311324514b:0xa3537595f7e8729f!8m2!3d30.0277383!4d31.2320844?hl=en-US" target="_blank">
+          <i className="fa fa-map-marker" aria-hidden="true"></i>
+          <span> El Nahar Theater</span>
+        </a>
+      </div>
+      {/* End Of Location Div*/}
+      {/*Calender Div*/}
+        <div className="location-box">
+          <i className="fa fa-calendar" aria-hidden="true"> </i>
+          <span> Satuerday, 10 April 2021</span>
+        </div>
+      {/*End Of Calender Div*/}
+      {/*Clock Div*/}
+      <div className="location-box">
+        <i className="fa fa-clock-o" aria-hidden="true"></i>
+        <span>10:00 A.M</span>
+      </div>
+      {/*End Of Clock Div*/}
+      {/*Clock Div*/}
+      <div className="attend-box">
+        <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScuHWLJFBMlPveaevj-_XkRl1dOufoo6QSNn9PsixqVReDI8g/viewform" target="_blank" title="Button fade lightblue" className="button btnFade">Attend Now</a>
+      </div>
+      {/*End Of Clock Div*/}
     </div>
+               
+    
     <div className="brief-conatiner "></div>
-
   
+ 
+
+    <div className="brief-conatiner "></div><div className="brief-conatiner "></div>
   </div>
   );
 }
+
 
 export default Attend;

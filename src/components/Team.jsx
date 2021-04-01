@@ -156,7 +156,7 @@ function Team() {
             <span className="head-title">Executive of Fundraising</span>
         </div>
         <div className="grid-card">
-            <img src="\img\board2\Radwa%20Ashraf-Executive%20of%20Fundraising.png" alt="Rawan Mohamed" title="Rawan Mohamed"/>
+            <img src="\img\board2\Rawan Mohamed-Vice Executive of Fundraising.png" alt="Rawan Mohamed" title="Rawan Mohamed"/>
             <span className="head-name">Rawan Mohamed</span>
             <span className="head-title">Vice Executive of Fundraising</span>
         </div>
