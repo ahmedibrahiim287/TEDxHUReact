@@ -24,8 +24,6 @@ function Attend() {
           the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
       </p>
     </div>
-    <hl></hl>
-
     <div className="location-container">
       {/* Location Div*/}
       <div className="location-box">
@@ -45,6 +43,11 @@ function Attend() {
       <div className="location-box">
         <i className="fa fa-clock-o" aria-hidden="true"></i>
         <span>10:00 A.M</span>
+      </div>
+      {/*End Of Clock Div*/}
+      {/*Clock Div*/}
+      <div className="attend-box">
+        <a href="" title="Button fade lightblue" className="button btnFade">Attend Now</a>
       </div>
       {/*End Of Clock Div*/}
     </div>

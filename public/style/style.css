@@ -2765,22 +2765,22 @@ fieldset {
 
 .location-container{
   width: 50%;
-  height: 175px;
+  height: 300px;
   background-color: #fff;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 35px;
   font-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(4, 65px);
+  justify-content: center;
 }
 
-.location-container> Div{
-  display:block;
-  line-height: 2.0;
-}
+.location-container a{text-decoration: none;}
 .location-box{
   width: 100%;
   text-align: center;
 }
-.location-container .location-box a{text-decoration: none;}
 .location-container .location-box a:visited{color: #f00;}
 .location-container .location-box a:hover{
   text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
@@ -2791,8 +2791,65 @@ fieldset {
   color: #f00;
   font-size: 36px;
 }
-.location-container .location-box i{padding-right: 12px;}
-
 .location-container .location-box a span{
-  color: #f00;font-weight: 400;}
-.location-container .location-box span{color: rgba(0, 0, 0, 0.678);font-weight: 400;}
+  color: #f00;
+  font-weight: 600;
+}
+.attend-box{width: 100%;text-align: center;}
+.attend-box a.button {
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 50px;
+  padding: 10px;
+  color: #FFF;
+  background-color: #000;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+.attend-box .btnFade:hover {
+  background-color: #f00;
+  color: white;
+}
+.attend-box .attend-box a:hover{color: #fff;}
+
+/*
+##########################################
+        Media Queries Of location
+##########################################
+*/
+
+@media screen and (min-width:270px) and (max-width:715px) {
+  .location-container{
+    width: 50%;
+    height: 300px;
+    font-size: 24px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 80px);
+  }
+  .attend-box a.button {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width:716px) and (max-width:1210px) {
+  .location-container{
+    width: 50%;
+    height: 300px;
+    font-size: 24px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 80px);
+  }
+  .attend-box a.button {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
