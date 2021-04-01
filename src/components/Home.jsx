@@ -14,8 +14,11 @@ import 'react-awesome-slider/dist/styles.css';
      <br/>
   <AwesomeSlider bullets={false} class="slider-container" >
     <div data-src="\img\Event-Cover.jpg" />
+    {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\40298030_2092329867458099_5504781320389132288_o.jpg" />
+    {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\40512934_2092332977457788_6237028374833790976_o.jpg"/>
+    {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\40330198_2092329610791458_9202531322231259136_o.jpg" />
     <div data-src="\img\slider\cover-1.png" />
   </AwesomeSlider>

@@ -1,8 +1,8 @@
 import React from "react";
 
-function Event2() {
+function Legacy() {
   return (
-    <div className="about">
+    <div className="contact">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
@@ -13,7 +13,7 @@ function Event2() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Event2</h1>
+            <h1 class="font-weight-light">Event3</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,4 +27,4 @@ function Event2() {
   );
 }
 
-export default Event2;
+export default Legacy;

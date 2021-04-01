@@ -24,7 +24,7 @@ function Watch() {
                     <a target="_blank" href=" https://www.ted.com/tedx/events/40335" className="btn btn-outline-white btn-lg px-4"  >TED <i className="fas fa-times" style={{color: "red"}}></i> </a>
                     <a target="_blank" href=" https://www.facebook.com/events/3336545329780286/" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
                     <a target="_blank" href=" https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-youtube"></i> </a>
-                    <a target="_blank" href="./Attend " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
+                    <a target="_blank" href="./Tangram " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
 
                 </div>
             </div>
@@ -78,7 +78,7 @@ function Watch() {
         
                     <a target="_blank" href=" https://www.facebook.com/events/987826524703844" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
                     <a target="_blank" href=" https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-youtube"></i> </a>
-                    <a target="_blank" href="./Event3 " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
+                    <a target="_blank" href="./Teleportation " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ function Watch() {
                 
                     <a target="_blank" href=" https://www.facebook.com/events/164143193745535" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
                     <a target="_blank" href=" https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-youtube"></i> </a>
-                    <a target="_blank" href="./Event2 " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
+                    <a target="_blank" href="./Legacy " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
 
                 </div>
             </div>
