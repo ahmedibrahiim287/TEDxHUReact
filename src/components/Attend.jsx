@@ -26,12 +26,28 @@ function Attend() {
     </div>
     <hl></hl>
 
-    <ul className="eventinfo row">               
-                    <li className="eventit"><a href="https://goo.gl/maps/HfReUaoNNUyQn2Qs9" target="_blank" rel="noreferrer">
-                      <i class=" fas fa-map-marker-alt"> El Nahar Theater</i></a></li> 
-                      <li className="eventit"> <i className=" fas fa-calendar-alt">Saturday, 10 April 2021</i> </li> 
-                      <li className="eventit"><i class="fas fa-clock" >10:00 AM</i> </li> 
-    </ul>
+    <div className="location-container">
+      {/* Location Div*/}
+      <div className="location-box">
+        <a href="https://www.google.com/maps/place/El+Nahar+Theater/@30.0277383,31.2298957,17z/data=!3m1!4b1!4m5!3m4!1s0x145847311324514b:0xa3537595f7e8729f!8m2!3d30.0277383!4d31.2320844?hl=en-US" target="_blank">
+          <i className="fa fa-map-marker" aria-hidden="true"></i>
+          <span>El Nahar Theater</span>
+        </a>
+      </div>
+      {/* End Of Location Div*/}
+      {/*Calender Div*/}
+        <div className="location-box">
+          <i className="fa fa-calendar" aria-hidden="true"> </i>
+          <span> Satuerday, 10 April 2021</span>
+        </div>
+      {/*End Of Calender Div*/}
+      {/*Clock Div*/}
+      <div className="location-box">
+        <i className="fa fa-clock-o" aria-hidden="true"></i>
+        <span>10:00 A.M</span>
+      </div>
+      {/*End Of Clock Div*/}
+    </div>
                
     
     <div className="brief-conatiner "></div>

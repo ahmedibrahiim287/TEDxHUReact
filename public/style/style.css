@@ -2756,3 +2756,43 @@ fieldset {
   margin: auto;
   float:none;
 }
+
+/*
+##################################
+              Event Box Style
+##################################
+*/
+
+.location-container{
+  width: 50%;
+  height: 175px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 45px;
+  font-size: 30px;
+}
+
+.location-container> Div{
+  display:block;
+  line-height: 2.0;
+}
+.location-box{
+  width: 100%;
+  text-align: center;
+}
+.location-container .location-box a{text-decoration: none;}
+.location-container .location-box a:visited{color: #f00;}
+.location-container .location-box a:hover{
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+.location-container .location-box a:active{color: #f00;}
+.location-container .location-box a i{
+  color: #f00;
+  font-size: 36px;
+}
+.location-container .location-box i{padding-right: 12px;}
+
+.location-container .location-box a span{
+  color: #f00;font-weight: 400;}
+.location-container .location-box span{color: rgba(0, 0, 0, 0.678);font-weight: 400;}
