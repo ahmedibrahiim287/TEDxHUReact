@@ -477,6 +477,7 @@ header .intro-text {
   padding: 100px 0 60px 0;
   background: linear-gradient(to right, #fd6060 0%, #c93535 100%);
   color: rgba(255, 255, 255, 0.75);
+  display: none;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -1576,14 +1577,14 @@ img.slide {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-rows: repeat(1, 400px);
+  grid-template-rows: repeat(1, 470px);
   grid-template-columns: repeat(1, 100%);
   justify-content: center;
 }
 
 .chairwoman-grid .grid-card {
   text-align: center;
-  height: 382px;
+  height: 400px;
   width: auto;
   display: block;
 }
@@ -1609,6 +1610,7 @@ img.slide {
   text-align: center;
   font-weight: 700;
   font-size: 24px;
+  color: #000;
 }
 
 .chairwoman-grid .grid-card .fatma-title {
@@ -1617,7 +1619,8 @@ img.slide {
   text-align: center;
   font-style: italic;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #000;
 }
 
 .table-parent {
@@ -1654,6 +1657,7 @@ img.slide {
   text-align: center;
   font-weight: 700;
   font-size: 24px;
+  color: #000;
 }
 
 .table-parent .grid-card .head-title {
@@ -1662,7 +1666,8 @@ img.slide {
   text-align: center;
   font-style: italic;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #000;
 }
 
 /* media q */
