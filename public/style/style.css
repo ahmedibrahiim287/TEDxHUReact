@@ -2744,25 +2744,16 @@ fieldset {
     height: 50%;
   }
 }
-.eventinfo{
-  
-  align-items: baseline;
-    text-align: center;
-    margin: auto;
-    position: relative;
-   
-}
-.eventit {
-  margin: auto;
-  float:none;
-}
+
 
 /*
 ##################################
               Event Box Style
 ##################################
 */
-
+i{
+  margin:5px;
+}
 .location-container{
   width: 50%;
   height: 300px;

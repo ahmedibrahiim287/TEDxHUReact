@@ -1,5 +1,5 @@
 import React from "react";
-import Gallery from 'react-grid-gallery';
+
 
 function Attend() {
   return (
@@ -27,9 +27,9 @@ function Attend() {
     <div className="location-container">
       {/* Location Div*/}
       <div className="location-box">
-        <a href="https://www.google.com/maps/place/El+Nahar+Theater/@30.0277383,31.2298957,17z/data=!3m1!4b1!4m5!3m4!1s0x145847311324514b:0xa3537595f7e8729f!8m2!3d30.0277383!4d31.2320844?hl=en-US" target="_blank">
+        <a rel="noreferrer" href="https://www.google.com/maps/place/El+Nahar+Theater/@30.0277383,31.2298957,17z/data=!3m1!4b1!4m5!3m4!1s0x145847311324514b:0xa3537595f7e8729f!8m2!3d30.0277383!4d31.2320844?hl=en-US" target="_blank">
           <i className="fa fa-map-marker" aria-hidden="true"></i>
-          <span>El Nahar Theater</span>
+          <span> El Nahar Theater</span>
         </a>
       </div>
       {/* End Of Location Div*/}
@@ -47,7 +47,7 @@ function Attend() {
       {/*End Of Clock Div*/}
       {/*Clock Div*/}
       <div className="attend-box">
-        <a href="" title="Button fade lightblue" className="button btnFade">Attend Now</a>
+        <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScuHWLJFBMlPveaevj-_XkRl1dOufoo6QSNn9PsixqVReDI8g/viewform" target="_blank" title="Button fade lightblue" className="button btnFade">Attend Now</a>
       </div>
       {/*End Of Clock Div*/}
     </div>
@@ -55,41 +55,12 @@ function Attend() {
     
     <div className="brief-conatiner "></div>
   
-    <Gallery images={IMAGES}/>
+ 
 
     <div className="brief-conatiner "></div><div className="brief-conatiner "></div>
   </div>
   );
 }
 
-const IMAGES =
-[{
-        src: "/img/conductor/DSC_0058 (1).jpg",
-        thumbnail: "/img/conductor/DSC_0058 (1).jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        
-        
-},{
-  src: "/img/conductor/DSC_0040.jpg",
-  thumbnail: "/img/conductor/DSC_0040.jpg",
-  thumbnailWidth: 400,
-  thumbnailHeight: 670,
-  
-},
-{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-
-},
-
-{
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-}]
 
 export default Attend;
