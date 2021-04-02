@@ -12,15 +12,15 @@ function Tangram() {
         <h2><span>- </span>Are you ready for the <span className="ted-color">Tangram </span><span>! -</span></h2>
         <p>
         
-We strongly believe in the saying: "Ideas worth spreading'', and any idea presented on our stage should be the link between your audience and your ideas that worth to Spread!
-<br/>
-Luckily, The Conductor who will lead the idea will be YOU
-<br/>
-You are the chest of ideas, you have to spread the ideas and are responsible for keeping them safe for the rest of the world to hear and learn about them
-
-!
-<br/>
-join us on this unique journey
+        Would you like to be a piece of the puzzle too?<br/>
+ 
+ We are all made of small pieces of puzzles, if you focus on choosing each and every one carefully, 
+ you will end up with the perfect version of yourself.<br/>
+  
+ Tangram is about collecting your own piece of minds and ideas, shape and arrange them as you feel it's the best fit.
+  
+ Interesting ha?<br/>
+ Hence add us to your calendar as we put the final touches on Tangram!
 
         </p>
     </div>

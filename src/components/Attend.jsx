@@ -17,11 +17,16 @@ function Attend() {
 <div className="brief-conatiner ">
       <h2>About <span className="ted-color">Tangram</span><div class="underline"></div></h2>
       <p>
-          TED is a non profit organization devoted to Ideas worth Spreading. It started out (in 1984) as a conference bringing together people from three worlds: Technology, 
-          Entertainment and Design. Since then its scope has become ever broader. Along with two annual conferences 
-          - the TED Conference in Long Beach and Palm Springs each spring, and the TEDGlobal conference in Edinburgh UK each summer - 
-          TED includes the award-winning TEDTalks video site, the Open Translation Project and TED Conversations, 
-          the inspiring TED Fellows and TEDx programs, and the annual TED Prize.
+      Would you like to be a piece of the puzzle too?<br/>
+ 
+ We are all made of small pieces of puzzles, if you focus on choosing each and every one carefully, 
+ you will end up with the perfect version of yourself.<br/>
+  
+ Tangram is about collecting your own piece of minds and ideas, shape and arrange them as you feel it's the best fit.
+  
+ Interesting ha?<br/>
+ Hence add us to your calendar as we put the final touches on Tangram!
+
       </p>
     </div>
     <div className="location-container">
