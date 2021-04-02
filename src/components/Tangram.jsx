@@ -1,5 +1,5 @@
 import React from "react";
-
+import Gallery from 'react-grid-gallery';
 
 function Tangram() {
   return (
@@ -53,14 +53,188 @@ join us on this unique journey
   </div>
              
   
-  <div className="brief-conatiner "></div>
+  <div className="brief-container"><br/></div>
 
+<h2><span className="ted-color">Tangram Speakers & Hosts</span></h2> 
+<hr/>
+
+
+<div className="speakers-holder ">
+<div className="speaker-element">
+  <img src="\img\speakers\host-tang-mazingamal.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Mazen Gamal</div>
+    <div className="speaker-context">Egyptian actor and director,
+     graduated from Misr University for Science and Technology faculty of mass communication major broadcasting</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+<div className="speaker-element">
+  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
+    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+<div className="speaker-element">
+  <img src="\img\speakers\tang-ahmedhelaly.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This is Ahmed EL Helaly </div>
+    <div className="speaker-context"> financial consultant and a Life Coach, specialized mainly in Happiness, Self-Love, and Self-confidence. </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank">See His Performace</a> */}
+    </div>
+  </div>
+</div>
+<div className="speaker-element">
+  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Ahmed Radi</div>
+    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
+    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div></div>
+
+<div className="brief-container"><br/></div>
+
+
+
+<div className="speakers-holder">
+<div className="speaker-element">
+  <img src="\img\speakers\tang-anwarelkamony.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is  Anwar Elkamony</div>
+    <div className="speaker-context">the first athlete in the world to return to the international tennis ranking after 
+    the bone marrow transplant operation.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-atefezzat.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Atef Ezzat</div>
+    <div className="speaker-context"> Expert in automatic control systems and magnetic applications, 
+    owner of the Nefertari Biomagnetic Company for saline agriculture. </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-bassenosama.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Bassem El-mekkawy </div>
+    <div className="speaker-context">the youngest Advanced Finical Modeller from (FMI) in Egypt and the middle east,
+    </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a> */}
+    </div>
+  </div>
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-summergalal.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Summer Galal Moustafa</div>
+    <div className="speaker-context">singer and theatre-maker based in Cairo. She’s a singer in the Bahgaga band;
+     a band of 5 lead female vocalist that creates contemporary monologues.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+    </div>
+    </div></div>
+    
+
+
+<div className="brief-container"><br/></div>
+<div className="brief-container"><br/></div>
+
+      {/* <Gallery images={IMAGES}/> */}
 
   <div className="brief-conatiner "></div><div className="brief-conatiner "></div>
 </div>
 );
 }
+const IMAGES =
+[{
+  src:"/img/Teleportation/1.jpg", thumbnail:"/img/Teleportation/1.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 174,
+        
+},
+{
+  src:"/img/Teleportation/2.jpg", thumbnail:"/img/Teleportation/2.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+       
+},
 
+{
+  src:"/img/Teleportation/4.jpg", thumbnail:"/img/Teleportation/4.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+} , 
+{
+  src:"/img/Teleportation/5.jpg", thumbnail:"/img/Teleportation/5.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+} , 
+{
+  src:"/img/Teleportation/6.jpg", thumbnail:"/img/Teleportation/6.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/7.jpg", thumbnail:"/img/Teleportation/7.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/8.jpg", thumbnail:"/img/Teleportation/8.jpg", 
+        thumbnailWidth: 120,
+        thumbnailHeight: 212
+},    
+{
+  src:"/img/Teleportation/10.jpg", thumbnail:"/img/Teleportation/10.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/11.jpg", thumbnail:"/img/Teleportation/11.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/12.jpg", thumbnail:"/img/Teleportation/12.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/13.jpg", thumbnail:"/img/Teleportation/13.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/14.jpg", thumbnail:"/img/Teleportation/14.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},  
+{
+  src:"/img/Teleportation/15.jpg", thumbnail:"/img/Teleportation/15.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+},   
+{
+  src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/17.jpg", 
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+}]
 
 
 export default Tangram;

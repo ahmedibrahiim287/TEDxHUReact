@@ -2925,7 +2925,7 @@ i {
   }
 }
 
- *  */
+/*  */
 
 .alrazy-title {
   font-weight: 700;
@@ -3061,6 +3061,8 @@ i {
     position: relative;
     top: 36px;
   }
+}
+
 /*
 ###############################
           Speakers Division
@@ -3111,7 +3113,7 @@ i {
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -3166,4 +3168,4 @@ i {
   font-weight: 600;
   color: #fff;
 }
-}
+

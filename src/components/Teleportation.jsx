@@ -49,14 +49,14 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
         <div className="location-box">
           
             <i className="fa fa-map-marker" aria-hidden="true"></i>
-            <span> Leadership Development Hall </span>
+            <span> Helwan University Hall </span>
   
         </div>
         {/* End Of Location Div*/}
         {/*Calender Div*/}
           <div className="location-box">
             <i className="fa fa-calendar" aria-hidden="true"> </i>
-            <span> Satuerday, April 16, 2013</span>
+            <span>  April 20, 2018</span>
           </div>
         {/*End Of Calender Div*/}
         {/*Clock Div*/}
@@ -67,10 +67,103 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
         {/*End Of Clock Div*/}
         
       </div>
+      <div className="brief-container"><br/></div>
+
       <h2><span className="ted-color">Teleportation Speakers</span></h2> 
+      <hr/>
 
 
+    <div className="speakers-holder ">
+    <div className="speaker-element">
+        <img src="\img\speakers\tele-abdelrahmanalaa.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Abdulrahman Alaa</div>
+          <div className="speaker-context">Sales Trainer, Digital Marketing Specialist and Business Development Specialist.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="\img\speakers\tele-kerilos.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This is Kirollos Rizk</div>
+          <div className="speaker-context">Film Director & Novel Writer</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="\img\speakers\tele-moaz.png" alt="Mahmoud Abd Elmageed" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This is Mazen Moataz</div>
+          <div className="speaker-context">Painter and Photographer</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank">See His Performace</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="\img\speakers\tele-mina.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mina Henein</div>
+          <div className="speaker-context">Mina Henein believes that life is too short to keep hitting the snooze button.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div></div>
 
+      <div className="brief-container"><br/></div>
+
+
+      
+      <div className="speakers-holder">
+      <div className="speaker-element">
+        <img src="\img\speakers\tele-mohamedelshorie.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mohamed Al Sheraie</div>
+          <div className="speaker-context">Graduated from Faculty of Pharmacy Cairo University by his third year at University, He decided to shift his career to Marketing</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div><div className="speaker-element">
+        <img src="\img\speakers\tele-nada.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Nada Khalil</div>
+          <div className="speaker-context">Grew up in so many diffrent cultures, talk about how that afftec her.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div><div className="speaker-element">
+        <img src="\img\speakers\tele-nureen.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Naureen Youssef</div>
+          <div className="speaker-context">Naureen is a marketer, fashion model, and a great writer.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a>
+          </div>
+        </div>
+      </div><div className="speaker-element">
+        <img src="\img\speakers\tele-reemnabil.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Reem Nabil</div>
+          <div className="speaker-context">Standup comedian </div>
+          <div className="speaker-context">
+            {/* <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a> */}
+          </div>
+          </div>
+          </div></div>
+          
+     
+
+    <div className="brief-container"><br/></div>
+    <div className="brief-container"><br/></div>
+    <div className="brief-container"><br/></div>
+    <div className="brief-container"><br/></div>
       <h2><span className="ted-color">Memories Of Teleportation</span></h2>
       <hr/>
       <Gallery images={IMAGES}/>
@@ -141,8 +234,18 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
             thumbnailHeight: 212
     },  
     {
+      src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/19.jpg", 
+            thumbnailWidth: 150,
+            thumbnailHeight: 212
+    },  
+    {
       src:"/img/Teleportation/14.jpg", thumbnail:"/img/Teleportation/14.jpg", 
             thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },   
+    {
+      src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/18.jpg", 
+            thumbnailWidth: 150,
             thumbnailHeight: 212
     },  
     {
