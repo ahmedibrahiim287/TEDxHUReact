@@ -70,6 +70,9 @@ import 'react-awesome-slider/dist/styles.css';
           </div>
       </div>
       <div className="brief-conatiner "></div>
+      <div className="event-headline">
+        <span>Our Upcoming <span className="ted-color" style={{fontWeight:"700",color:"#000"}}>Event</span></span>
+      </div>
       <section className="padd container boot-elemant-bg py-md-5 py-4  " >
     
     <div className="container position-relative py-md-5 py-0">
@@ -121,7 +124,7 @@ import 'react-awesome-slider/dist/styles.css';
 </div>
 <div className="speakers-holder" id="home-speakers-holder">
     <div className="speaker-element">
-        <img src="\img\speakers\andrewashraf.jpg" alt="" className="image" />
+        <img src="\img\speakers\andrewashraf-mod.png" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">This Is Andrew Ashraf</div>
           <div className="speaker-context">Andrew helps youth in getting a job from all 
@@ -132,7 +135,7 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\mariamahmed.jpg" alt="" className="image" />
+        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">Mariam Ahmed</div>
           <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
@@ -143,7 +146,7 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+        <img src="\img\speakers\mohamed-mod.jpg" alt="Mahmoud Abd Elmageed" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
           <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
@@ -153,7 +156,7 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\hananelsokary.jpg" alt="" className="image" />
+        <img src="\img\speakers\hananelsokary-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">This Is Hanan Elsokary</div>
           <div className="speaker-context">Dr Hanan is 48 years old also she is Obstetrics and Gynecology Consultant, 
@@ -164,7 +167,29 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+        <img src="\img\speakers\andrewashraf-mod.png" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Andrew Ashraf</div>
+          <div className="speaker-context">Andrew helps youth in getting a job from all 
+          the categories in the market in addition to preparing many workshops, trainings and online courses to be ready for any job</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <div className="brief-middle">
+          <div className="speaker-context-title">Mariam Ahmed</div>
+          <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
+          know as a Comedian, graduated from Mass communication - Cairo University this year and worked in Fundraising at “Baheya“</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="\img\speakers\mohamed-mod.jpg" alt="Mahmoud Abd Elmageed" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
           <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
@@ -174,37 +199,18 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+        <img src="\img\speakers\hananelsokary-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
+          <div className="speaker-context-title">This Is Hanan Elsokary</div>
+          <div className="speaker-context">Dr Hanan is 48 years old also she is Obstetrics and Gynecology Consultant, 
+          but her medical career didn't stop her for what she loves.</div>
           <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
+            <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
         </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
         </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      
 </div>
+    
         {/* 
            __   
         .__(.)< (Buck Buck)
