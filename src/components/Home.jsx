@@ -9,6 +9,7 @@ import 'react-awesome-slider/dist/styles.css';
         render(){
   return (
     <div className="container-fluid" style={{padding :0 }}>
+   
      <br/>
      <br/>
      <br/>
@@ -106,9 +107,52 @@ import 'react-awesome-slider/dist/styles.css';
     </div>
   </div>
 </div>
-
-
-
+<div className="latest-speakers">
+    <span className="latest-speakers-title">Our Latest Speakers</span>
+    <div className="latest-speakers-title-dash"><span>_____________</span></div>
+</div>
+<div className="speakers-holder">
+    <div className="speaker-element">
+        <img src="sample.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mohamed Nasr</div>
+          <div className="speaker-context">enim praesent elementum facilisis leo vel fringilla est ullamcorper eget</div>
+          <div className="speaker-context">
+            <a href="https://www.youtube.com/watch?v=zWjz5a_wrNw" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="sample.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mohamed Nasr</div>
+          <div className="speaker-context">enim praesent elementum facilisis leo vel fringilla est ullamcorper eget</div>
+          <div className="speaker-context">
+            <a href="https://www.youtube.com/watch?v=zDVW2Q-W9ks" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="mahmoud.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
+          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
+          <div className="speaker-context">
+            <a href="https://www.youtube.com/watch?v=g9sHfsLbsxA&list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t&index=3&t=1s" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      <div className="speaker-element">
+        <img src="sample.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mohamed Nasr</div>
+          <div className="speaker-context">enim praesent elementum facilisis leo vel fringilla est ullamcorper eget</div>
+          <div className="speaker-context">
+            <a href="#" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+</div>
     <div className="brief-conatiner "></div>
         {/* 
            __   
