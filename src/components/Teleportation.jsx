@@ -1,15 +1,15 @@
 import React from "react";
-
+import Gallery from 'react-grid-gallery';
 
 function Teleportation() {
   return (
-    <div className="container">
-    <img  alt="cover" className="img-responsive" src="\img\slider\cond-cover.png"/>
+    <div className="container"><br/><br/><br/><br/>
+    <img  alt="cover" className="img-responsive" src="\img\slider\tele-cover.png"/>
     <br/>
     <div className="brief-conatiner">
     
             <h2><span>- </span>Will we ever be able to 
- <span className="ted-color">Teleport?</span><span>! -</span></h2>
+ <span className="ted-color">Teleport?</span><span> -</span></h2>
             <p>
             
             Is teleportation possible? <br/>
@@ -24,7 +24,7 @@ We strongly believe in the saying: "Ideas worth spreading'', and any idea presen
 Luckily, the physical medium who will teleport the idea will be you!
 you are the chest of ideas, you have to spread the ideas and are responsible for keeping them safe for the rest of the world to hear and learn about them.
 
-
+<br/>
 هل الانتقال اللحظي او "الآني" ممكن؟
 هل سنكون قادرين على الانتقال عن بعد ؟
 ولكن ماذا يعني الانتقال اللحظي ؟  
@@ -33,9 +33,9 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
 من الغريب أنه بفضل ميكانيكا الكم ، قد تكون الإجابة نعم بالفعل!
 يتساءل الكثير منا ما إذا كان الانتقال الفوري هو خيال علمي ، و الإجابة على هذا السؤال تكمن في نظرية TED!
 وفي نظرية TEDx HelwanUniversity نقوم بالتركيز على المعاني وفلسفة الأفكار التي تبنتها TED.
-
+<br/>
 نحن نؤمن بشدة بالقول: "أفكار تستحق الإنتشار" ، لذلك يجب نشر أي فكرة تقدم على مسرحنا ونقلها في كل مكان.
-
+<br/>
 ولحسن الحظ ، أن الذي سيعمل على نقل الفكرة سيكون أنت!
 أنت صندوق الأفكار ، وعليك أن تنشر الأفكار وأن تكون مسؤولاً عن الحفاظ على سلامتها للوصول والتعرف عليها في جميع انحاء العالم.
 
@@ -65,23 +65,94 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
           <span>09:30 A.M</span>
         </div>
         {/*End Of Clock Div*/}
-        {/*Clock Div*/}
-        <div className="attend-box">
-          <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScuHWLJFBMlPveaevj-_XkRl1dOufoo6QSNn9PsixqVReDI8g/viewform" target="_blank" title="Button fade lightblue" className="button btnFade">Attend Now</a>
-        </div>
-        {/*End Of Clock Div*/}
+        
       </div>
-                 
-      
-      <div className="brief-conatiner "></div>
+      <h2><span className="ted-color">Teleportation Speakers</span></h2> 
+
+
+
+      <h2><span className="ted-color">Memories Of Teleportation</span></h2>
+      <hr/>
+      <Gallery images={IMAGES}/>
+
     
-     
-    
+
       <div className="brief-conatiner "></div><div className="brief-conatiner "></div>
     </div>
     );
     }
+    const IMAGES =
+    [{
+      src:"/img/Teleportation/1.jpg", thumbnail:"/img/Teleportation/1.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 174,
+            
+    },
+    {
+      src:"/img/Teleportation/2.jpg", thumbnail:"/img/Teleportation/2.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212,
+           
+    },
     
-
-
+    {
+      src:"/img/Teleportation/4.jpg", thumbnail:"/img/Teleportation/4.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    } , 
+    {
+      src:"/img/Teleportation/5.jpg", thumbnail:"/img/Teleportation/5.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    } , 
+    {
+      src:"/img/Teleportation/6.jpg", thumbnail:"/img/Teleportation/6.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/7.jpg", thumbnail:"/img/Teleportation/7.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/8.jpg", thumbnail:"/img/Teleportation/8.jpg", 
+            thumbnailWidth: 120,
+            thumbnailHeight: 212
+    },    
+    {
+      src:"/img/Teleportation/10.jpg", thumbnail:"/img/Teleportation/10.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/11.jpg", thumbnail:"/img/Teleportation/11.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/12.jpg", thumbnail:"/img/Teleportation/12.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/13.jpg", thumbnail:"/img/Teleportation/13.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/14.jpg", thumbnail:"/img/Teleportation/14.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },  
+    {
+      src:"/img/Teleportation/15.jpg", thumbnail:"/img/Teleportation/15.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    },   
+    {
+      src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/17.jpg", 
+            thumbnailWidth: 320,
+            thumbnailHeight: 212
+    }]
 export default Teleportation;
