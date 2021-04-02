@@ -1088,7 +1088,7 @@ label {
 /* Abdeldayem start  */
 
 .grid-holder {
-  background-color: #f00;
+  background-color: #000;
   box-shadow: 0px 0px 60px #888484d8;
   height: 100px;
   color: white;
@@ -1113,60 +1113,6 @@ label {
   border: 2px solid #fff;
 }
 
-/* Abdeldayem end */
-
-/* countdown  yahya */
-/* .countdown-container {
-  display: block;
-  border-radius: 5px; 
-  color: #be0000;
-  margin: 0 auto;
-  padding-top: 200px;
-  
-} */
-/* .countdown {
-   
-  color: black; 
-  font-size: 300%;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  display:block;
-  
-} 
-
-/* .countdown span {
-  font-weight: bold; 
-  margin: 0 auto;
-  text-align: center;
-  color: #ff0000;
-} */
-/* .desc .title {
-  text-align: center;
-  color: black;
-  padding-bottom: 25px;
-  font-size: 300%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-} */
-
-/* .countdownTitle {
-  font-family: "Fira Sans", sans-serif; 
-  font-size: 200%;
-  color: grey;
-  text-align: center;
-} */
-/* 
-.countdownTitle .countTitle {
-  padding: 10px;
-  margin-right: 13%;
-} */
-
-/* .countdown-container h2 {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 200%;
-  font-family: "Fira Sans", sans-serif; 
-}  */
 
 /* style -arafa- tangraminfo */
 @font-face {
@@ -3194,4 +3140,5 @@ i {
 
 .event-headline span{
   text-align: center;  
+  margin-top: 25px;
 }
