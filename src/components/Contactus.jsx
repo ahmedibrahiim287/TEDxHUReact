@@ -56,6 +56,7 @@ export class Contactus extends Component {
 <div class="top-border right"></div>
 <h1>CONTACT US</h1>
 <p>We'd love to hear from you so please dont hesitate to contact us ! </p>
+{/*  eslint-disable-next-line  */}
   <a>CONTACT US</a>
 </div>
 <div >  
@@ -80,6 +81,7 @@ export class Contactus extends Component {
   </fieldset>
   <fieldset>
   <div className="wrapper col-6">
+    {/*  eslint-disable-next-line  */}
    <a ><button type="submit" className=" btn--border btn-read btn--animated"onClick={e => this.onSubmit(e)} >SUBMIT</button></a>
                 </div>    
 
