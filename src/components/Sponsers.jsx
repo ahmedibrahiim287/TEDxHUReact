@@ -10,7 +10,7 @@ function Sponsers() {
     </h1>
 </div>
         <div className="sponser-quotation">
-            <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us with our event "Tangram". All thanks to thier sponsorship that were able to host our event and make it great</p>
+            <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us in our events. All thanks to thier sponsorship that were able to host our event and make it great</p>
         </div>
         <div className="sponser-grid">
             <div className="sponser-card">
