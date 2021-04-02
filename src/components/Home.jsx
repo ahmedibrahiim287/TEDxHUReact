@@ -77,7 +77,6 @@ import 'react-awesome-slider/dist/styles.css';
     
     <div className="container position-relative py-md-5 py-0">
     <div className="brief-conatiner "></div>
-    <div className="brief-conatiner "></div>
 
                 <div className="row">
             <div className="evicon col-lg-8">
