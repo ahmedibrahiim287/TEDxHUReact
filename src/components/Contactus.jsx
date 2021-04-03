@@ -75,7 +75,7 @@ export class Contactus extends Component {
 <form id="contact" action="" method="post">
   <h3>Contact <span class="color-con">Us</span></h3>
     <img className="img-responsive" src="/img/clipart-phone-black-and-white-9.png" alt="phone call" title="phone call"/>
-    <div style={{align:'center'}} >
+    <div>
   <fieldset>
     <input placeholder="Your name" value={this.state.name}  onChange={this.onChangeName} type="text" tabindex="1" required autoFocus/>
   </fieldset>
