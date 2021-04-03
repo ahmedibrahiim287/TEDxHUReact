@@ -4,41 +4,7 @@ import 'react-awesome-slider/dist/styles.css';
 // import $ from 'jquery';
 
     export class Home extends Component{
-        componentDidMount(){
-          (function countdown() {
-            const second = 1000,
-                  minute = second * 60,
-                  hour = minute * 60,
-                  day = hour * 24;
-          
-            let birthday = "Apr 10, 2021 00:00:00",
-                countDown = new Date(birthday).getTime(),
-                x = setInterval(function() {    
-          
-                  let now = new Date().getTime(),
-                      distance = countDown - now;
-          
-                  document.getElementById("days").innerText = Math.floor(distance / (day));
-                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour));
-                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute));
-                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-          
-                  //do something later when date is reached
-                  if (distance < 0) {
-                    let headline = document.getElementById("headline"),
-                        countdown = document.getElementById("countdown"),
-                        content = document.getElementById("message");
-          
-                    headline.innerText = "TANGRAM IS HERE!!";
-                    countdown.style.display = "none";
-                    content.style.display = "block";
-          
-                    clearInterval(x);
-                  }
-                  //seconds
-                }, 0)
-            }());
-        };
+      
      
         render(){
   return (
@@ -138,7 +104,7 @@ import 'react-awesome-slider/dist/styles.css';
     </div>
 </div>
 
-    <div id="countdown" className="container">
+    {/* <div id="countdown" className="container">
   <h1 id="headline">Countdown To Our Next Event:</h1>
   <div id="countdown">
     <ul>
@@ -150,23 +116,13 @@ import 'react-awesome-slider/dist/styles.css';
   </div>
   <div className="message">
   </div>
-</div>
+</div> */}
 <div className="latest-speakers">
     <span className="latest-speakers-title">Our Favorite <span className="ted-color">Speakers</span></span>
     <div className="latest-speakers-title-dash"><span>_____________</span></div>
 </div>
 <div className="speakers-holder" id="home-speakers-holder">
-    <div className="speaker-element">
-        <img src="\img\speakers\andrewashraf-mod.png" alt="" className="image" style={{maxWidth:"100%"}}/>
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Andrew Ashraf</div>
-          <div className="speaker-context">Andrew helps youth in getting a job from all 
-          the categories in the market and preparing many workshops and online courses</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
+    
       <div className="speaker-element">
         <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
@@ -178,24 +134,23 @@ import 'react-awesome-slider/dist/styles.css';
           </div>
         </div>
       </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\mohamed-mod.jpg" alt="Mahmoud Abd Elmageed" className="image" style={{maxWidth:"100%"}}/>
+           <div className="speaker-element">
+  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
+    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+<div className="speaker-element">
+        <img src="\img\speakers\tele-nureen.png" alt="" className="image" />
         <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
+          <div className="speaker-context-title">This Is Naureen Youssef</div>
+          <div className="speaker-context">Naureen is a marketer, fashion model, and a great writer.</div>
           <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\hananelsokary-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Hanan Elsokary</div>
-          <div className="speaker-context">Dr Hanan is Obstetrics and Gynecology Consultant, 
-          but her medical career didn't stop her for what she loves.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
+            <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a>
           </div>
         </div>
       </div>
@@ -204,44 +159,54 @@ import 'react-awesome-slider/dist/styles.css';
         <div className="brief-middle">
           <div className="speaker-context-title">This Is Andrew Ashraf</div>
           <div className="speaker-context">Andrew helps youth in getting a job from all 
-          the categories in the market in addition to preparing many workshops, trainings and online courses to be ready for any job</div>
+          the categories in the market and preparing many workshops and online courses</div>
           <div className="speaker-context">
             <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
         </div>
       </div>
       <div className="speaker-element">
-        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <img src="\img\speakers\tele-nada.png" alt="" className="image" />
         <div className="brief-middle">
-          <div className="speaker-context-title">Mariam Ahmed</div>
-          <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
-          know as a Comedian, graduated from Mass communication - Cairo University this year and worked in Fundraising at “Baheya“</div>
+          <div className="speaker-context-title">This Is Nada Khalil</div>
+          <div className="speaker-context">Grew up in so many diffrent cultures, talk about how that afftec her.</div>
           <div className="speaker-context">
-            <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
+            <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
         </div>
       </div>
+      
       <div className="speaker-element">
-        <img src="\img\speakers\mohamed-mod.jpg" alt="Mahmoud Abd Elmageed" className="image" style={{maxWidth:"100%"}}/>
+  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Ahmed Radi</div>
+    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
+    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+<div className="speaker-element">
+        <img src="\img\speakers\tele-mina.png" alt="" className="image" />
         <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
+          <div className="speaker-context-title">This Is Mina Henein</div>
+          <div className="speaker-context">Mina Henein believes that life is too short to keep hitting the snooze button.</div>
           <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
+            <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
         </div>
       </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\hananelsokary-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
+<div className="speaker-element">
+        <img src="\img\speakers\youssefemad.jpg" alt="" className="image" />
         <div className="brief-middle">
-          <div className="speaker-context-title">This Is Hanan Elsokary</div>
-          <div className="speaker-context">Dr Hanan is 48 years old also she is Obstetrics and Gynecology Consultant, 
-          but her medical career didn't stop her for what she loves.</div>
+          <div className="speaker-context-title">This Is Youssef Emad</div>
+          <div className="speaker-context">He is 20 years old, also he is a Business developer at Google, Founder of "قعده كارير"</div>
           <div className="speaker-context">
-            <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
+            <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
-        </div>
-        </div>
+          </div>
+      </div>
 </div>
     
         {/* 
