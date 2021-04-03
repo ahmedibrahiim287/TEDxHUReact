@@ -1,12 +1,54 @@
-import React, {Component} from "react";
+import React from "react";
 import AwesomeSlider from 'react-awesome-slider'; 
+import { useEffect, useState } from "react";
 import 'react-awesome-slider/dist/styles.css';
 // import $ from 'jquery';
 
-    export class Home extends Component{
-      
+function Home(){
      
-        render(){
+     
+
+           
+          const calculateTimeLeft = () => {
+            let year = new Date().getFullYear();
+            const difference = +new Date(`${year}-4-10`) - +new Date();
+            let timeLeft = {};
+        
+            if (difference > 0) {
+              timeLeft = {
+                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+                minutes: Math.floor((difference / 1000 / 60) % 60),
+                seconds: Math.floor((difference / 1000) % 60),
+              };
+            }
+        
+            return timeLeft;
+          };
+        
+          const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+          const [year] = useState(new Date().getFullYear());
+        
+          useEffect(() => {
+            setTimeout(() => {
+              setTimeLeft(calculateTimeLeft());
+            }, 70);
+          });
+        
+          const timerComponents = [];
+        
+          Object.keys(timeLeft).forEach((interval) => {
+            if (!timeLeft[interval]) {
+              return;
+            }
+        
+            timerComponents.push(
+              <span>
+                {timeLeft[interval]} {interval}{" "}
+              </span>
+            );
+          });
+
   return (
     <div className="container-fluid" style={{padding :0 }}>
    
@@ -103,6 +145,14 @@ import 'react-awesome-slider/dist/styles.css';
 </div>
     </div>
 </div>
+
+<div id="countdown" className="container">
+      <h1 id="headline">Tangram {year} Countdown </h1>
+      <div className="cd">
+   
+      {timerComponents.length ? timerComponents : <span >Time's up!</span>}
+      </div>
+      </div>
 
     {/* <div id="countdown" className="container">
   <h1 id="headline">Countdown To Our Next Event:</h1>
@@ -225,6 +275,6 @@ import 'react-awesome-slider/dist/styles.css';
         </div>
 
 );
-}
-}
+
+    }
 export default Home;

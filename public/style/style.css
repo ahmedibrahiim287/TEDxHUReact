@@ -1350,9 +1350,10 @@ img.slide {
   margin: 0;
   width: 100%;
   border-radius: 0;
-  background-color: red;
+  background-color: rgba(219, 5, 5, 0.753);
 }
 #headline.h1 {
+  padding:6px;
   font-weight: normal;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
@@ -1360,7 +1361,7 @@ img.slide {
 
 .cd {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 3em;
   list-style-type: none;
   padding: 3em;
   text-transform: uppercase;
