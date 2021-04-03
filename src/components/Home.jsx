@@ -127,7 +127,7 @@ import 'react-awesome-slider/dist/styles.css';
         <div className="brief-middle">
           <div className="speaker-context-title">This Is Andrew Ashraf</div>
           <div className="speaker-context">Andrew helps youth in getting a job from all 
-          the categories in the market and preparing many workshops and online courses</div>
+          the categories in the market in addition to preparing many workshops, trainings and online courses to be ready for any job</div>
           <div className="speaker-context">
             <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
@@ -138,7 +138,7 @@ import 'react-awesome-slider/dist/styles.css';
         <div className="brief-middle">
           <div className="speaker-context-title">Mariam Ahmed</div>
           <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
-          know as a Comedian and she worked in Fundraising at “Baheya“</div>
+          know as a Comedian, graduated from Mass communication - Cairo University this year and worked in Fundraising at “Baheya“</div>
           <div className="speaker-context">
             <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
           </div>
@@ -158,7 +158,7 @@ import 'react-awesome-slider/dist/styles.css';
         <img src="\img\speakers\hananelsokary-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">This Is Hanan Elsokary</div>
-          <div className="speaker-context">Dr Hanan is Obstetrics and Gynecology Consultant, 
+          <div className="speaker-context">Dr Hanan is 48 years old also she is Obstetrics and Gynecology Consultant, 
           but her medical career didn't stop her for what she loves.</div>
           <div className="speaker-context">
             <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
