@@ -83,6 +83,7 @@ function Team() {
         </div>
         {/* End Of HR Comittee*/}
         {/* Markting Comittee*/}
+
         <div className="grid-card">
             <img src="\img\board2\Mariam Hamza - Mareting Curator.png" alt="Mariam Hamza" title="Mariam Hamza"/>
             <span className="head-name">Mariam Hamza</span>
@@ -163,7 +164,7 @@ function Team() {
         <div className="grid-card">
             <img src="\img\board2\no-photo.png" alt="Rawan Wael" title="Rawan Wael"/>
             <span className="head-name">Rawan Wael</span>
-            <span className="head-title">Vice Executive of IT</span>
+            <span className="head-title">Executive of PR</span>
         </div>
         <div className="grid-card">
             <img src="\img\board2\Nayera Maged-Vice Executive of Public Relations.png" alt="Nayera Maged" title="Nayera Maged"/>
