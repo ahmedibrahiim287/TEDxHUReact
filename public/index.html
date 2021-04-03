@@ -31,6 +31,22 @@
    
     <title>TEDx Helwan University</title>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+ 
+    <script type="text/javascript">
+      
+    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript">
+
+        var elem = document.querySelector('.m-p-g');
+      
+        document.addEventListener('DOMContentLoaded', function() {
+          var gallery = new MaterialPhotoGallery(elem);
+        }); 
+      </script>
+
 
   </head>
   <body>
@@ -43,68 +59,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>  -->
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
- 
-    <script type="text/javascript">
-      (function countdown() {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
 
-  let birthday = "Apr 10, 2021 00:00:00",
-      countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {    
-
-        let now = new Date().getTime(),
-            distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        if (distance < 0) {
-          let headline = document.getElementById("headline"),
-              countdown = document.getElementById("countdown"),
-              content = document.getElementById("content");
-
-          headline.innerText = "TANGRAM IS HERE!!";
-          countdown.style.display = "none";
-          content.style.display = "block";
-
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-    </script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script type="text/javascript">
-  $(document).ready(function(){
-  $("a").click(function(){
-      $("#contact").fadeToggle();
-      $("#div2").fadeToggle("slow");
-      $("#div3").fadeToggle(3000);
-  });
-
-   
-
-
-  });
-
-
-  </script>
-
-<script type="text/javascript">
-	var elem = document.querySelector('.m-p-g');
-
-	document.addEventListener('DOMContentLoaded', function() {
-		var gallery = new MaterialPhotoGallery(elem);
-	});
-</script>
 
   </body>
 </html>

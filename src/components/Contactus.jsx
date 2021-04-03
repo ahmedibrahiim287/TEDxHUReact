@@ -1,9 +1,21 @@
 import React, {Component} from "react";
 import axios from 'axios';
-
+import $ from 'jquery';
 
 export class Contactus extends Component {
 
+  componentDidMount(){
+    $(document).ready(function(){
+      $("a").click(function(){
+          $("#contact").fadeToggle();
+          $("#div2").fadeToggle("slow");
+          $("#div3").fadeToggle(3000);
+      });
+  
+      });
+  };
+
+  
   constructor(props){
     super(props);
     this.onChangeName = this.onChangeName.bind(this);
@@ -89,8 +101,12 @@ export class Contactus extends Component {
   </div>
 </form>
 </div>
+
 </div>
+
   );
 }
 }
+
+
 export default Contactus;

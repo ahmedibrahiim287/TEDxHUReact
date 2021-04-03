@@ -1,5 +1,5 @@
 import React from "react";
-import Gallery from 'react-grid-gallery';
+// import Gallery from 'react-grid-gallery';
 
 function Tangram() {
   return (
@@ -161,80 +161,82 @@ function Tangram() {
 </div>
 );
 }
-const IMAGES =
-[{
-  src:"/img/Teleportation/1.jpg", thumbnail:"/img/Teleportation/1.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        
-},
-{
-  src:"/img/Teleportation/2.jpg", thumbnail:"/img/Teleportation/2.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-       
-},
 
-{
-  src:"/img/Teleportation/4.jpg", thumbnail:"/img/Teleportation/4.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-} , 
-{
-  src:"/img/Teleportation/5.jpg", thumbnail:"/img/Teleportation/5.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-} , 
-{
-  src:"/img/Teleportation/6.jpg", thumbnail:"/img/Teleportation/6.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/7.jpg", thumbnail:"/img/Teleportation/7.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/8.jpg", thumbnail:"/img/Teleportation/8.jpg", 
-        thumbnailWidth: 120,
-        thumbnailHeight: 212
-},    
-{
-  src:"/img/Teleportation/10.jpg", thumbnail:"/img/Teleportation/10.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/11.jpg", thumbnail:"/img/Teleportation/11.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/12.jpg", thumbnail:"/img/Teleportation/12.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/13.jpg", thumbnail:"/img/Teleportation/13.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/14.jpg", thumbnail:"/img/Teleportation/14.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},  
-{
-  src:"/img/Teleportation/15.jpg", thumbnail:"/img/Teleportation/15.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-},   
-{
-  src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/17.jpg", 
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-}]
+
+// const IMAGES =
+// [{
+//   src:"/img/Teleportation/1.jpg", thumbnail:"/img/Teleportation/1.jpg",
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 174,
+        
+// },
+// {
+//   src:"/img/Teleportation/2.jpg", thumbnail:"/img/Teleportation/2.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212,
+       
+// },
+
+// {
+//   src:"/img/Teleportation/4.jpg", thumbnail:"/img/Teleportation/4.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// } , 
+// {
+//   src:"/img/Teleportation/5.jpg", thumbnail:"/img/Teleportation/5.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// } , 
+// {
+//   src:"/img/Teleportation/6.jpg", thumbnail:"/img/Teleportation/6.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/7.jpg", thumbnail:"/img/Teleportation/7.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/8.jpg", thumbnail:"/img/Teleportation/8.jpg", 
+//         thumbnailWidth: 120,
+//         thumbnailHeight: 212
+// },    
+// {
+//   src:"/img/Teleportation/10.jpg", thumbnail:"/img/Teleportation/10.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/11.jpg", thumbnail:"/img/Teleportation/11.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/12.jpg", thumbnail:"/img/Teleportation/12.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/13.jpg", thumbnail:"/img/Teleportation/13.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/14.jpg", thumbnail:"/img/Teleportation/14.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },  
+// {
+//   src:"/img/Teleportation/15.jpg", thumbnail:"/img/Teleportation/15.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// },   
+// {
+//   src:"/img/Teleportation/17.jpg", thumbnail:"/img/Teleportation/17.jpg", 
+//         thumbnailWidth: 320,
+//         thumbnailHeight: 212
+// }]
 
 
 export default Tangram;

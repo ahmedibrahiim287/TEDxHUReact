@@ -3,6 +3,7 @@ import Gallery from 'react-grid-gallery';
 
 
 function Legacy() {
+  
   return (
     <div className="container"><br/><br/><br/><br/><br/>
     <img  alt="cover" className="img-responsive" src="/img/slider/leave-cover.png"/>

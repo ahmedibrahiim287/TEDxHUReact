@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, Attend, Watch, Teleportation, Tangram,Legacy, Team, Sponsers, Contactus, Conductor } from "./components/index";
 import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
+
+class App extends React.Component {
+
+  
+  render() {
   return (
     <div className="App">
       <Router >
@@ -26,6 +30,6 @@ function App() {
       </Router>
     </div>
   );
-}
+}}
 
 export default App;
