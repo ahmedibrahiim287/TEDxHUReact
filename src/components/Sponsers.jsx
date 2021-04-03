@@ -3,7 +3,7 @@ import React from "react";
 function Sponsers() {
   return (
 <div>
-
+<div className="brief-conatiner "></div>
 <div className="sponser-head">
     <h1>
         <span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span>
