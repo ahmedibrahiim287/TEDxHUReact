@@ -1663,6 +1663,11 @@ li span {
   transition-timing-function: ease-out;
   z-index: -1;
 }
+
+.semi{
+  right: 0;
+}
+
 .btn--animated:hover {
   color: #fff;
 }
@@ -1694,10 +1699,6 @@ li span {
   height: 2px;
   width: 24%;
   background-color: #333;
-}
-
-.right {
-  right: 0;
 }
 
 .left {
