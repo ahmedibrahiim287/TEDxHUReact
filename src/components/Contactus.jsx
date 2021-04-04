@@ -114,8 +114,9 @@ export class Contactus extends Component {
 <p>Applying is only avalible in a specific time !
   <br/> Can't wait to see you with us soon. </p>
 
-<button className=" btn-read btn--animated" onClick={("NOT AVALIBLE NOW!")}>Volunteer</button>
-<button className=" btn-read btn--animated" onClick={("NOT AVALIBLE NOW!")}>Become a Speaker</button>
+<a className=" btn-read btn--animated" rel="noreferrer" target="_blank" href="./Notavailable">Volunteer</a>
+<br/>
+<a className=" btn-read btn--animated" rel="noreferrer" target="_blank" href="./Notavailable">Become a Speaker</a>
 <br/><br/>
 </div>
 

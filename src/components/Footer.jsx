@@ -1,4 +1,4 @@
-import  React, { Fragment}  from "react";
+import  React  from "react";
 
 function Footer() {
   return (
@@ -8,25 +8,25 @@ function Footer() {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <h6 style={{color:"#f00",fontSize:"24px"}}>About</h6>
-            <p className="text-justify">An independently organized TED event in Helwan Proceeding from our belief in the power of ideas, we determined to create a community of ideas aiming to enrich our community minds. Also inspiring and motivating them to cope with and contribute to the age of renaissance that our country lives in recently, hoping to get out and reach the global edge of success starting from Helwan University.</p>
+            <p className="text-justify">An independently organized TED event in Helwan ‘University Proceeding from our belief in the power of ideas, we determined to create a community of ideas aiming to enrich our community minds. Also inspiring and motivating them to cope with and contribute to the age of renaissance that our country lives in recently, hoping to get out and reach the global edge of success starting from Helwan University.</p>
           </div>
 
           <div className="col-xs-6 col-md-3">
             <h6>Be Part Of Us</h6>
             <ul className="footer-links">
-              <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Speaker</a></li>
+              <li><a rel="noreferrer" target="_blank" href="./Notavailable">Volunteer with us</a></li>
+              <li><a rel="noreferrer" target="_blank" href="./Notavailable">Become a Speaker</a></li>
             </ul>
           </div>
 
           <div className="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul className="footer-links">
-              <li><a href="#">Attend</a></li>
-              <li><a href="#">Watch</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Sponsers</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="./Attend">Attend</a></li>
+              <li><a href="./Watch">Watch</a></li>
+              <li><a href="./Team">About Us</a></li>
+              <li><a href="./Sponsers">Sponsers</a></li>
+              <li><a href="./Contactus">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -40,9 +40,9 @@ function Footer() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
-              <li><a className="facebook" href="https://www.facebook.com/TEDxHUni/" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a className="youtube" href="https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" target="_blank"><i className="fab fa-youtube"></i></a></li>
-              <li><a className="linkedin" href="https://www.linkedin.com/company/tedxhelwanuniversity" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
+              <li><a className="facebook" rel="noreferrer" href="https://www.facebook.com/TEDxHUni/" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
+              <li><a className="youtube" rel="noreferrer" href="https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" target="_blank"><i className="fab fa-youtube"></i></a></li>
+              <li><a className="linkedin" rel="noreferrer" href="https://www.linkedin.com/company/tedxhelwanuniversity" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
         </div>
