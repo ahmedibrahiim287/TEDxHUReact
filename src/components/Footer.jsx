@@ -41,8 +41,8 @@ function Footer() {
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
               <li><a className="facebook" href="https://www.facebook.com/TEDxHUni/" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a className="youtube" href="https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" target="_blank"><i class="fab fa-youtube"></i></a></li>
-              <li><a className="linkedin" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a className="youtube" href="https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" target="_blank"><i className="fab fa-youtube"></i></a></li>
+              <li><a className="linkedin" href="https://www.linkedin.com/company/tedxhelwanuniversity" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
         </div>
