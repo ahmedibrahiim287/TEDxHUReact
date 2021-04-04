@@ -108,7 +108,7 @@ export class Contactus extends Component {
 </div>
 <div class="contact-shape">
 <div class="top-border left"></div>
-<div class="top-border right"></div>
+<div class="top-border semi"></div>
 <h1>Participating With Us</h1>
 <br/>
 <p>Applying is only avalible in a specific time !
