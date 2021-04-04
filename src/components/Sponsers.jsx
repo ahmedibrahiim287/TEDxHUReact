@@ -92,6 +92,22 @@ function Sponsers() {
                 <img src="\img\sponsers\TicketsMarch.png" alt="Tickets March" title="Tickets March"/>
                 <span>Tickets March</span>
             </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\americana.png" alt="americana" title="americana"/>
+                <span>Americana</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\break snacks.png" alt="break snacks" title="break snacks"/>
+                <span>Break Snacks</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\lion.png" alt="Lion" title="Lion"/>
+                <span>Lion</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
+                <span>Muncho</span>
+            </div>
         </div>
         {/* 
            __   
