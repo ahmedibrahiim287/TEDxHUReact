@@ -53,7 +53,7 @@ export class Contactus extends Component {
 <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 <div class="contact-shape">
 <div class="top-border left"></div>
-<div class="top-border right"></div>
+<div class="top-border right" style={{right:"0"}}></div>
 <h1>CONTACT US</h1>
 <p>We'd love to hear from you so please dont hesitate to contact us ! </p>
 {/*  eslint-disable-next-line  */}
