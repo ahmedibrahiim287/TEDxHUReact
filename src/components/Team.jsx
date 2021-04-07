@@ -83,6 +83,7 @@ function Team() {
         </div>
         {/* End Of HR Comittee*/}
         {/* Markting Comittee*/}
+
         <div className="grid-card">
             <img src="\img\board2\Mariam Hamza - Mareting Curator.png" alt="Mariam Hamza" title="Mariam Hamza"/>
             <span className="head-name">Mariam Hamza</span>
@@ -141,7 +142,7 @@ function Team() {
         {/*End Of Marketing Comittee*/}
         {/* Opeation Comittee*/}
         <div className="grid-card">
-            <img src="\img\board2\no-photo.png" alt="Omar Tamer" title="Omar Tamer"/>
+            <img src="\img\board2\Omar Tamer - Operation Curator.png" alt="Omar Tamer" title="Omar Tamer"/>
             <span className="head-name">Omar Tamer</span>
             <span className="head-title">Operation Curator</span>
         </div>
@@ -161,9 +162,9 @@ function Team() {
             <span className="head-title">Vice Executive of Fundraising</span>
         </div>
         <div className="grid-card">
-            <img src="\img\board2\no-photo.png" alt="Rawan Wael" title="Rawan Wael"/>
+            <img src="\img\board2\Rawan Wael - Executive of Public Relations.png" alt="Rawan Wael" title="Rawan Wael"/>
             <span className="head-name">Rawan Wael</span>
-            <span className="head-title">Vice Executive of IT</span>
+            <span className="head-title">Executive of PR</span>
         </div>
         <div className="grid-card">
             <img src="\img\board2\Nayera Maged-Vice Executive of Public Relations.png" alt="Nayera Maged" title="Nayera Maged"/>

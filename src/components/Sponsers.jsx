@@ -3,14 +3,14 @@ import React from "react";
 function Sponsers() {
   return (
 <div>
-
+<div className="brief-conatiner "></div>
 <div className="sponser-head">
     <h1>
         <span className="dash-color"> - </span>An magnificence event deserves magnificence sponsors<span className="dash-color"> - </span>
     </h1>
 </div>
         <div className="sponser-quotation">
-            <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us with our event "Tangram". All thanks to thier sponsorship that were able to host our event and make it great</p>
+            <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us in our events. All thanks to thier sponsorship that were able to host our event and make it great</p>
         </div>
         <div className="sponser-grid">
             <div className="sponser-card">
@@ -91,6 +91,22 @@ function Sponsers() {
             <div className="sponser-card">
                 <img src="\img\sponsers\TicketsMarch.png" alt="Tickets March" title="Tickets March"/>
                 <span>Tickets March</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\americana.png" alt="americana" title="americana"/>
+                <span>Americana</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\break snacks.png" alt="break snacks" title="break snacks"/>
+                <span>Break Snacks</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\lion.png" alt="Lion" title="Lion"/>
+                <span>Lion</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
+                <span>Muncho</span>
             </div>
         </div>
         {/* 
