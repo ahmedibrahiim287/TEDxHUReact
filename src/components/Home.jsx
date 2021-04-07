@@ -215,9 +215,7 @@ function Home(){
           </div>
         </div>
       </div>
-       </div>
-
-       <div className="speakers-holder" id="home-speakers-holder">
+  
       <div className="speaker-element">
         <img src="\img\speakers\tele-nada.png" alt="" className="image" />
         <div className="brief-middle">
