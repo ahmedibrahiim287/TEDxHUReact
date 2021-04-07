@@ -8,11 +8,13 @@ function Navigation(props) {
   return (
 <Fragment>
 
-    <nav id="menu" className="navbar-default navbar-fixed-top navbar-dark " role="navigation">
+    <nav id="menu" className="navbar-default navbar-fixed-top" role="navigation">
     <div className="container ">
         <div className="navbar-header naaz">
  
-
+        <Link className="" to="/Home">
+          <img className="Logo" src={logob}  alt="Logo"/>
+          </Link>
      
         <button
         type="button"
@@ -29,9 +31,7 @@ function Navigation(props) {
 
 
          
-          <Link className="navbar-brand page-scroll" to="/Home">
-          <img className="Logo" src={logob}  alt="Logo"/>
-          </Link>
+          
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
