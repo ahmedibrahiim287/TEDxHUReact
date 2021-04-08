@@ -72,8 +72,7 @@ function Home(){
     <div data-src="\img\Teleportation\6.jpg"/>
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Event-Cover.jpg" />
-     {/*  eslint-disable-next-line  */}
-    <div data-src="\img\slider\cover-1.png" />
+
   </AwesomeSlider>
   </div>
   <div className="brief-conatiner ">
