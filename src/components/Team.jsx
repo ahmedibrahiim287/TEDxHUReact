@@ -116,7 +116,7 @@ function Team() {
         </div>
         <div className="grid-card">
             <img src="\img\board2\Maryam Esmaeil - Executive of IT .png" alt="Mariam Esmaeil" title="Mariam Isamil"/>
-            <span className="head-name">Mariam ismail</span>
+            <span className="head-name">Mariam Esmaeil</span>
             <span className="head-title">Executive of IT </span>
         </div>
         <div className="grid-card">
