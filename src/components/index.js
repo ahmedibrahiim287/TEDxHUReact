@@ -11,4 +11,4 @@ export {default as Sponsers} from './Sponsers';
 export {default as Watch} from './Watch';
 export {default as Footer} from './Footer';
 export {default as Notavailable} from './Notavailable';
-// export {default as slider} from './slider';
+export {default as Agenda} from './Agenda';

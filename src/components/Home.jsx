@@ -126,7 +126,7 @@ function Home(){
 </section>
     <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
   
-    <li><a className=" linkedin" rel="noreferrer" href="https://drive.google.com/file/d/141iyMCMcSIeYBIS8Fz7ZXwdXfErBAFwZ/view" target="_blank" style={{"width" :"240px"}}>Check Event Agenda</a></li>
+    <li><a className=" linkedin" rel="noreferrer" href="./Agenda" target="_blank" style={{"width" :"240px"}}>Check Event Agenda</a></li>
   </ul>
 
 

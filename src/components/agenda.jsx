@@ -1,6 +1,6 @@
 import React from "react";
 
-function Notavailable() {
+function Agenda() {
   return (
 <div id="container">
 
@@ -13,12 +13,10 @@ function Notavailable() {
 
 
 <div className="brief-conatiner ">
-<h2>We Are <span className="ted-color">Sorry!!</span><div class="underline"></div></h2>
-<p>
-   This from is not open now, Please keep up with our social media accounts, As we always announce when it's time. 
-   <br/>
-   Thank you. 
-</p>
+<h2>Our <span className="ted-color">Agenda</span><div class="underline"></div></h2>
+<div className="brief-container">
+  <img src="\img\agenda.png" alt="Tangram logo" class="img-responsive"/>
+</div>
 </div>
 
 
@@ -30,4 +28,4 @@ function Notavailable() {
     </div>
   );
 }
-export default Notavailable;
+export default Agenda;
