@@ -104,7 +104,7 @@ function Home(){
           </div>
           <div className="grid-box">
           <h5 className="calco">
-              sponsors <br></br>
+              Sponsers <br></br>
               22
               </h5>                  
           </div>
