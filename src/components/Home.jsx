@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import AwesomeSlider from 'react-awesome-slider'; 
 import { useEffect, useState } from "react";
 import 'react-awesome-slider/dist/styles.css';
@@ -50,6 +50,7 @@ function Home(){
           });
 
   return (
+    <Fragment>
     <div className="container-fluid" style={{padding :0 }}>
    
      <br/>
@@ -112,7 +113,7 @@ function Home(){
       </div>
       <div className="brief-conatiner "></div>
       <div className="event-headline">
-        <span>Our Upcoming <span className="ted-color" style={{fontWeight:"700",color:"#000"}}>Event</span></span>
+        <span>Our Upcoming <span className="ted-color" style={{fontWeight:"700"}}>Event</span></span>
       </div>
       <section className="padd container boot-elemant-bg py-md-5 py-4  " >
     
@@ -120,20 +121,10 @@ function Home(){
     <div className="brief-conatiner "></div>
 
                 <div className="row">
-            <div className="evicon col-lg-8">
-                <span className="text-black text-uppercase  "> </span>
-                <h2 className="text-white display-3 font-weight-bold"> </h2>
-                <p className="f-w-16 mb-4"> </p>
-                
-                <a target="_blank" href=" https://www.ted.com/tedx/events/40335" className="btn btn-outline-white btn-lg px-4"  >TED <i className="fas fa-times" style={{color: "red"}}></i> </a>
-                <a target="_blank" href=" https://www.facebook.com/events/3336545329780286/" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-facebook-f"></i> </a>
-                <a target="_blank" href=" https://www.youtube.com/playlist?list=PLwCKOAvD-tKnyzziugxDDquCA1-Pi-42t" className="btn btn-outline-white btn-lg px-4"> <i className="fab fa-youtube"></i> </a>
-                <a target="_blank" href="./Tangram " className="btn btnn  btn-outline-white btn-lg px-4"> Read more </a>
-
-            </div>
+       
         </div>
     </div>
-    <div className="elemant-bg-overlay black"></div>
+    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
 </section>
     <div className="brief-conatiner "></div>
     <div className="container">
@@ -153,130 +144,169 @@ function Home(){
       </div>
       </div>
 
-    {/* <div id="countdown" className="container">
-  <h1 id="headline">Countdown To Our Next Event:</h1>
-  <div id="countdown">
-    <ul>
-      <li className="cd"><span id="days"></span>days</li>
-      <li className="cd"><span id="hours"></span>Hours</li>
-      <li className="cd"><span id="minutes"></span>Minutes</li>
-      <li className="cd"><span id="seconds"></span>Seconds</li>
-    </ul>
-  </div>
-  <div className="message">
-  </div>
-</div> */}
-<div className="latest-speakers">
-    <span className="latest-speakers-title">Our Favorite <span className="ted-color">Speakers</span></span>
-    <div className="latest-speakers-title-dash"><span>_____________</span></div>
-</div>
-<div className="speakers-holder" id="home-speakers-holder">
-    
-      <div className="speaker-element">
-        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
-        <div className="brief-middle">
-          <div className="speaker-context-title">Mariam Ahmed</div>
-          <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
-          know as a Comedian and she worked in Fundraising at “Baheya“</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-           <div className="speaker-element">
-  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
-    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
-  </div>
-</div>
-<div className="speaker-element">
-        <img src="\img\speakers\tele-nureen.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Naureen Youssef</div>
-          <div className="speaker-context">Naureen is a marketer, fashion model, and a great writer.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\andrewashraf-mod.png" alt="" className="image" style={{maxWidth:"100%"}}/>
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Andrew Ashraf</div>
-          <div className="speaker-context">Andrew helps youth in getting a job from all 
-          the categories in the market and preparing many workshops and online courses</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
   
-      <div className="speaker-element">
-        <img src="\img\speakers\tele-nada.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Nada Khalil</div>
-          <div className="speaker-context">Grew up in so many diffrent cultures, talk about how that afftec her.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
+      <div class="container mt-40">
+    
+      <div className="latest-speakers">
+          <span className="latest-speakers-title">Upcoming <span className="ted-color">Speakers</span></span>
+          <div className="latest-speakers-title-dash"><span>_____________</span></div>
+      </div><div class="row mt-30">
+         
+
+
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-ahmedradi.jpg"/>
+          <h3 class="title">Ahmed Radi</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
       </div>
       
-      <div className="speaker-element">
-  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Ahmed Radi</div>
-    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
-    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
-  </div>
-</div>
-<div className="speaker-element">
-        <img src="\img\speakers\tele-mina.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Mina Henein</div>
-          <div className="speaker-context">Mina Henein believes that life is too short to keep hitting the snooze button.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a>
+      
+      
+      
+          <div class="col-md-4 col-sm-6">
+              <div class="box8">
+              <img src="\img\speakers\tang-aboelnaga.jpg"/>
+              <h3 class="title">Mohamed Aboelnaga Nagaty</h3>
+              <div class="box-content">
+              <ul class="icon">
+              <div className="wrapper col-6">
+              {/*  eslint-disable-next-line  */}
+             <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+              </div> 
+              </ul>
           </div>
-        </div>
+              </div>
+          </div>
+        
+
+         
+         
       </div>
-<div className="speaker-element">
-        <img src="\img\speakers\youssefemad.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Youssef Emad</div>
-          <div className="speaker-context">He is 20 years old, also he is a Business developer at Google, Founder of "قعده كارير"</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-          </div>
       </div>
-</div>
+
+      <div class="container mt-40">
     
+      <div className="latest-speakers">
+          <span className="latest-speakers-title">Our Favorite <span className="ted-color">Speakers</span></span>
+          <div className="latest-speakers-title-dash"><span>_____________</span></div>
+      </div><div class="row mt-30">
+          <div class="col-md-4 col-sm-6">
+              <div class="box8">
+              <img src="\img\speakers\youssefemad.jpg"/>
+              <h3 class="title"> Youssef Emad </h3>
+
+                  <div class="box-content">
+                      <ul class="icon">
+                      <div className="wrapper col-6">
+                      {/*  eslint-disable-next-line  */}
+                     <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+                      </div> 
+                      </ul>
+                  </div>
+              </div>
+          </div>
 
 
-        {/* 
-           __   
-        .__(.)< (Buck Buck)
-        (____)
-           __   
-        .__(.)< (Buck Buck)
-        (____)
-           __   
-        .__(.)< (Buck Buck)
-        (____)
-        */} 
-     
+          <div class="col-md-4 col-sm-6">
+          <div class="box8">
+          <img src="\img\speakers\mariamahmed-mod.jpg"/>
+          <h3 class="title">Mariam Ahmed</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="box8">
+        <img src="\img\speakers\andrewashraf-mod.png"/>
+        <h3 class="title">Andrew Ashraf</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+        </div>
+    </div>
+
+         
+         
+      </div>
+      </div>
+
+<div class="container mt-40">
+<div class="row mt-30">
+    <div class="col-md-4 col-sm-6">
+        <div class="box8">
+        <img src="\img\speakers\tele-nada.png"/>
+        <h3 class="title">Nada Khalil</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 col-sm-6">
+        <div class="box8">
+            <img src="\img\speakers\tele-nureen.png"/>
+            <h3 class="title">Naureen Youssef</h3>
+            <div class="box-content">
+                      <ul class="icon">
+                      <div className="wrapper col-6">
+                      {/*  eslint-disable-next-line  */}
+                     <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+                      </div> 
+                      </ul>
+                  </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+    <img src="\img\speakers\tele-mina.png"/>
+    <h3 class="title">Mina Henein</h3>
+    <div class="box-content">
+    <ul class="icon">
+    <div className="wrapper col-6">
+    {/*  eslint-disable-next-line  */}
+   <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+    </div> 
+    </ul>
+</div>
+    </div>
+</div>
+</div>
+</div>
+
 
         </div>
-
+        </Fragment>
 );
 
     }
 export default Home;
+
+

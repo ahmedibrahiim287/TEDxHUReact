@@ -6,7 +6,7 @@ export class Contactus extends Component {
 
   componentDidMount(){
     $(document).ready(function(){
-      $("a").click(function(){
+      $("#contactUs").click(function(){
           $("#contact").fadeToggle();
           $("#div2").fadeToggle("slow");
           $("#div3").fadeToggle(3000);
@@ -73,7 +73,7 @@ export class Contactus extends Component {
 <h1>CONTACT US</h1>
 <p>We'd love to hear from you so please dont hesitate to contact us ! </p>
 {/*  eslint-disable-next-line  */}
-<a>CONTACT US</a>
+<a id="contactUs">CONTACT US</a>
 </div>
 
 <div >  
