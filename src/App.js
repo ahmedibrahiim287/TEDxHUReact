@@ -3,7 +3,7 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Navigation, Footer, Home, Attend, Watch, Teleportation, Tangram,Legacy, Team, Sponsers, Contactus, Conductor,Notavailable,Agenda } from "./components/index";
+import { Navigation, Footer, Home, Attend, Watch, Teleportation, Tangram,Legacy, About, Sponsers, Contactus, Conductor,Notavailable,Agenda } from "./components/index";
 import ScrollToTop from "./components/ScrollToTop";
 import $ from 'jquery';
 
@@ -38,7 +38,7 @@ class App extends React.Component {
        <Route path="/Tangram" exact component={() => <Tangram />} />
        <Route path="/Teleportation" exact component={() => <Teleportation />} />
        <Route path="/Legacy" exact component={() => <Legacy />} />
-       <Route path="/Team" exact component={() => <Team />} />
+       <Route path="/About" exact component={() => <About />} />
        <Route path="/Sponsers" exact component={() => <Sponsers />} />
        <Route path="/Contactus" exact component={() => <Contactus />} />
        <Route path="/Notavailable" exact component={() => <Notavailable />} />

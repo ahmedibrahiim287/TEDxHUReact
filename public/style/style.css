@@ -732,7 +732,7 @@ label {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #29aafe;
+  background-color: #000000;
 }
 .social-icons.size-sm a {
   line-height: 34px;
@@ -876,7 +876,19 @@ button {
   flex: auto;
   flex-direction: row;
 }
-
+.brief-conatinerr {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  height: auto;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 10%;
+  flex: auto;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
 .ted-color {
   color: red;
   font-weight: 700;
@@ -3395,7 +3407,6 @@ i {
 .watchIco a {
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
   display: inline-block;
   line-height: 44px;
   width: 90px;

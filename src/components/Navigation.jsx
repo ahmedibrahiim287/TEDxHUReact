@@ -74,10 +74,10 @@ function Navigation(props) {
             <ul className="nav navbar-nav navbar-right">
               <li id="BBA"
                 className={`nav-item  ${
-                  props.location.pathname === "/Team" ? "active" : ""
+                  props.location.pathname === "/About" ? "active" : ""
                 }`}
               >
-                <Link  className="page-scroll" to="/Team">
+                <Link  className="page-scroll" to="/About">
                   About
                 </Link>
               </li>

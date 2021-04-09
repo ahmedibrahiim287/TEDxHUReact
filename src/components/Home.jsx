@@ -75,7 +75,7 @@ function Home(){
 
   </AwesomeSlider>
   </div>
-  <div className="brief-conatiner ">
+  <div className="brief-conatiner brief-conatinerr  ">
     
     <h2 className="helwan-head" style={{textAlign:"center"}}><i className="arrow right"></i> About <span className="ted-color">Tedx</span>HelwanUniversity</h2>
     <p>An independently organized TED event in Helwan

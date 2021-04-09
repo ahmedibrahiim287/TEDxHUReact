@@ -1,5 +1,5 @@
 export { default as Navigation } from "./Navigation";
-export {default as Team} from './Team';
+export {default as About} from './About';
 export {default as Attend} from './Attend';
 export {default as Contactus} from './Contactus';
 export {default as Conductor} from './Conductor';
