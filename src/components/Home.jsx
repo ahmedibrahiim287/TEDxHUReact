@@ -65,14 +65,13 @@ function Home(){
     Splitting();
 </script>
   <AwesomeSlider bullets={false} class="slider-container" >
+  
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\1.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\5.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\6.jpg"/>
-    {/*  eslint-disable-next-line  */}
-    <div data-src="\img\Event-Cover.jpg" />
 
   </AwesomeSlider>
   </div>
