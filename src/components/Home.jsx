@@ -65,14 +65,13 @@ function Home(){
     Splitting();
 </script>
   <AwesomeSlider bullets={false} class="slider-container" >
+  
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\1.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\5.jpg" />
     {/*  eslint-disable-next-line  */}
     <div data-src="\img\Teleportation\6.jpg"/>
-    {/*  eslint-disable-next-line  */}
-    <div data-src="\img\Event-Cover.jpg" />
 
   </AwesomeSlider>
   </div>
@@ -150,10 +149,9 @@ function Home(){
       <div className="latest-speakers">
           <span className="latest-speakers-title">Upcoming <span className="ted-color">Speakers</span></span>
           <div className="latest-speakers-title-dash"><span>_____________</span></div>
-      </div><div class="row mt-30">
+      </div>
+      <div class="row mt-30">
          
-
-
       <div class="col-md-4 col-sm-6">
       <div class="box8">
           <img src="\img\speakers\tang-ahmedradi.jpg"/>
@@ -168,10 +166,7 @@ function Home(){
       </div>
       </div>
       </div>
-      
-      
-      
-      
+         
           <div class="col-md-4 col-sm-6">
               <div class="box8">
               <img src="\img\speakers\tang-aboelnaga.jpg"/>
@@ -203,12 +198,70 @@ function Home(){
 
          
          
+  </div>
       </div>
+
+      
+      <div class="container mt-40">
+    
+      <div className="latest-speakers">
+          <span className="latest-speakers-title">Most Loved <span className="ted-color">Speakers</span></span>
+          <div className="latest-speakers-title-dash"><span>_____________</span></div>
       </div>
+      <div class="row mt-30"></div>
+
+      
+      <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\mariamahmed.jpg"/>
+      <h3 class="title"> Mariam Ahmed  </h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+   
+  <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-nureen.png"/>
+        <h3 class="title">Naureen Youssef</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\5.jpg"/>
+      <h3 class="title">Eman Sobhy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+
 
 <div className="brief-container"></div>
         </div>
-        </Fragment>
+            
+      </div>
+          </Fragment>
 );
 
     }
