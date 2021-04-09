@@ -175,7 +175,7 @@ function Home(){
           <div class="col-md-4 col-sm-6">
               <div class="box8">
               <img src="\img\speakers\tang-aboelnaga.jpg"/>
-              <h3 class="title">Mohamed Aboelnaga Nagaty</h3>
+              <h3 class="title">Mohamed Aboelnaga</h3>
               <div class="box-content">
               <ul class="icon">
               <div className="wrapper col-6">
@@ -196,7 +196,7 @@ function Home(){
       <div class="container mt-40">
     
       <div className="latest-speakers">
-          <span className="latest-speakers-title">Our Favorite <span className="ted-color">Speakers</span></span>
+          <span className="latest-speakers-title">Our Previous <span className="ted-color">Speakers</span></span>
           <div className="latest-speakers-title-dash"><span>_____________</span></div>
       </div><div class="row mt-30">
           <div class="col-md-4 col-sm-6">
