@@ -11,18 +11,18 @@ function Team() {
 <br/>
 <br/>
 
-<section className="padd container boot-elemant-bggggg py-md-5 py-4  " >
-<div className="container position-relative py-md-5 py-0">
+<section className="padd container boot-elemant-bg boot-elemant-bggggg py-md-5 py-4  " >
+    
+    <div className="container position-relative py-md-5 py-0">
     <div className="brief-conatiner "></div>
 
                 <div className="row">
        
         </div>
-        </div>
-
-<div className="elemant-bg-overlay black" id="about-slide-show"></div>
+    </div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
-   
+
   
   <div className="brief-conatiner ">
       <h2>About <span className="ted-color">TED</span><div class="underline"></div></h2>
