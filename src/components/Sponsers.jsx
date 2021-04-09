@@ -109,6 +109,14 @@ function Sponsers() {
                 <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
                 <span>Muncho</span>
             </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\SOIC.png" alt="SOIC" title="SOIC"/>
+                <span>SOIC</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\cinnamon.jpg" alt="cinnamon" title="cinnamon"/>
+                <span>Cinnamon</span>
+            </div>
         </div>
         {/* 
            __   
