@@ -75,7 +75,7 @@ function Home(){
 
   </AwesomeSlider>
   </div>
-  <div className="brief-conatiner ">
+  <div className="brief-conatiner brief-conatinerr  ">
     
     <h2 className="helwan-head" style={{textAlign:"center"}}><i className="arrow right"></i> About <span className="ted-color">Tedx</span>HelwanUniversity</h2>
     <p>An independently organized TED event in Helwan
@@ -122,8 +122,14 @@ function Home(){
        
         </div>
     </div>
-    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
+    <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
+  
+    <li><a className=" linkedin" rel="noreferrer" href="./Agenda" target="_blank" style={{"width" :"240px"}}>Check Event Agenda</a></li>
+  </ul>
+
+
     <div className="brief-conatiner "></div>
     <div className="container">
     <div className="row text-center">
@@ -153,8 +159,8 @@ function Home(){
          
       <div class="col-md-4 col-sm-6">
       <div class="box8">
-          <img src="\img\speakers\tang-ahmedradi.jpg"/>
-          <h3 class="title">Ahmed Radi</h3>
+          <img src="\img\speakers\host-tang-mazingamal.jpg"/>
+          <h3 class="title">Mazen Gamal</h3>
           <div class="box-content">
           <ul class="icon">
           <div className="wrapper col-6">
@@ -165,35 +171,243 @@ function Home(){
       </div>
       </div>
       </div>
-         
-          <div class="col-md-4 col-sm-6">
-              <div class="box8">
-              <img src="\img\speakers\tang-aboelnaga.jpg"/>
-              <h3 class="title">Mohamed Aboelnaga</h3>
-              <div class="box-content">
-              <ul class="icon">
-              <div className="wrapper col-6">
-              {/*  eslint-disable-next-line  */}
-             <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
-              </div> 
-              </ul>
-          </div>
-              </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-  <div class="box8">
-      <img src="\img\last-sp\7.jpg"/>
-      <h3 class="title">Dr. Ahmed Ismail</h3>
-      <div class="box-content">
-      <ul class="icon">
-      <div className="wrapper col-6">
-      {/*  eslint-disable-next-line  */}
-     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
-      </div> 
-      </ul>
-  </div>
-  </div>
-  </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-aboelnaga.jpg"/>
+          <h3 class="title">Mohamed Aboelnaga</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-ahmedhelaly.jpg"/>
+          <h3 class="title">Ahmed EL Helaly</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a  href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-ahmedradi.jpg"/>
+          <h3 class="title">Ahmed Radi</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-anwarelkamony.jpg"/>
+          <h3 class="title">Anwar Elkamony</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-atefezzat.jpg"/>
+          <h3 class="title">Atef Ezzat</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-bassenosama.jpg"/>
+          <h3 class="title">Bassem El-mekkawy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\speakers\tang-summergalal.jpg"/>
+          <h3 class="title">Summer Galal Moustafa</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\1.jpg"/>
+          <h3 class="title">Weam Magdy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\2.jpg"/>
+          <h3 class="title">Marina Magdy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\3.jpg"/>
+          <h3 class="title">Mohamed Helmy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\4.jpg"/>
+          <h3 class="title">Mohamed Alaa</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\5.jpg"/>
+          <h3 class="title">Eman Sobhy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\6.jpg"/>
+          <h3 class="title">Nour Ahmed El-orashy</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\7.jpg"/>
+          <h3 class="title">Dr. Ahmed Ismail</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\8.jpg"/>
+          <h3 class="title">Khaled Mohammed</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\last-sp\9.jpg"/>
+          <h3 class="title">Amr Abdelwahab</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting his Talk</button></a>
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+      
 
          
          
@@ -204,13 +418,27 @@ function Home(){
       <div class="container mt-40">
     
       <div className="latest-speakers">
-          <span className="latest-speakers-title">Most Loved <span className="ted-color">Speakers</span></span>
+          <span className="latest-speakers-title">Our Previous <span className="ted-color">Speakers</span></span>
           <div className="latest-speakers-title-dash"><span>_____________</span></div>
       </div>
       <div class="row mt-30"></div>
 
       
       <div class="col-md-4 col-sm-6">
+      <div class="box8">
+          <img src="\img\conductor\66116512_2569121246445623_4977202960976052224_n.jpg"/>
+          <h3 class="title">Mohamed Tarek & Farah Elzahed</h3>
+          <div class="box-content">
+          <ul class="icon">
+          <div className="wrapper col-6">
+          {/*  eslint-disable-next-line  */}
+         {/* <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated"></button></a> */}
+          </div> 
+          </ul>
+      </div>
+      </div>
+      </div>
+  <div class="col-md-4 col-sm-6">
   <div class="box8">
       <img src="\img\speakers\mariamahmed.jpg"/>
       <h3 class="title"> Mariam Ahmed  </h3>
@@ -219,6 +447,21 @@ function Home(){
       <div className="wrapper col-6">
       {/*  eslint-disable-next-line  */}
      <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\andrewashraf.jpg"/>
+      <h3 class="title">Andrew Ashraf</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/YfRk3QGcizE " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
       </div> 
       </ul>
   </div>
@@ -239,21 +482,37 @@ function Home(){
     </div>
     </div>
     </div>
-
+ 
     <div class="col-md-4 col-sm-6">
-  <div class="box8">
-      <img src="\img\last-sp\5.jpg"/>
-      <h3 class="title">Eman Sobhy</h3>
-      <div class="box-content">
-      <ul class="icon">
-      <div className="wrapper col-6">
-      {/*  eslint-disable-next-line  */}
-     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
-      </div> 
-      </ul>
-  </div>
-  </div>
-  </div>
+    <div class="box8">
+        <img src="\img\speakers\tele-mina.png"/>
+        <h3 class="title">Mina Henein</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-nada.png"/>
+        <h3 class="title">Nada Khalil</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+   
 
 
 <div className="brief-container"></div>

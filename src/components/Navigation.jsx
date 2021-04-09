@@ -1,3 +1,4 @@
+import "./Contactus";
 import React, {Fragment}from "react";
 import { Link, withRouter } from "react-router-dom";
 import logob from "../logob.png";
@@ -5,9 +6,12 @@ import logob from "../logob.png";
 
 
 function Navigation(props) {
+  
   return (
-    
+   
 <Fragment>
+
+
 
     <nav id="menu" className="navbar-default navbar-fixed-top" role="navigation">
     <div className="container ">
@@ -37,7 +41,7 @@ function Navigation(props) {
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul className="nav navbar-nav navbar-left">
-              <li
+              <li id="BBA"
                 className={`nav-item  ${
                   props.location.pathname === "/Home" ? "active" : ""
                 }`}
@@ -47,51 +51,51 @@ function Navigation(props) {
                   <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li
+              <li id="BBA"
                 className={`nav-item  ${
                   props.location.pathname === "/Attend" ? "active" : ""
                 }`}
               >
-                <Link id="bcColl" className="page-scroll" to="/Attend">
+                <Link  className="page-scroll" to="/Attend">
                   Attend
                 </Link>
               </li>
-              <li
+              <li id="BBA"
                 className={`nav-item  ${
                   props.location.pathname === "/Watch" ? "active" : ""
                 }`}
               >
-                <Link id="bcColl" className="page-scroll" to="/Watch">
+                <Link  className="page-scroll" to="/Watch">
                   Watch
                 </Link>
               </li>
             </ul>
 
             <ul className="nav navbar-nav navbar-right">
-              <li
+              <li id="BBA"
                 className={`nav-item  ${
-                  props.location.pathname === "/Team" ? "active" : ""
+                  props.location.pathname === "/About" ? "active" : ""
                 }`}
               >
-                <Link id="bcColl" className="page-scroll" to="/Team">
+                <Link  className="page-scroll" to="/About">
                   About
                 </Link>
               </li>
-              <li
+              <li id="BBA"
                 className={`nav-item  ${
                   props.location.pathname === "/Sponsers" ? "active" : ""
                 }`}
               >
-                <Link id="bcColl" className="page-scroll" to="/Sponsers">
+                <Link  className="page-scroll" to="/Sponsers">
                   Sponsers
                 </Link>
               </li>
-              <li
+              <li  id="BBA"
                 className={`nav-item  ${
                   props.location.pathname === "/Contactus" ? "active" : ""
                 }`}
               >
-                <Link id="bcColl" className="page-scroll" to="/Contactus">
+                <Link className="page-scroll" to="/Contactus">
                   Contact us
                 </Link>
               </li>

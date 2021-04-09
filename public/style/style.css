@@ -732,7 +732,7 @@ label {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #29aafe;
+  background-color: #000000;
 }
 .social-icons.size-sm a {
   line-height: 34px;
@@ -876,7 +876,19 @@ button {
   flex: auto;
   flex-direction: row;
 }
-
+.brief-conatinerr {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  height: auto;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 10%;
+  flex: auto;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
 .ted-color {
   color: red;
   font-weight: 700;
@@ -1183,7 +1195,6 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
   height: 534px;
-
 }
 
 .elemant-bg-overlay {
@@ -3379,24 +3390,23 @@ i {
   margin-top: 20px;
 }
 .watchIco a.facebook:hover {
-  background-color: #ffffff;
-  color: #4093f2;
+  background-color: #000;
+  color: #ffffff;
   font-weight: bold;
 }
 .watchIco a.ted:hover {
-  background-color: #ffffff;
-  color: black;
+  color: white;
+  background-color: #000;
   font-weight: bold;
 }
 .watchIco a.linkedin:hover {
-  background-color: #fbfeff;
-  color: black;
+  color: white;
+  background-color: #000;
   font-weight: bold;
 }
 .watchIco a {
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
   display: inline-block;
   line-height: 44px;
   width: 90px;
@@ -3407,6 +3417,12 @@ i {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  width: 240px;
+  height: 56px;
+  font-size: 21px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
 
 @media screen and (min-width: 200px) and (max-width: 450px) {

@@ -11,7 +11,8 @@ export class Contactus extends Component {
           $("#div2").fadeToggle("slow");
           $("#div3").fadeToggle(3000);
       });
-  
+    
+    
       });
   };
 

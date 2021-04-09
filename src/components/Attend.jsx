@@ -41,7 +41,7 @@ function Attend() {
       {/*Calender Div*/}
         <div className="location-box">
           <i className="fa fa-calendar" aria-hidden="true"> </i>
-          <span> Satuerday, 10 April 2021</span>
+          <span> Saturday, 10 April 2021</span>
         </div>
       {/*End Of Calender Div*/}
       {/*Clock Div*/}

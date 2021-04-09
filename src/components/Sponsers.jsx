@@ -14,7 +14,42 @@ function Sponsers() {
             <p className="sponser-quote">We extend a warm thank for our Sponsors that honoured us in our events. All thanks to thier sponsorship that were able to host our event and make it great</p>
         </div>
         <div className="sponser-grid">
+           
+        <div className="sponser-card">
+                <img src="\img\sponsers\IBM.png" alt="IBM" title="IBM"/>
+                <span>IBM</span>
+            </div>
             <div className="sponser-card">
+            <img src="\img\sponsers\SOIC.png" alt="SOIC" title="SOIC"/>
+            <span>SOIC</span>
+        </div>
+        
+    <div className="sponser-card">
+    <img src="\img\sponsers\Itqan.png" alt="Itqan" title="Itqan"/>
+    <span>ITQAN</span>
+</div>
+        
+            <div className="sponser-card">
+            <img src="\img\sponsers\Panasonic.png" alt="Panasonic" title="Panasonic"/>
+            <span>Panasonic</span>
+        </div>
+        <div className="sponser-card">
+        <img src="\img\sponsers\TE-Data.png" alt="TE-Data" title="TE-Data"/>
+        <span>TE-Data</span>
+    </div>
+
+ 
+<div className="sponser-card">
+                <img src="\img\sponsers\TicketsMarch.png" alt="Tickets March" title="Tickets March"/>
+                <span>Tickets March</span>
+            </div>
+            <div className="sponser-card">
+            <img src="\img\sponsers\Ravin.png" alt="Ravin" title="Ravin"/>
+            <span>Ravin</span>
+        </div>
+  
+
+        <div className="sponser-card">
                 <img src="\img\sponsers\Burger-King.png" title="Burger King" alt="Burger king"/>
                 <span>Burger King</span>
             </div>
@@ -27,10 +62,7 @@ function Sponsers() {
                 <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
                 <span>Muncho</span>
             </div>
-            <div className="sponser-card">
-                <img src="\img\sponsers\SOIC.png" alt="SOIC" title="SOIC"/>
-                <span>SOIC</span>
-            </div>
+            
             <div className="sponser-card">
                 <img src="\img\sponsers\cinnamon.jpg" alt="cinnamon" title="cinnamon"/>
                 <span>Cinnamon</span>
@@ -50,28 +82,14 @@ function Sponsers() {
                 <span>Fatem</span>
             </div>
              
-            <div className="sponser-card">
-                <img src="\img\sponsers\IBM.png" alt="IBM" title="IBM"/>
-                <span>IBM</span>
-            </div>
+            
              
-            <div className="sponser-card">
-                <img src="\img\sponsers\Itqan.png" alt="Itqan" title="Itqan"/>
-                <span>ITQAN</span>
-            </div>
-             
-            <div className="sponser-card">
-                <img src="\img\sponsers\Panasonic.png" alt="Panasonic" title="Panasonic"/>
-                <span>Panasonic</span>
-            </div>
+           
             <div className="sponser-card">
                 <img src="\img\sponsers\qahwargy.png" alt="qahwargy" title="qahwargy"/>
                 <span>qahwargy</span>
             </div>
-            <div className="sponser-card">
-                <img src="\img\sponsers\Ravin.png" alt="Ravin" title="Ravin"/>
-                <span>Ravin</span>
-            </div>
+            
             <div className="sponser-card">
                 <img src="\img\sponsers\Silla-Sweets.png" alt="Silla Sweets" title="Silla Sweets"/>
                 <span>Silla Sweets</span>
@@ -88,10 +106,7 @@ function Sponsers() {
                 <img src="\img\sponsers\TATAS.png" alt="TATAS" title="TATAS"/>
                 <span>TATAS</span>
             </div>
-            <div className="sponser-card">
-                <img src="\img\sponsers\TE-Data.png" alt="TE-Data" title="TE-Data"/>
-                <span>TE-Data</span>
-            </div>
+            
             <div className="sponser-card">
                 <img src="\img\sponsers\TeensStuff.png" alt="TeensStuff" title="TeensStuff"/>
                 <span>TeensStuff</span>
@@ -100,10 +115,7 @@ function Sponsers() {
                 <img src="\img\sponsers\Tut_s-Socks.png" alt="Tuts Socks" title="Tuts Socks"/>
                 <span>Tuts Socks</span>
             </div>
-            <div className="sponser-card">
-                <img src="\img\sponsers\TicketsMarch.png" alt="Tickets March" title="Tickets March"/>
-                <span>Tickets March</span>
-            </div>
+            
             <div className="sponser-card">
                 <img src="\img\sponsers\americana.png" alt="americana" title="americana"/>
                 <span>Americana</span>
