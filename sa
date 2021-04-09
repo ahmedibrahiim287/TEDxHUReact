@@ -1,5 +1,245 @@
 
+   <div className="speakers-holder ">
+<div className="speaker-element">
+  <img src="\img\speakers\host-tang-mazingamal.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Mazen Gamal</div>
+    <div className="speaker-context">Egyptian actor and director,
+     graduated from Misr University for Science and Technology faculty of mass communication major broadcasting</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+
+
+<div className="speaker-element">
+  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
+    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+
+<div className="speaker-element">
+  <img src="\img\speakers\tang-ahmedhelaly.jpg" alt="Mahmoud Abd Elmageed" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This is Ahmed EL Helaly </div>
+    <div className="speaker-context"> financial consultant and a Life Coach, specialized mainly in Happiness, Self-Love, and Self-confidence. </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank">See His Performace</a> */}
+    </div>
+  </div>
+</div>
+
+<div className="speaker-element">
+  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Ahmed Radi</div>
+    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
+    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div></div>
+
+<div className="brief-container"><br/></div>
+
+
+
+<div className="speakers-holder">
+<div className="speaker-element">
+  <img src="\img\speakers\tang-anwarelkamony.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is  Anwar Elkamony</div>
+    <div className="speaker-context">the first athlete in the world to return to the international tennis ranking after 
+    the bone marrow transplant operation.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+  
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-atefezzat.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Atef Ezzat</div>
+    <div className="speaker-context"> Expert in automatic control systems and magnetic applications, 
+    owner of the Nefertari Biomagnetic Company for saline agriculture. </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-bassenosama.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Bassem El-mekkawy </div>
+    <div className="speaker-context">the youngest Advanced Finical Modeller from (FMI) in Egypt and the middle east,
+    </div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a> */}
+    </div>
+  </div>
+
+</div><div className="speaker-element">
+  <img src="\img\speakers\tang-summergalal.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Summer Galal Moustafa</div>
+    <div className="speaker-context">singer and theatre-maker based in Cairo. She’s a singer in the Bahgaga band;
+     a band of 5 lead female vocalist that creates contemporary monologues.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+    </div>
+    </div></div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     <div className="brief-container allteam">
     <img src="/img/all team.jpeg" alt="Tangram logo" className="allteam img-responsive"/>
     
   </div> 
+
+
+
+
+
+
+
+  <div className="speakers-holder" id="home-speakers-holder">
+    
+      <div className="speaker-element">
+        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <div className="brief-middle">
+          <div className="speaker-context-title">Mariam Ahmed</div>
+          <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
+          know as a Comedian and she worked in Fundraising at “Baheya“</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+
+
+
+           <div className="speaker-element">
+  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
+    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+
+
+
+
+<div className="speaker-element">
+        <img src="\img\speakers\tele-nureen.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Naureen Youssef</div>
+          <div className="speaker-context">Naureen is a marketer, fashion model, and a great writer.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="speaker-element">
+        <img src="\img\speakers\andrewashraf-mod.png" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Andrew Ashraf</div>
+          <div className="speaker-context">Andrew helps youth in getting a job from all 
+          the categories in the market and preparing many workshops and online courses</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+  
+      <div className="speaker-element">
+        <img src="\img\speakers\tele-nada.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Nada Khalil</div>
+          <div className="speaker-context">Grew up in so many diffrent cultures, talk about how that afftec her.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+      
+      <div className="speaker-element">
+  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
+  <div className="brief-middle">
+    <div className="speaker-context-title">This Is Ahmed Radi</div>
+    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
+    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
+    <div className="speaker-context">
+      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
+    </div>
+  </div>
+</div>
+
+
+
+<div className="speaker-element">
+        <img src="\img\speakers\tele-mina.png" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Mina Henein</div>
+          <div className="speaker-context">Mina Henein believes that life is too short to keep hitting the snooze button.</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+        </div>
+      </div>
+
+
+
+<div className="speaker-element">
+        <img src="\img\speakers\youssefemad.jpg" alt="" className="image" />
+        <div className="brief-middle">
+          <div className="speaker-context-title">This Is Youssef Emad</div>
+          <div className="speaker-context">He is 20 years old, also he is a Business developer at Google, Founder of "قعده كارير"</div>
+          <div className="speaker-context">
+            <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank">See His Talk</a>
+          </div>
+          </div>
+      </div>
+</div>
+    

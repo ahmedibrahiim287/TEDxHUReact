@@ -6,6 +6,7 @@ import logob from "../logob.png";
 
 function Navigation(props) {
   return (
+    
 <Fragment>
 
     <nav id="menu" className="navbar-default navbar-fixed-top" role="navigation">
@@ -41,7 +42,7 @@ function Navigation(props) {
                   props.location.pathname === "/Home" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Home">
+                <Link id="bcColl" className="page-scroll" to="/Home">
                   Home
                   <span className="sr-only">(current)</span>
                 </Link>
@@ -51,7 +52,7 @@ function Navigation(props) {
                   props.location.pathname === "/Attend" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Attend">
+                <Link id="bcColl" className="page-scroll" to="/Attend">
                   Attend
                 </Link>
               </li>
@@ -60,7 +61,7 @@ function Navigation(props) {
                   props.location.pathname === "/Watch" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Watch">
+                <Link id="bcColl" className="page-scroll" to="/Watch">
                   Watch
                 </Link>
               </li>
@@ -72,7 +73,7 @@ function Navigation(props) {
                   props.location.pathname === "/Team" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Team">
+                <Link id="bcColl" className="page-scroll" to="/Team">
                   About
                 </Link>
               </li>
@@ -81,7 +82,7 @@ function Navigation(props) {
                   props.location.pathname === "/Sponsers" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Sponsers">
+                <Link id="bcColl" className="page-scroll" to="/Sponsers">
                   Sponsers
                 </Link>
               </li>
@@ -90,7 +91,7 @@ function Navigation(props) {
                   props.location.pathname === "/Contactus" ? "active" : ""
                 }`}
               >
-                <Link className="page-scroll" to="/Contactus">
+                <Link id="bcColl" className="page-scroll" to="/Contactus">
                   Contact us
                 </Link>
               </li>

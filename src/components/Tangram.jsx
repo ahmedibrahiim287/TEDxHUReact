@@ -55,100 +55,271 @@ function Tangram() {
   
   <div className="brief-container"><br/></div>
 
-<h2><span className="ted-color">Tangram Speakers & Hosts</span></h2> 
-<hr/>
-
-
-<div className="speakers-holder ">
-<div className="speaker-element">
-  <img src="\img\speakers\host-tang-mazingamal.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Mazen Gamal</div>
-    <div className="speaker-context">Egyptian actor and director,
-     graduated from Misr University for Science and Technology faculty of mass communication major broadcasting</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
+  <div class="container mt-40">
+    
+  <div className="latest-speakers">
+      <span className="latest-speakers-title">Tangram Speakers &  <span className="ted-color">Hosts</span></span>
+      <div className="latest-speakers-title-dash"><span>_____________</span></div>
+  </div><div class="row mt-30">
+     
+  
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\host-tang-mazingamal.jpg"/>
+      <h3 class="title">Mazen Gamal</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
   </div>
-</div>
-<div className="speaker-element">
-  <img src="\img\speakers\tang-aboelnaga.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">Mohamed Aboelnaga Nagaty</div>
-    <div className="speaker-context">Mohamed is an experienced entrepreneur and executive with more than 15 years of experience.</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
   </div>
-</div>
-<div className="speaker-element">
-  <img src="\img\speakers\tang-ahmedhelaly.jpg" alt="Mahmoud Abd Elmageed" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This is Ahmed EL Helaly </div>
-    <div className="speaker-context"> financial consultant and a Life Coach, specialized mainly in Happiness, Self-Love, and Self-confidence. </div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank">See His Performace</a> */}
-    </div>
   </div>
-</div>
-<div className="speaker-element">
-  <img src="\img\speakers\tang-ahmedradi.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Ahmed Radi</div>
-    <div className="speaker-context">Co-Founder at Fleurelle for food industries, Co-Founder & 
-    CMO at RoadRunner, Former Country Marketing Manager at Delivery Hero (Otlob - Talabat - Carriage)</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-aboelnaga.jpg"/>
+      <h3 class="title">Mohamed Aboelnaga</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
   </div>
-</div></div>
-
-<div className="brief-container"><br/></div>
-
-
-
-<div className="speakers-holder">
-<div className="speaker-element">
-  <img src="\img\speakers\tang-anwarelkamony.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is  Anwar Elkamony</div>
-    <div className="speaker-context">the first athlete in the world to return to the international tennis ranking after 
-    the bone marrow transplant operation.</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
   </div>
-</div><div className="speaker-element">
-  <img src="\img\speakers\tang-atefezzat.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Atef Ezzat</div>
-    <div className="speaker-context"> Expert in automatic control systems and magnetic applications, 
-    owner of the Nefertari Biomagnetic Company for saline agriculture. </div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
   </div>
-</div><div className="speaker-element">
-  <img src="\img\speakers\tang-bassenosama.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Bassem El-mekkawy </div>
-    <div className="speaker-context">the youngest Advanced Finical Modeller from (FMI) in Egypt and the middle east,
-    </div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a> */}
-    </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-ahmedhelaly.jpg"/>
+      <h3 class="title">Ahmed EL Helaly</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a  href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
   </div>
-</div><div className="speaker-element">
-  <img src="\img\speakers\tang-summergalal.jpg" alt="" className="image" />
-  <div className="brief-middle">
-    <div className="speaker-context-title">This Is Summer Galal Moustafa</div>
-    <div className="speaker-context">singer and theatre-maker based in Cairo. She’s a singer in the Bahgaga band;
-     a band of 5 lead female vocalist that creates contemporary monologues.</div>
-    <div className="speaker-context">
-      {/* <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a> */}
-    </div>
-    </div>
-    </div></div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-ahmedradi.jpg"/>
+      <h3 class="title">Ahmed Radi</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-anwarelkamony.jpg"/>
+      <h3 class="title">Anwar Elkamony</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-atefezzat.jpg"/>
+      <h3 class="title">Atef Ezzat</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank" ><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-bassenosama.jpg"/>
+      <h3 class="title">Bassem El-mekkawy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href=" " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\tang-summergalal.jpg"/>
+      <h3 class="title">Summer Galal Moustafa</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\1.jpg"/>
+      <h3 class="title">Weam Magdy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\2.jpg"/>
+      <h3 class="title">Marina Magdy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\3.jpg"/>
+      <h3 class="title">Mohamed Helmy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\4.jpg"/>
+      <h3 class="title">Mohamed Alaa</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\5.jpg"/>
+      <h3 class="title">Eman Sobhy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\6.jpg"/>
+      <h3 class="title">Nour Ahmed El-orashy</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\7.jpg"/>
+      <h3 class="title">Dr. Ahmed Ismail</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\8.jpg"/>
+      <h3 class="title">Khaled Mohammed</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\last-sp\9.jpg"/>
+      <h3 class="title">Amr Abdelwahab</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting his Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  
+     
+     
+  </div>
+  </div>
+  
     
 
 
