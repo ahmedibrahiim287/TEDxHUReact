@@ -18,7 +18,7 @@ function Watch() {
        
         </div>
     </div>
-    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
     <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
     <li><a className="ted" rel="noreferrer" href="https://www.ted.com/tedx/events/40335" target="_blank">TED <i className="fas fa-times" style={{color: "red"}}></i> </a></li>
@@ -44,7 +44,7 @@ function Watch() {
        
         </div>
     </div>
-    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
     <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
     <li><a className="ted" rel="noreferrer" href="https://www.ted.com/tedx/events/31080" target="_blank">TED <i className="fas fa-times" style={{color: "red"}}></i> </a></li>
@@ -72,7 +72,7 @@ function Watch() {
        
         </div>
     </div>
-    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
     <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
     <li><a className="ted" rel="noreferrer" href="https://www.ted.com/tedx/events/23994" target="_blank">TED <i className="fas fa-times" style={{color: "red"}}></i> </a></li>
@@ -105,7 +105,7 @@ function Watch() {
        
         </div>
     </div>
-    <div className="elemant-bg-overlay black" style={{borderRadius:"0"}}></div>
+    <div className="elemant-bg-overlay black" ></div>
 </section>
     <ul className="social-icons  watchIco" style={{textAlign: "center" }}>
     <li><a className="ted" rel="noreferrer" href=" https://www.ted.com/tedx/events/5087" target="_blank">TED <i className="fas fa-times" style={{color: "red"}}></i> </a></li>
