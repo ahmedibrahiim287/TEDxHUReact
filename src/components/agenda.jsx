@@ -7,9 +7,7 @@ function Agenda() {
     
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
+
 
 
 <div className="brief-conatiner ">
