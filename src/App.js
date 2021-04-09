@@ -1,10 +1,26 @@
+
 import React from "react";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import { Navigation, Footer, Home, Attend, Watch, Teleportation, Tangram,Legacy, Team, Sponsers, Contactus, Conductor,Notavailable } from "./components/index";
 import ScrollToTop from "./components/ScrollToTop";
+import $ from 'jquery';
 
 
 class App extends React.Component {
+
+  componentDidMount(){
+    $(document).ready(function(){
+    
+      $(".nav #BBA").click(function(){
+        $("#bs-example-navbar-collapse-1").removeClass("show");
+
+
+      });
+    
+      });
+  };
 
   
   render() {

@@ -3,7 +3,7 @@ import Gallery from 'react-grid-gallery';
 
 function Conductor() {
   return (
- <div className="container">
+ <div className="container"><br/><br/><br/><br/>
 <img  alt="cover" className="img-responsive" src="\img\slider\cond-cover.png"/>
 <br/>
 <div className="brief-conatiner">
