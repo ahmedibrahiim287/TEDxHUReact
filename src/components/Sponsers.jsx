@@ -3,6 +3,7 @@ import React from "react";
 function Sponsers() {
   return (
 <div>
+
 <div className="brief-conatiner "></div>
 <div className="sponser-head">
     <h1>
@@ -22,7 +23,18 @@ function Sponsers() {
                 <img src="\img\sponsers\Chess.png" title="Chess" alt="Chess"/>
                 <span>Chess</span>
             </div>
-             
+            <div className="sponser-card">
+                <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
+                <span>Muncho</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\SOIC.png" alt="SOIC" title="SOIC"/>
+                <span>SOIC</span>
+            </div>
+            <div className="sponser-card">
+                <img src="\img\sponsers\cinnamon.jpg" alt="cinnamon" title="cinnamon"/>
+                <span>Cinnamon</span>
+            </div>
             <div className="sponser-card">
                 <img src="\img\sponsers\Chicken-Buzz.png" title="Chicken Buzz" alt="Chicken Buzz"/>
                 <span>Chicken Buzz</span>
@@ -104,10 +116,7 @@ function Sponsers() {
                 <img src="\img\sponsers\lion.png" alt="Lion" title="Lion"/>
                 <span>Lion</span>
             </div>
-            <div className="sponser-card">
-                <img src="\img\sponsers\muncho.jpg" alt="muncho" title="muncho"/>
-                <span>Muncho</span>
-            </div>
+            
         </div>
         {/* 
            __   

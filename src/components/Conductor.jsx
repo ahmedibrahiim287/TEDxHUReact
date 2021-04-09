@@ -48,146 +48,184 @@ join us on this unique journey
         {/*End Of Clock Div*/}
         
       </div>
-    <div className="brief-container"><br/></div>
-
-    <h2><span className="ted-color">Our Hosts, Speakers, Performers </span></h2><hr/>
-
-    <div className="speakers-holder ">
-    <div className="speaker-element">
-        <img src="\img\speakers\andrewashraf.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Andrew Ashraf</div>
-          <div className="speaker-context">Andrew helps youth in getting a job from all 
-          the categories in the market.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/YfRk3QGcizE" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\mariamahmed.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">Mariam Ahmed</div>
-          <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 
-          know as a Comedian.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\mohamed.jpg" alt="Mahmoud Abd Elmageed" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">Mahmoud Abd Elmageed</div>
-          <div className="speaker-context">Founder of Have A Dream and Co-Founder of Schema Advertising</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\hananelsokary.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Hanan Elsokary</div>
-          <div className="speaker-context">Dr Hanan is 48 years old who her medical career didn't stop her for what she loves.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div></div>
-
-      <div className="brief-container"><br/></div>
 
 
-      
-      <div className="speakers-holder">
-      <div className="speaker-element">
-        <img src="\img\speakers\shaimaa.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Shaimaa Ashry</div>
-          <div className="speaker-context">Dr Hanan is 48 years old who her medical career didn't stop her for what she loves.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/X_UbWkrL6vQ" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\mohamedlaaeldin.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Mohamed Alaa Eldien</div>
-          <div className="speaker-context">The founder & CEO of Cairo Photography club & school,  canon certified trainer.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/2Q_aixLsBC8" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\yosefhasan.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Youssef Hassan Mohamed </div>
-          <div className="speaker-context">Youssef started his Career as an international call center agent to gain experience while
-           he was still at college.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\kholodkhaled.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Kholoud Khaled</div>
-          <div className="speaker-context">The smallest R&D project manager at BBI CONSULTANCY, one of the largest software companies. </div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-          </div>
-          </div></div>
-
-
-          <div className="brief-container"><br/></div>
-
-        
-          <div className="speakers-holder">
-          <div className="speaker-element">
-        <img src="\img\speakers\youssefemad.jpg" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Youssef Emad</div>
-          <div className="speaker-context">He is 20 years old, also he is a Business developer at Google, Founder of "قعده كارير"</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-          </div>
-      </div>
-      <div className="speaker-element">
-    <img src="\img\speakers\eslamaltony.jpg" alt="" className="image" />
-    <div className="brief-middle">
-      <div className="speaker-context-title">This Is Eslam Eltony</div>
-      <div className="speaker-context"> Playing the violin became his passion.</div>
-      <div className="speaker-context">
-        <a href="https://youtu.be/d8HeOLZhshw" rel="noreferrer" target="_blank">See His Performance</a>
-      </div>
-    </div>
-  </div>
-  <div className="speaker-element">
-    <img src="\img\speakers\rawanhussain.jpg" alt="" className="image" />
-    <div className="brief-middle">
-      <div className="speaker-context-title">This is Rawan Hussien</div>
-      <div className="speaker-context">Dancer and performer since the gae of 16.</div>
-      <div className="speaker-context">
-        <a href="https://youtu.be/e-M3qkARzrI" rel="noreferrer" target="_blank">See Her Performance</a>
-      </div>
-    </div>
-  </div>
+  <div class="container mt-40">
+  <div className="latest-speakers">
+      <span className="latest-speakers-title">Conductor Speakers, Performers & <span className="ted-color">Hosts</span></span>
+      <div className="latest-speakers-title-dash"><span>_____________</span></div>
+  </div><div class="row mt-30"></div>
  
-  <div className="speaker-element">
-    {/* eslint-disable-next-line */}
-    <img src="\img\conductor\66116512_2569121246445623_4977202960976052224_n.jpg" alt="Mahmoud Abd Elmageed" className="image" />
-    <div className="brief-middle">
-      <div className="speaker-context-title">There Are our Hosts </div>
-      <div className="speaker-context">Mohamed Tarek & Farah Elzahed</div>
-      <div className="speaker-context">
-     </div>
-    </div>
+
+    <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\andrewashraf.jpg"/>
+      <h3 class="title">Andrew Ashraf</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/YfRk3QGcizE " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+      </div> 
+      </ul>
   </div>
-    
-      </div>
+  </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\mariamahmed.jpg"/>
+      <h3 class="title"> Mariam Ahmed  </h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/LjqGCElWv98" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\mohamed.jpg"/>
+      <h3 class="title">Mahmoud Abd Elmageed</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/g9sHfsLbsxA" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <br/>
+<div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\hananelsokary.jpg"/>
+      <h3 class="title">Hanan Elsokary</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\shaimaa.png"/>
+      <h3 class="title">Shaimaa Ashry</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/X_UbWkrL6vQ" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\mohamedlaaeldin.jpg"/>
+      <h3 class="title">Mohamed Alaa Eldien</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/2Q_aixLsBC8" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <br/>
+<div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\yosefhasan.png"/>
+      <h3 class="title">Youssef Hassan Mohamed </h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/0N7Rf2QChpw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\kholodkhaled.png"/>
+      <h3 class="title">Kholoud Khaled</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\youssefemad.jpg"/>
+      <h3 class="title">Youssef Emad</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/zDVW2Q-W9ks" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+  <br/>
+  <div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\eslamaltony.jpg"/>
+      <h3 class="title">Eslam Eltony</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/d8HeOLZhshw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Performance</button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\speakers\rawanhussain.jpg"/>
+      <h3 class="title"> Rawan Hussien </h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     <a href="https://youtu.be/e-M3qkARzrI" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her </button></a>
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div><div class="col-md-4 col-sm-6">
+  <div class="box8">
+      <img src="\img\conductor\66116512_2569121246445623_4977202960976052224_n.jpg"/>
+      <h3 class="title">Mohamed Tarek & Farah Elzahed</h3>
+      <div class="box-content">
+      <ul class="icon">
+      <div className="wrapper col-6">
+      {/*  eslint-disable-next-line  */}
+     {/* <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated"></button></a> */}
+      </div> 
+      </ul>
+  </div>
+  </div>
+  </div>
+
+</div>
   
   <br/><br/><br/>
  <div>
