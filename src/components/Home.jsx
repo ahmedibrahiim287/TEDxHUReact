@@ -84,7 +84,6 @@ function Home(){
         hoping to get out and reach the global edge of success starting from Helwan University.
     </p>
   </div>
-  <div className="brief-conatiner "></div>
 
   <div className="grid-holder">
           <div className="grid-box">
