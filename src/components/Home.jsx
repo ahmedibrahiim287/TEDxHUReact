@@ -173,7 +173,7 @@ function Home(){
 <div className="speakers-holder" id="home-speakers-holder">
     
       <div className="speaker-element">
-        <img src="\img\speakers\mariamahmed-mod.jpg" alt="" className="image" style={{maxWidth:"100%"}}/>
+        <img src="\img\speakers\mariamahmed-mod.jpg"  className="img-responsive" alt="" className="image" style={{maxWidth:"100%"}}/>
         <div className="brief-middle">
           <div className="speaker-context-title">Mariam Ahmed</div>
           <div className="speaker-context">Maryam is a video Blogger , Motivational speaker, Director, But best 

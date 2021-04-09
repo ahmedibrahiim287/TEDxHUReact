@@ -11,7 +11,7 @@ function Team() {
 <br/>
 <br/>
     
-<section className="padd container boot-elemant-bggggg py-md-5 py-4  " >
+<section className="padd container boot-elemant-bggggg py-md-5 py-4  ">
     
 <div className="container position-relative py-md-5 py-0">
 <div className="brief-conatiner "></div>
@@ -27,7 +27,7 @@ function Team() {
         </div>
     </div>
 </div>
-<div className="elemant-bg-overlay black"></div>
+<div className="elemant-bg-overlay black" id="about-slide-show"></div>
 </section>
    
   

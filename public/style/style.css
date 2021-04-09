@@ -1381,7 +1381,6 @@ img.slide {
 
 .chairwoman-grid .grid-card img {
   border-radius: 50%;
-  min-height: 150px;
   max-height: 228px;
   min-width: 150px;
   max-width: 228px;
@@ -1428,8 +1427,6 @@ img.slide {
 
 .table-parent .grid-card img {
   border-radius: 50%;
-  min-height: 150px;
-  max-height: 228px;
   min-width: 150px;
   max-width: 228px;
   display: block;
@@ -2111,6 +2108,8 @@ i {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }  
 .speaker-element:hover .image {opacity: 0.1;}
 .speaker-element:hover .brief-middle {cursor:pointer;opacity: 1;}
@@ -2369,7 +2368,7 @@ i {
   .chairwoman-grid {
     width: auto;
     grid-template-rows: repeat(1, 350px);
-    margin-top: 70px;
+    margin: 70px auto;
   }
   .chairwoman-grid .grid-card img {
     width: 180px;
@@ -2377,33 +2376,34 @@ i {
   .table-parent {
     width: 100%;
     height: auto;
-    grid-template-columns: repeat(2, 46%);
+    grid-template-columns: repeat(2, 20%);
     grid-template-rows: repeat(14, 320px);
-    justify-content: center;
-  }
-
-  .table-parent .grid-card {
-    width: auto;
+    justify-content: left;
+    column-gap: 70px;
   }
 
   .table-parent .grid-card {
     height: auto;
-    width: 65px;
+    width: 60px;
+    margin-left: 25px;
   }
   .table-parent .grid-card img {
     width: 150px;
-    height: auto;
-    max-width: 150px;
+    height: 40%;
+    min-width: 80px;
+    max-width: 120px;
   }
   .table-parent .grid-card .head-name {
-    width: 150px;
+    width: 100%;
+    min-width: 140px;
     max-width: 150px;
-    font-size: 19px;
+    font-size: 16px;
+    text-align: center;
   }
   .table-parent .grid-card .head-title {
-    width: 150px;
-    max-width: 150px;
-    font-size: 19px;
+    width: 130px;
+    text-align: center;
+    font-size: 14px;
   }
 }
 
@@ -2431,9 +2431,9 @@ i {
     height: auto;
   }
   .table-parent .grid-card img {
-    height: auto;
     min-width: 85px;
     max-width: 150px;
+    height: 60%;
   }
   .table-parent .grid-card .head-name {
     width: auto;
@@ -2514,7 +2514,7 @@ i {
 @media (min-width: 835px) and (max-width: 3000px) {
   .chairwoman-grid {
     width: 100%;
-    grid-template-rows: repeat(1, 400px);
+    grid-template-rows: repeat(1, 478px);
     grid-template-columns: repeat(1, 100%);
   }
 
@@ -2532,9 +2532,6 @@ i {
 
   .table-parent .grid-card img {
     width: auto;
-    min-height: 150px;
-    max-height: 228px;
-    max-width: 228px;
   }
   .boot-caption h3 {
     font-size: 18px;
@@ -2548,6 +2545,7 @@ i {
 /* medias */
 
 @media (min-width: 150px) and (max-width: 370px) {
+
   .sttyle {
     padding: 82px;
     margin-left: -51px !important;
@@ -2643,7 +2641,6 @@ i {
 
   .chairwoman-grid .grid-card img {
     border-radius: 50%;
-    min-height: 150px;
     max-height: 228px;
     min-width: 150px;
     max-width: 210px;
@@ -2703,6 +2700,7 @@ i {
     width: 100%;
     grid-template-rows: repeat(1, 330px);
     grid-template-columns: repeat(1, 100%);
+    margin: 50px auto;
   }
   .chairwoman-grid .grid-card {
     height: 230px;
@@ -2711,26 +2709,26 @@ i {
     width: 45%;
   }
   .table-parent {
-    grid-template-rows: repeat(9, 350px);
-    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(9, 320px);
+    grid-template-columns: repeat(3, 30%);
   }
   .table-parent .grid-card {
     column-gap: 17px;
   }
 
   .table-parent .grid-card img {
-    width: 115px;
-    height: 50px;
+    width: 105px;
+    height: 37%;
     column-gap: 5px;
   }
 
   .table-parent .grid-card .head-name {
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
   }
   .table-parent .grid-card .head-title {
     width: 100%;
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
@@ -2789,20 +2787,21 @@ i {
 
   .table-parent {
     grid-template-rows: repeat(9, 360px);
-    grid-template-columns: repeat(3, 27%);
-    column-gap: 17px;
+    grid-template-columns: repeat(3, 25%);
+    column-gap: 27px;
   }
   .table-parent .grid-card {
     width: auto;
-    height: 150px;
-    column-gap: 15px;
+    column-gap: 20px;
+    
   }
   .table-parent .grid-card img {
-    width: 110%;
+    width: 112px;
+    height: 120px;
   }
   .table-parent .grid-card .head-name {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
   }
   .table-parent .grid-card .head-title {
     width: 100%;
@@ -2844,7 +2843,7 @@ i {
 /* Extra-small */
 @media screen and (max-width: 360px) {
   .sponser-head {
-    margin-top: 100px;
+    margin-top: 120px;
     height: 100px;
     max-height: 160px;
   }
@@ -2935,7 +2934,7 @@ i {
   .sponser-head {
     height: 74px;
     max-height: 160px;
-    margin-top: 120px;
+    margin-top: 140px;
   }
   .sponser-head h1 {
     font-size: 22px;
@@ -2979,7 +2978,7 @@ i {
   .sponser-head {
     height: 74px;
     max-height: 160px;
-    margin-top: 120px;
+    margin-top: 140px;
   }
   .sponser-head h1 {
     font-size: 24px;
@@ -3021,7 +3020,7 @@ i {
 @media (min-width: 834px) and (max-width: 1280px) {
 
   .sponser-head{
-    margin-top: 120px;
+    margin-top: 150px;
   }
 
   .sponser-grid {
