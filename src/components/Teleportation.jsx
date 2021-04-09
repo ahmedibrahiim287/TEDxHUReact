@@ -67,101 +67,137 @@ you are the chest of ideas, you have to spread the ideas and are responsible for
         {/*End Of Clock Div*/}
         
       </div>
-      <div className="brief-container"><br/></div>
-
-      <h2><span className="ted-color">Teleportation Speakers</span></h2> 
-      <hr/>
-
-
-    <div className="speakers-holder ">
-    <div className="speaker-element">
-        <img src="\img\speakers\tele-abdelrahmanalaa.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Abdulrahman Alaa</div>
-          <div className="speaker-context">Sales Trainer, Digital Marketing Specialist and Business Development Specialist.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\tele-kerilos.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This is Kirollos Rizk</div>
-          <div className="speaker-context">Film Director & Novel Writer</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\tele-moaz.png" alt="Mahmoud Abd Elmageed" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This is Mazen Moataz</div>
-          <div className="speaker-context">Painter and Photographer</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank">See His Performace</a>
-          </div>
-        </div>
-      </div>
-      <div className="speaker-element">
-        <img src="\img\speakers\tele-mina.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Mina Henein</div>
-          <div className="speaker-context">Mina Henein believes that life is too short to keep hitting the snooze button.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div></div>
-
-      <div className="brief-container"><br/></div>
-
-
-      
-      <div className="speakers-holder">
-      <div className="speaker-element">
-        <img src="\img\speakers\tele-mohamedelshorie.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Mohamed Al Sheraie</div>
-          <div className="speaker-context">Graduated from Faculty of Pharmacy Cairo University by his third year at University, He decided to shift his career to Marketing</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\tele-nada.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Nada Khalil</div>
-          <div className="speaker-context">Grew up in so many diffrent cultures, talk about how that afftec her.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank">See His Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\tele-nureen.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Naureen Youssef</div>
-          <div className="speaker-context">Naureen is a marketer, fashion model, and a great writer.</div>
-          <div className="speaker-context">
-            <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank">See Her Talk</a>
-          </div>
-        </div>
-      </div><div className="speaker-element">
-        <img src="\img\speakers\tele-reemnabil.png" alt="" className="image" />
-        <div className="brief-middle">
-          <div className="speaker-context-title">This Is Reem Nabil</div>
-          <div className="speaker-context">Standup comedian </div>
-          <div className="speaker-context">
-            {/* <a href="https://youtu.be/KonlL-SvFnA" rel="noreferrer" target="_blank">See His Talk</a> */}
-          </div>
-          </div>
-          </div></div>
-          
+      <div class="container mt-40">
+    
+    <div className="latest-speakers">
+        <span className="latest-speakers-title">Teleportation Speakers &  <span className="ted-color">Performers</span></span>
+        <div className="latest-speakers-title-dash"><span>_____________</span></div>
+    </div><div class="row mt-30">
+       
+    
+    
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-abdelrahmanalaa.png"/>
+        <h3 class="title">Abdulrahman Alaa</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href=" https://youtu.be/Qc3SSgGjKjc" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
      
-
-    <div className="brief-container"><br/></div>
-    <div className="brief-container"><br/></div>
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-kerilos.png"/>
+        <h3 class="title">Kirollos Rizk</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/-H_3rkcAo2Y" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-moaz.png"/>
+        <h3 class="title">Mazen Moataz</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/Cb5ItMFTPEI" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Performace</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-mina.png"/>
+        <h3 class="title">Mina Henein</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/G2_fL3oHdxs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-mohamedelshorie.png"/>
+        <h3 class="title">Mohamed Al Sheraie</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/4AwY4jvFQOw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-nada.png"/>
+        <h3 class="title">Nada Khalil</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/zWjz5a_wrNw" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-nureen.png"/>
+        <h3 class="title">Naureen Youssef</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       <a href="https://youtu.be/jY80nrjMRBs" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See Her Talk</button></a>
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+     
+    <div class="col-md-4 col-sm-6">
+    <div class="box8">
+        <img src="\img\speakers\tele-reemnabil.png"/>
+        <h3 class="title">Reem Nabil</h3>
+        <div class="box-content">
+        <ul class="icon">
+        <div className="wrapper col-6">
+        {/*  eslint-disable-next-line  */}
+       {/* <a href="    " rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">See His Talk</button></a> */}
+        </div> 
+        </ul>
+    </div>
+    </div>
+    </div>
+    
+    </div></div>
+    
     <div className="brief-container"><br/></div>
     <div className="brief-container"><br/></div>
       <h2><span className="ted-color">Memories Of Teleportation</span></h2>
