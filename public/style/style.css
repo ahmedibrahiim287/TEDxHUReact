@@ -1,6 +1,14 @@
+@font-face {
+  font-family: tedFont;
+  src: url("../fonts/Helvetica-Font/Helvetica.ttf");
+}
+@font-face {
+  font-family: tedFontBold;
+  src: url("../fonts/Helvetica-Font/Helvetica-Bold.ttf");
+}
 body,
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: tedFont;
   font-size: 14px;
   color: #000;
   text-rendering: optimizeLegibility !important;
@@ -12,7 +20,7 @@ html {
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFontBold;
   text-transform: uppercase;
   margin: 0 0 20px 0;
   font-weight: 800;
@@ -20,13 +28,13 @@ h2 {
   color: rgb(255, 0, 0);
 }
 .h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFont;
   font-size: 20px;
   font-weight: 600;
   color: rgb(255, 255, 255);
 }
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFont;
   font-size: 18px;
   color: rgb(255, 255, 255);
   font-weight: 600;
@@ -87,7 +95,7 @@ hr {
   width: 100%;
   margin: auto;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: tedFontBold;
   font-size: 24px;
   font-weight: 700;
   color: rgb(255, 255, 255);
@@ -102,7 +110,7 @@ hr {
 
 #menu.navbar-default .navbar-nav > li > a,
 button {
-  font-family: "Lato", sans-serif;
+  font-family: tedFont;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -177,7 +185,7 @@ button {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFont;
   text-transform: uppercase;
   color: #fff;
   background-color: #770000;
@@ -233,7 +241,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFont;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -526,7 +534,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: tedFont;
   float: left;
 }
 #contact .form-control {
@@ -999,14 +1007,6 @@ label {
 }
 
 /* style -arafa- tangraminfo */
-@font-face {
-  font-family: tedFontBold;
-  src: url("../fonts/fonts/Helvetica-Bold.ttf");
-}
-@font-face {
-  font-family: tedFont;
-  src: url("../fonts/fonts/Helvetica.woff");
-}
 
 .tan {
   color: #000000;
@@ -1075,7 +1075,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: tedFont;
 }
 .poss {
   margin-top: 160px;
@@ -1469,7 +1469,7 @@ img.slide {
 
 /* start count down */
 #countdown.container {
-  font-family: "Raleway", sans-serif;
+  font-family: tedFont;
   color: rgb(255, 255, 255);
   text-align: center;
   margin: 0;
@@ -2541,7 +2541,6 @@ i {
 /* medias */
 
 @media (min-width: 150px) and (max-width: 370px) {
-
   .sttyle {
     padding: 82px;
     margin-left: -51px !important;
@@ -2560,7 +2559,7 @@ i {
     text-align: center;
     margin-top: 4px;
     font-size: 25px;
-    font-family: "Oswald", sans-serif;
+    font-family: tedFont;
     font-weight: bold;
   }
 
@@ -2789,7 +2788,6 @@ i {
   .table-parent .grid-card {
     width: auto;
     column-gap: 20px;
-    
   }
   .table-parent .grid-card img {
     width: 112px;
