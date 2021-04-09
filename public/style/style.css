@@ -864,7 +864,7 @@ button {
   height: auto;
   color: #000;
   text-transform: uppercase;
-  margin-top: 10%;
+  margin-top: 22%;
   flex: auto;
   flex-direction: row;
 }
@@ -3373,6 +3373,42 @@ i {
   }
 }
 /* new  last edits */
+
+.watchIco {
+  text-align: center;
+  margin-top: 20px;
+}
+.watchIco a.facebook:hover {
+  background-color: #ffffff;
+  color: #4093f2;
+  font-weight: bold;
+}
+.watchIco a.ted:hover {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+}
+.watchIco a.linkedin:hover {
+  background-color: #fbfeff;
+  color: black;
+  font-weight: bold;
+}
+.watchIco a {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 98px;
+  height: 44px;
+  text-align: center;
+  margin-right: 17px;
+  border-radius: 5%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
 @media screen and (min-width: 200px) and (max-width: 450px) {
   .Logo {
     width: 41%;
@@ -3392,7 +3428,6 @@ i {
   }
 
   .boot-elemant-bg {
-    background-image: url(../img/Event-Cover.jpg);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3402,7 +3437,6 @@ i {
 }
 @media screen and (min-width: 451px) and (max-width: 991px) {
   .boot-elemant-bg {
-    background-image: url(../img/Event-Cover.jpg);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3412,7 +3446,6 @@ i {
 }
 @media screen and (min-width: 451px) and (max-width: 767px) {
   .boot-elemant-bg {
-    background-image: url(../img/Event-Cover.jpg);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;

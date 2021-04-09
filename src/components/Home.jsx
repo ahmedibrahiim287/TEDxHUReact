@@ -175,7 +175,7 @@ function Home(){
           <div class="col-md-4 col-sm-6">
               <div class="box8">
               <img src="\img\speakers\tang-aboelnaga.jpg"/>
-              <h3 class="title">Mohamed Aboelnaga Nagaty</h3>
+              <h3 class="title">Mohamed Aboelnaga</h3>
               <div class="box-content">
               <ul class="icon">
               <div className="wrapper col-6">
