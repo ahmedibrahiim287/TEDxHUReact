@@ -84,7 +84,6 @@ function Home(){
         hoping to get out and reach the global edge of success starting from Helwan University.
     </p>
   </div>
-  <div className="brief-conatiner "></div>
 
   <div className="grid-holder">
           <div className="grid-box">
@@ -183,13 +182,13 @@ function Home(){
           </div>
           <div class="col-md-4 col-sm-6">
   <div class="box8">
-      <img src="\img\last-sp\5.jpg"/>
-      <h3 class="title">Eman Sobhy</h3>
+      <img src="\img\last-sp\7.jpg"/>
+      <h3 class="title">Dr. Ahmed Ismail</h3>
       <div class="box-content">
       <ul class="icon">
       <div className="wrapper col-6">
       {/*  eslint-disable-next-line  */}
-     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting Her Talk</button></a>
+     <a href="" rel="noreferrer" target="_blank"><button type="submit" className=" btn--border btn-read btn--animated">Waiting His Talk</button></a>
       </div> 
       </ul>
   </div>
