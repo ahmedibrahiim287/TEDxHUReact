@@ -11,7 +11,7 @@ function Home(){
            
           const calculateTimeLeft = () => {
             let year = new Date().getFullYear();
-            const difference = +new Date(`${year}-4-10`) - +new Date();
+            const difference = +new Date(`${year}-4-10-11:00`) - +new Date();
             let timeLeft = {};
         
             if (difference > 0) {
